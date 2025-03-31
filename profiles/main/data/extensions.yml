@@ -31,8 +31,6 @@ enabled:
     uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
   - id: DivyanshuAgrawal.competitive-programming-helper
     uuid: 28579c42-9973-4b79-9a1e-76431ea4bc1f
-  - id: dongli.python-preview
-    uuid: 70e24b61-872b-47e6-b2a6-e5fc2cf3f4e9
   - id: donjayamanne.python-environment-manager
     uuid: 0c9f60fd-5588-42f7-9176-e80c3ae111ec
   - id: eamodio.gitlens
