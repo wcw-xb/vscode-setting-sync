@@ -103,7 +103,7 @@
   "pythonPathSetter.sourceDirs": [],
   "code-runner.fileDirectoryAsCwd": true,
   "terminal.integrated.rightClickBehavior": "default",
-  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.colorTheme": "New UI Dark",
   "code-runner.clearPreviousOutput": true,
   "cursor.cpp.disabledLanguages": ["markdown", "plaintext"],
   "python.analysis.completeFunctionParens": true,

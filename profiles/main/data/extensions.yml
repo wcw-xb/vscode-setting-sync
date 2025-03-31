@@ -1,14 +1,9 @@
-builtin:
-  disabled:
-    - undefined.cursor-themes
 disabled:
   - id: usernamehw.errorlens
-    uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
+    uuid: 00000000-0000-0000-0000-000000000000
 enabled:
   - id: akamud.vscode-theme-onelight
     uuid: ee33fd31-7bb4-4252-8368-fdd5bcd94cf8
-  - id: anysphere.pyright
-    uuid: d990d7f1-60b6-4234-91a7-d146a42bb230
   - id: bradlc.vscode-tailwindcss
     uuid: 4db62a7c-7d70-419c-96d2-6c3a4dc77ea5
   - id: butov-dev.new-ui-dark-theme
@@ -47,6 +42,10 @@ enabled:
     uuid: 6e440e71-8ed9-4f25-bb78-4b13096b8a03
   - id: formulahendry.code-runner
     uuid: a6a0c5b2-d078-4bf5-a9ee-4e37054414b3
+  - id: GitHub.copilot
+    uuid: 23c4aeee-f844-43cd-b53e-1113e483f1a6
+  - id: GitHub.copilot-chat
+    uuid: 7ec7d6e6-b89e-4cc5-a59b-d6c4d238246f
   - id: GitHub.github-vscode-theme
     uuid: 7328a705-91fc-49e6-8293-da6f112e482d
   - id: Gruntfuggly.todo-tree
@@ -69,6 +68,8 @@ enabled:
     uuid: 3792588c-3d35-442d-91ea-fe6a755e8155
   - id: mgesbert.python-path
     uuid: 963e502d-de59-484a-9db5-c1e02f00fc4c
+  - id: ms-azuretools.vscode-docker
+    uuid: 0479fc1c-3d67-49f9-b087-fb9069afe48f
   - id: MS-CEINTL.vscode-language-pack-zh-hans
     uuid: e4ee7751-6514-4731-9cdb-7580ffa9e70b
   - id: ms-python.debugpy
