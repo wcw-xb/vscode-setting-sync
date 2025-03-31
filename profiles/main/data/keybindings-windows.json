@@ -1,0 +1,120 @@
+[
+    {
+        "key": "ctrl+shift+f10",
+        "command": "code-runner.run"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-code-runner.run"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "-composer.showComposerHistory"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "editor.action.commentLine",
+                "cursorDown"
+            ]
+        },
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "-workbench.action.terminal.openNativeConsole",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "copyFilePath",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "-copyFilePath",
+        "when": "!editorFocus && !terminalFocus"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "cursor.generateGitCommitMessage",
+        "when": "workbench.scm.visible && !editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "-git.pushTo",
+        "when": "!inDebugMode && !operationInProgress && !terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "-java.test.goToTest",
+        "when": "editorTextFocus && java:testRunnerActivated"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "-workbench.action.reopenClosedEditor"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "-extension.var-translate-en"
+    },
+    {
+        "key": "ctrl ctrl",
+        "command": "-extension.var-translate-zh"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "extension.var-translate"
+    },
+    {
+        "key": "ctrl+shift+alt+h",
+        "command": "typescript.findAllFileReferences"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-jupyter.runcurrentcelladvance",
+        "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !editorHasSelection && !isCompositeNotebook && !notebookEditorFocused"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-jupyter.execSelectionInteractive",
+        "when": "editorTextFocus && isWorkspaceTrusted && jupyter.ownsSelection && !findInputFocussed && !isCompositeNotebook && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-notebook.cell.executeAndSelectBelow",
+        "when": "notebookCellListFocused && notebookCellType == 'code' || editorTextFocus && inputFocus && notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "notebook.cell.executeAndSelectBelow",
+        "when": "notebookCellListFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-notebook.cell.executeAndSelectBelow",
+        "when": "notebookCellListFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "notebook.cell.executeAndSelectBelow",
+        "when": "notebookCellListFocused && !inlineChatFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !inlineChatFocused && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !inlineChatFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !inlineChatFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-notebook.cell.executeAndSelectBelow",
+        "when": "notebookCellListFocused && !inlineChatFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !inlineChatFocused && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !inlineChatFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !inlineChatFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
+    },
+    {
+        "key": "shift+enter",
+        "command": "editor.action.insertLineAfter",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-editor.action.insertLineAfter",
+        "when": "editorTextFocus && !editorReadonly && !notebookEditorFocused"
+    }
+]

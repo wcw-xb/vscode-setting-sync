@@ -1,0 +1,9 @@
+keybindingsPerPlatform: true
+ignoredSettings:
+  - editor.fontFamily
+resources:
+  - extensions
+  - keybindings
+  - settings
+  - snippets
+  - uiState
