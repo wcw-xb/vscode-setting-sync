@@ -1,34 +1,189 @@
-cweijan.vscode-mysql-client2: '{"databaseMetas":null,"version_map":{"1741853726652":"8.2.0","1741853726652@@47.94.168.160@3306@sci_writting":"2.11M"},"database.connections":{"1741853726652":{"host":"47.94.168.160","port":3306,"user":"sci_writting","password":"dbclient_a$KRMrrlzy3odAQAtUIc3aa1KoNiM2FnJ/fDo06aqGl4k=","dbType":"MySQL","database":"sci_writting","name":"SCI数据库","advance":{"idleConfig":{"enable":true,"connectionIdleTimeout":null},"hideSystemSchema":true,"groupingTables":false,"loadMetaDataWhenExpandTreeView":true},"treeFeatures":[],"usingSSH":false,"useSocksProxy":false,"useHTTPProxy":false,"global":true,"savePassword":"Forever","readonly":false,"sort":11,"useSSL":false,"fs":{"encoding":"utf8","showHidden":true},"databricks":{},"key":"1741853726652","connectionKey":"database.connections"}},"mysql.database.cache.collapseState":{"1741853726652@@47.94.168.160@3306":2,"1741853726652@@47.94.168.160@3306@sci_writting":2,"1741853726652@@47.94.168.160@3306@sci_writting#user_info":1},"View#send_time":1741853862106,"dbclient_state":{"showPayNotice":false},"sql.history":[{"sql":"SELECT
-  * FROM user_info LIMIT
-  100;","costTime":72,"date":1741854056174,"dbType":"MySQL","database":"sci_writting","connectionId":"database.connections"},{"sql":"UPDATE
-  user_info SET chat_user_id = UUID() WHERE chat_user_id IS
-  NULL;","costTime":104,"date":1741855389225,"dbType":"MySQL","database":"sci_writting","connectionId":"database.connections"},{"sql":"SELECT
-  * FROM user_info LIMIT
-  100;","costTime":66,"date":1741855396198,"dbType":"MySQL","database":"sci_writting","connectionId":"database.connections"},{"sql":"UPDATE
-  user_info SET chat_user_id =
-  NULL;","costTime":147,"date":1741855499510,"dbType":"MySQL","database":"sci_writting","connectionId":"database.connections"},{"sql":"SELECT
-  * FROM user_info LIMIT
-  100;","costTime":66,"date":1741855502451,"dbType":"MySQL","database":"sci_writting","connectionId":"database.connections"},{"sql":"UPDATE
-  user_info u1\r\nJOIN (\r\n    SELECT id, UUID() as new_uuid\r\n    FROM
-  user_info\r\n    WHERE chat_user_id IS NULL\r\n) u2 ON u1.id = u2.id\r\nSET
-  u1.chat_user_id = u2.new_uuid\r\nWHERE u1.chat_user_id IS
-  NULL;","costTime":149,"date":1741855585850,"dbType":"MySQL","database":"sci_writting","connectionId":"database.connections"},{"sql":"SELECT
-  * FROM user_info LIMIT
-  100;","costTime":66,"date":1741855588741,"dbType":"MySQL","database":"sci_writting","connectionId":"database.connections"},{"sql":"UPDATE
-  user_info SET chat_user_id =
-  NULL;","costTime":166,"date":1741855621192,"dbType":"MySQL","database":"sci_writting","connectionId":"database.connections"},{"sql":"SELECT
-  * FROM user_info LIMIT
-  100;","costTime":65,"date":1741855623411,"dbType":"MySQL","database":"sci_writting","connectionId":"database.connections"},{"sql":"SELECT
-  COUNT(1) FROM user_info LIMIT
-  100;","costTime":31,"date":1741856015215,"dbType":"MySQL","database":"sci_writting","connectionId":"database.connections"}]}'
+cweijan.vscode-mysql-client2: "{\"databaseMetas\":null,\"version_map\":{\"17418\
+  53726652\":\"8.2.0\",\"1741853726652@@47.94.168.160@3306@sci_writting\":\"2.3M\
+  \",\"1743674968459\":\"
+  \",\"1743674968459@@127.0.0.1@3306@address_generator\":\"3K\",\"1743742005810\
+  \":null,\"1743830214901\":\"24K
+  3.47.1\"},\"database.connections\":{\"1741853726652\":{\"host\":\"47.94.168.1\
+  60\",\"port\":3306,\"user\":\"sci_writting\",\"password\":\"dbclient_a$KRMrrl\
+  zy3odAQAtUIc3aa1KoNiM2FnJ/fDo06aqGl4k=\",\"dbType\":\"MySQL\",\"database\":\"\
+  sci_writting\",\"name\":\"SCI数据库\",\"advance\":{\"idleConfig\":{\"enable\":tr\
+  ue,\"connectionIdleTimeout\":null},\"hideSystemSchema\":true,\"groupingTables\
+  \":false,\"loadMetaDataWhenExpandTreeView\":true},\"treeFeatures\":[],\"using\
+  SSH\":false,\"useSocksProxy\":false,\"useHTTPProxy\":false,\"global\":true,\"\
+  savePassword\":\"Forever\",\"readonly\":false,\"sort\":11,\"useSSL\":false,\"\
+  fs\":{\"encoding\":\"utf8\",\"showHidden\":true},\"databricks\":{},\"key\":\"\
+  1741853726652\",\"connectionKey\":\"database.connections\"},\"1743674968459\"\
+  :{\"host\":\"127.0.0.1\",\"port\":3306,\"user\":\"root\",\"password\":\"dbcli\
+  ent_a$sVxzmj6kjnnTGyD5FD5YrA==\",\"dbType\":\"MySQL\",\"name\":\"地址污染本地数据库\",\
+  \"advance\":{\"idleConfig\":{\"enable\":true},\"hideSystemSchema\":true,\"gro\
+  upingTables\":false,\"loadMetaDataWhenExpandTreeView\":true},\"treeFeatures\"\
+  :[],\"usingSSH\":false,\"useSocksProxy\":false,\"useHTTPProxy\":false,\"global\
+  \":true,\"savePassword\":\"Forever\",\"readonly\":false,\"sort\":12,\"useSSL\
+  \":false,\"fs\":{\"encoding\":\"utf8\",\"showHidden\":true},\"key\":\"1743674\
+  968459\",\"connectionKey\":\"database.connections\"},\"1743830214901\":{\"key\
+  \":\"1743830214901\",\"isTreeNode\":true,\"host\":\"127.0.0.1\",\"port\":3306,\
+  \"dbType\":\"SQLite\",\"advance\":{\"idleConfig\":{\"enable\":true},\"include\
+  Databases\":\"\",\"hideSystemSchema\":true,\"groupingTables\":false,\"loadMet\
+  aDataWhenExpandTreeView\":true},\"treeFeatures\":[],\"usingSSH\":false,\"useS\
+  ocksProxy\":false,\"useHTTPProxy\":false,\"global\":true,\"savePassword\":\"F\
+  orever\",\"readonly\":false,\"sort\":13,\"useSSL\":false,\"dbPath\":\"e:\\\\S\
+  tudy\\\\SqlModel学习\\\\database.db\",\"fs\":{\"encoding\":\"utf8\",\"showHidden\
+  \":true},\"connectionKey\":\"database.connections\",\"disable\":false}},\"mys\
+  ql.database.cache.collapseState\":{\"1741853726652@@47.94.168.160@3306\":1,\"\
+  1741853726652@@47.94.168.160@3306@sci_writting\":1,\"1741853726652@@47.94.168\
+  .160@3306@sci_writting#user_info\":1,\"1743674968459@@127.0.0.1@3306\":1,\"17\
+  43674968459@@127.0.0.1@3306@transfer\":1,\"1743674968459@@127.0.0.1@3306@tran\
+  sfer#Tables\":1,\"1743674968459@@127.0.0.1@3306@transfer#Views\":1,\"17436749\
+  68459@@127.0.0.1@3306@transfer#Functions\":1,\"1743674968459@@127.0.0.1@3306@\
+  transfer#Procedures\":1,\"1743674968459@@127.0.0.1@3306@address_generator\":2,\
+  \"1743674968459@@127.0.0.1@3306@address_generator#Tables\":2,\"1743674968459@\
+  @127.0.0.1@3306@address_generator#Views\":1,\"1743674968459@@127.0.0.1@3306@a\
+  ddress_generator#Functions\":1,\"1743674968459@@127.0.0.1@3306@address_genera\
+  tor#transactions\":1,\"1743674968459@@127.0.0.1@3306@address_generator#addres\
+  s_relations\":1,\"1743674968459@@127.0.0.1@3306@address_generator#address_rel\
+  ations#column\":1,\"1743742005810@@127.0.0.1@3306\":1,\"1743742005810@@127.0.\
+  0.1@3306#Tables\":2,\"1741853726652@@47.94.168.160@3306@sci_writting#Tables\"\
+  :1,\"1743742005810@@127.0.0.1@3306#Views\":2,\"1743742005810@@127.0.0.1@3306#\
+  hero\":1,\"1743742005810@@127.0.0.1@3306#sqlite_sequence\":1,\"1743830214901@\
+  @127.0.0.1@3306\":2,\"1743830214901@@127.0.0.1@3306#Tables\":1},\"View#send_t\
+  ime\":1743830219926,\"dbclient_state\":{\"showPayNotice\":false},\"sql.history\
+  \":[{\"sql\":\"SELECT * FROM team LIMIT
+  100;\",\"costTime\":1,\"date\":1743834919674,\"dbType\":\"SQLite\",\"connecti\
+  onId\":\"database.connections\"},{\"sql\":\"SELECT * FROM hero LIMIT
+  100;\",\"costTime\":1,\"date\":1743834909883,\"dbType\":\"SQLite\",\"connecti\
+  onId\":\"database.connections\"},{\"sql\":\"DELETE FROM \\\"team\\\" WHERE
+  \\\"id\\\"=2;\",\"costTime\":57,\"date\":1743834905660,\"dbType\":\"SQLite\",\
+  \"connectionId\":\"database.connections\"},{\"sql\":\"SELECT * FROM hero LIMIT
+  100;\",\"costTime\":0,\"date\":1743834858248,\"dbType\":\"SQLite\",\"connecti\
+  onId\":\"database.connections\"},{\"sql\":\"DELETE FROM \\\"team\\\" WHERE
+  \\\"id\\\"=2;\",\"costTime\":67,\"date\":1743834849707,\"dbType\":\"SQLite\",\
+  \"connectionId\":\"database.connections\"},{\"sql\":\"SELECT * FROM hero LIMIT
+  100;\",\"costTime\":1,\"date\":1743830231304,\"dbType\":\"SQLite\",\"connecti\
+  onId\":\"database.connections\"},{\"sql\":\"CREATE TABLE hero(  \\r\\n    id
+  INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,\\r\\n    name TEXT NOT
+  NULL,\\r\\n    secret_name TEXT NOT NULL,\\r\\n    age
+  INTEGER\\r\\n);\",\"costTime\":162,\"date\":1743742449740,\"dbType\":\"SQLite\
+  \",\"connectionId\":\"database.connections\"},{\"sql\":\"SELECT * FROM
+  address_relations LIMIT
+  100;\",\"costTime\":0,\"date\":1743676789353,\"dbType\":\"MySQL\",\"database\
+  \":\"address_generator\",\"connectionId\":\"database.connections\"},{\"sql\":\
+  \"SELECT * FROM transaction_status LIMIT
+  100;\",\"costTime\":1,\"date\":1743676788346,\"dbType\":\"MySQL\",\"database\
+  \":\"address_generator\",\"connectionId\":\"database.connections\"},{\"sql\":\
+  \"SELECT * FROM transactions LIMIT
+  100;\",\"costTime\":1,\"date\":1743676787215,\"dbType\":\"MySQL\",\"database\
+  \":\"address_generator\",\"connectionId\":\"database.connections\"},{\"sql\":\
+  \"SELECT * FROM address_relations LIMIT
+  100;\",\"costTime\":0,\"date\":1743676785818,\"dbType\":\"MySQL\",\"database\
+  \":\"address_generator\",\"connectionId\":\"database.connections\"},{\"sql\":\
+  \"SELECT * FROM transactions LIMIT
+  100;\",\"costTime\":1,\"date\":1743676709382,\"dbType\":\"MySQL\",\"database\
+  \":\"address_generator\",\"connectionId\":\"database.connections\"},{\"sql\":\
+  \"SELECT * FROM transaction_status LIMIT
+  100;\",\"costTime\":1,\"date\":1743676707667,\"dbType\":\"MySQL\",\"database\
+  \":\"address_generator\",\"connectionId\":\"database.connections\"},{\"sql\":\
+  \"SELECT * FROM address_relations LIMIT
+  100;\",\"costTime\":0,\"date\":1743676706150,\"dbType\":\"MySQL\",\"database\
+  \":\"address_generator\",\"connectionId\":\"database.connections\"},{\"sql\":\
+  \"SELECT * FROM transaction_status LIMIT
+  100;\",\"costTime\":1,\"date\":1743676704836,\"dbType\":\"MySQL\",\"database\
+  \":\"address_generator\",\"connectionId\":\"database.connections\"},{\"sql\":\
+  \"SELECT * FROM transactions LIMIT
+  100;\",\"costTime\":1,\"date\":1743676686234,\"dbType\":\"MySQL\",\"database\
+  \":\"address_generator\",\"connectionId\":\"database.connections\"},{\"sql\":\
+  \"SELECT * FROM transaction_status LIMIT
+  100;\",\"costTime\":1,\"date\":1743676685107,\"dbType\":\"MySQL\",\"database\
+  \":\"address_generator\",\"connectionId\":\"database.connections\"},{\"sql\":\
+  \"SELECT * FROM transactions LIMIT
+  100;\",\"costTime\":1,\"date\":1743676682234,\"dbType\":\"MySQL\",\"database\
+  \":\"address_generator\",\"connectionId\":\"database.connections\"},{\"sql\":\
+  \"SELECT * FROM transaction_status LIMIT
+  100;\",\"costTime\":1,\"date\":1743676680956,\"dbType\":\"MySQL\",\"database\
+  \":\"address_generator\",\"connectionId\":\"database.connections\"},{\"sql\":\
+  \"SELECT * FROM address_relations LIMIT
+  100;\",\"costTime\":1,\"date\":1743676679558,\"dbType\":\"MySQL\",\"database\
+  \":\"address_generator\",\"connectionId\":\"database.connections\"},{\"sql\":\
+  \"SELECT * FROM transactions LIMIT
+  100;\",\"costTime\":0,\"date\":1743676570127,\"dbType\":\"MySQL\",\"database\
+  \":\"address_generator\",\"connectionId\":\"database.connections\"},{\"sql\":\
+  \"SELECT * FROM transaction_status LIMIT
+  100;\",\"costTime\":0,\"date\":1743676568136,\"dbType\":\"MySQL\",\"database\
+  \":\"address_generator\",\"connectionId\":\"database.connections\"},{\"sql\":\
+  \"SELECT * FROM address_relations LIMIT
+  100;\",\"costTime\":0,\"date\":1743676437588,\"dbType\":\"MySQL\",\"database\
+  \":\"address_generator\",\"connectionId\":\"database.connections\"},{\"sql\":\
+  \"SELECT * FROM transaction_status LIMIT
+  100;\",\"costTime\":1,\"date\":1743676435912,\"dbType\":\"MySQL\",\"database\
+  \":\"address_generator\",\"connectionId\":\"database.connections\"},{\"sql\":\
+  \"SELECT * FROM transactions LIMIT
+  100;\",\"costTime\":1,\"date\":1743676432513,\"dbType\":\"MySQL\",\"database\
+  \":\"address_generator\",\"connectionId\":\"database.connections\"},{\"sql\":\
+  \"CREATE DATABASE address_generator\\r\\n    DEFAULT CHARACTER SET =
+  'utf8mb4';\",\"costTime\":5,\"date\":1743674998182,\"dbType\":\"MySQL\",\"con\
+  nectionId\":\"database.connections\"},{\"sql\":\"SELECT COUNT(1) FROM
+  user_info LIMIT
+  100;\",\"costTime\":31,\"date\":1741856015215,\"dbType\":\"MySQL\",\"database\
+  \":\"sci_writting\",\"connectionId\":\"database.connections\"},{\"sql\":\"SEL\
+  ECT * FROM user_info LIMIT
+  100;\",\"costTime\":65,\"date\":1741855623411,\"dbType\":\"MySQL\",\"database\
+  \":\"sci_writting\",\"connectionId\":\"database.connections\"},{\"sql\":\"UPD\
+  ATE user_info SET chat_user_id =
+  NULL;\",\"costTime\":166,\"date\":1741855621192,\"dbType\":\"MySQL\",\"databa\
+  se\":\"sci_writting\",\"connectionId\":\"database.connections\"},{\"sql\":\"S\
+  ELECT * FROM user_info LIMIT
+  100;\",\"costTime\":66,\"date\":1741855588741,\"dbType\":\"MySQL\",\"database\
+  \":\"sci_writting\",\"connectionId\":\"database.connections\"},{\"sql\":\"UPD\
+  ATE user_info u1\\r\\nJOIN (\\r\\n    SELECT id, UUID() as
+  new_uuid\\r\\n    FROM user_info\\r\\n    WHERE chat_user_id IS NULL\\r\\n) u2
+  ON u1.id = u2.id\\r\\nSET u1.chat_user_id = u2.new_uuid\\r\\nWHERE
+  u1.chat_user_id IS
+  NULL;\",\"costTime\":149,\"date\":1741855585850,\"dbType\":\"MySQL\",\"databa\
+  se\":\"sci_writting\",\"connectionId\":\"database.connections\"},{\"sql\":\"S\
+  ELECT * FROM user_info LIMIT
+  100;\",\"costTime\":66,\"date\":1741855502451,\"dbType\":\"MySQL\",\"database\
+  \":\"sci_writting\",\"connectionId\":\"database.connections\"},{\"sql\":\"UPD\
+  ATE user_info SET chat_user_id =
+  NULL;\",\"costTime\":147,\"date\":1741855499510,\"dbType\":\"MySQL\",\"databa\
+  se\":\"sci_writting\",\"connectionId\":\"database.connections\"},{\"sql\":\"S\
+  ELECT * FROM user_info LIMIT
+  100;\",\"costTime\":66,\"date\":1741855396198,\"dbType\":\"MySQL\",\"database\
+  \":\"sci_writting\",\"connectionId\":\"database.connections\"},{\"sql\":\"UPD\
+  ATE user_info SET chat_user_id = UUID() WHERE chat_user_id IS
+  NULL;\",\"costTime\":104,\"date\":1741855389225,\"dbType\":\"MySQL\",\"databa\
+  se\":\"sci_writting\",\"connectionId\":\"database.connections\"},{\"sql\":\"S\
+  ELECT * FROM user_info LIMIT
+  100;\",\"costTime\":72,\"date\":1741854056174,\"dbType\":\"MySQL\",\"database\
+  \":\"sci_writting\",\"connectionId\":\"database.connections\"},{\"sql\":\"DEL\
+  ETE FROM \\\"team\\\" WHERE
+  \\\"id\\\"=2;\",\"costTime\":68,\"date\":1743835414900,\"dbType\":\"SQLite\",\
+  \"connectionId\":\"database.connections\"},{\"sql\":\"SELECT * FROM hero LIMIT
+  100;\",\"costTime\":1,\"date\":1743835424043,\"dbType\":\"SQLite\",\"connecti\
+  onId\":\"database.connections\"},{\"sql\":\"DELETE FROM \\\"team\\\" WHERE
+  \\\"id\\\"=2;\",\"costTime\":57,\"date\":1743835496012,\"dbType\":\"SQLite\",\
+  \"connectionId\":\"database.connections\"},{\"sql\":\"SELECT * FROM hero LIMIT
+  100;\",\"costTime\":1,\"date\":1743835499270,\"dbType\":\"SQLite\",\"connecti\
+  onId\":\"database.connections\"}],\"lastActiveUid\":\"1743830214901@@127.0.0.\
+  1@3306#team\",\"Show_Table#send_time\":1743743063274}"
 donjayamanne.python-environment-manager: "{\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\
   \\COMPANY\\\\视频上传脚本\":true,\"PYTHON_EXTENSION_GLOBAL_STORAGE_KEYS\":[],\"PYTH\
-  ON_ENV_INFO_CACHE\":[{\"name\":\".venv\",\"location\":\"e:\\\\Company\\\\视频上传\
-  脚本\\\\.venv\",\"kind\":\"virt-venv\",\"executable\":{\"filename\":\"e:\\\\Com\
-  pany\\\\视频上传脚本\\\\.venv\\\\Scripts\\\\python.exe\",\"sysPrefix\":\"e:\\\\Comp\
-  any\\\\视频上传脚本\\\\.venv\",\"ctime\":1695546977259,\"mtime\":1659362400000},\"s\
-  earchLocation\":\"file:///e%3A/Company/%E8%A7%86%E9%A2%91%E4%B8%8A%E4%BC%A0%E\
-  8%84%9A%E6%9C%AC/.venv\",\"display\":\"Python 3.10.6 ('.venv':
+  ON_ENV_INFO_CACHE\":[{\"name\":\"\",\"location\":\"\",\"kind\":\"global-other\
+  \",\"executable\":{\"filename\":\"C:\\\\Users\\\\18228\\\\AppData\\\\Local\\\
+  \\Programs\\\\Python\\\\Python312\\\\python.exe\",\"sysPrefix\":\"C:\\\\Users\
+  \\\\18228\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\",\"ctime\":\
+  1709794402170,\"mtime\":1707228652000},\"display\":\"Python 3.12.2
+  64-bit\",\"version\":{\"major\":3,\"minor\":12,\"micro\":2,\"release\":{\"lev\
+  el\":\"final\",\"serial\":0},\"sysVersion\":\"3.12.2 (tags/v3.12.2:6abddd9,
+  Feb  6 2024, 21:26:36) [MSC v.1937 64 bit
+  (AMD64)]\"},\"arch\":3,\"distro\":{\"org\":\"PythonCore\",\"defaultDisplayName\
+  \":\"Python 3.12 (64-bit)\"},\"source\":[\"path env var\",\"windows
+  registry\"],\"id\":\"C:\\\\USERS\\\\18228\\\\APPDATA\\\\LOCAL\\\\PROGRAMS\\\\\
+  PYTHON\\\\PYTHON312\\\\PYTHON.EXE\",\"detailedDisplayName\":\"Python 3.12.2
+  64-bit\"},{\"name\":\".venv\",\"location\":\"e:\\\\Company\\\\视频上传脚本\\\\.venv\
+  \",\"kind\":\"virt-venv\",\"executable\":{\"filename\":\"e:\\\\Company\\\\视频上\
+  传脚本\\\\.venv\\\\Scripts\\\\python.exe\",\"sysPrefix\":\"e:\\\\Company\\\\视频上传\
+  脚本\\\\.venv\",\"ctime\":1695546977259,\"mtime\":1659362400000},\"searchLocati\
+  on\":\"file:///e%3A/Company/%E8%A7%86%E9%A2%91%E4%B8%8A%E4%BC%A0%E8%84%9A%E6%\
+  9C%AC/.venv\",\"display\":\"Python 3.10.6 ('.venv':
   venv)\",\"version\":{\"major\":3,\"minor\":10,\"micro\":6,\"release\":{\"level\
   \":\"final\",\"serial\":0},\"sysVersion\":\"3.10.6 (tags/v3.10.6:9c7b4bd,
   Aug  1 2022, 21:53:49) [MSC v.1932 64 bit
@@ -86,11 +241,9 @@ donjayamanne.python-environment-manager: "{\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\
   venv)\"}],\"LAST_EXTENSION_VERSION\":\"1.2.7\",\"PYTHON:PACKAGE_MANAGER:ENVS_\
   CACHE\":[],\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\FREESTATISTIC\":\
   true,\"PYTHON_GLOBAL_STORAGE_KEYS\":[{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERE\
-  D_E:\\\\COMPANY\\\\FREE-AI\",\"defaultValue\":false},{\"key\":\"PYTHON_WAS_DI\
-  SCOVERY_TRIGGERED_E:\\\\COMPANY\\\\FREESTATISTIC\",\"defaultValue\":false},{\
-  \"key\":\"PYTHON_EXTENSION_GLOBAL_STORAGE_KEYS\",\"defaultValue\":[]},{\"key\
-  \":\"PYTHON_ENV_INFO_CACHE\",\"defaultValue\":[]}],\"PYTHON_WAS_DISCOVERY_TRI\
-  GGERED_E:\\\\COMPANY\\\\FREE-AI\":true}"
+  D_E:\\\\COMPANY\\\\FREESTATISTIC\",\"defaultValue\":false},{\"key\":\"PYTHON_\
+  EXTENSION_GLOBAL_STORAGE_KEYS\",\"defaultValue\":[]},{\"key\":\"PYTHON_ENV_IN\
+  FO_CACHE\",\"defaultValue\":[]}]}"
 eamodio.gitlens: "{\"gitlens:premium:subscription\":{\"v\":1,\"data\":{\"plan\"\
   :{\"actual\":{\"id\":\"community-with-account\",\"name\":\"GitLens
   Community\",\"bundle\":false,\"cancelled\":false,\"trialReactivationCount\":0,\
@@ -105,8 +258,8 @@ eamodio.gitlens: "{\"gitlens:premium:subscription\":{\"v\":1,\"data\":{\"plan\"\
   22802162@qq.com\",\"verified\":true,\"createdOn\":\"2025-03-12T06:31:01.866Z\
   \"},\"activeOrganization\":{\"id\":\"67d12a2564a58c22e87e7cee\",\"name\":\"18\
   22802162's
-  organization\",\"role\":\"owner\"},\"lastValidatedAt\":1743421690846}},\"gitl\
-  ens:version\":\"16.3.3\",\"gitlens:synced:version\":\"16.3.3\",\"gitlens:laun\
+  organization\",\"role\":\"owner\"},\"lastValidatedAt\":1743823270521}},\"gitl\
+  ens:version\":\"17.0.1\",\"gitlens:synced:version\":\"17.0.1\",\"gitlens:laun\
   chpad:indicator:hasLoaded\":true,\"gitlens:product:config\":{\"data\":{\"prom\
   os\":[{\"key\":\"gkholiday\",\"code\":\"GKHOLIDAY\",\"states\":[0,1,2,3,4,5],\
   \"expiresOn\":1742194740000,\"startsOn\":1738825140000,\"content\":{\"quickpi\
@@ -120,9 +273,9 @@ eamodio.gitlens: "{\"gitlens:premium:subscription\":{\"v\":1,\"data\":{\"plan\"\
   Pro\"},\"webview\":{\"info\":{\"html\":\"<b>Save 33% or more</b> on GitLens
   Pro\"},\"link\":{\"html\":\"<b>Save 33% or more</b> on GitLens
   Pro\",\"title\":\"Upgrade now and save 33% or more on GitLens
-  Pro\"}}}}]},\"v\":1,\"timestamp\":1743421829364},\"gitlens:usages\":{\"comman\
-  d:gitlens.openWalkthrough:executed\":{\"count\":2,\"firstUsedAt\":17411860951\
-  05,\"lastUsedAt\":1743421709483},\"command:gitlens.home.startWork:executed\":{\
+  Pro\"}}}}]},\"v\":1,\"timestamp\":1743835099088},\"gitlens:usages\":{\"comman\
+  d:gitlens.openWalkthrough:executed\":{\"count\":1,\"firstUsedAt\":17411860951\
+  05,\"lastUsedAt\":1741186095105},\"command:gitlens.home.startWork:executed\":{\
   \"count\":1,\"firstUsedAt\":1741186101756,\"lastUsedAt\":1741186101756},\"com\
   mand:gitlens.startWork:executed\":{\"count\":1,\"firstUsedAt\":1741186101756,\
   \"lastUsedAt\":1741186101756},\"fileHistoryView:shown\":{\"count\":9,\"firstU\
@@ -140,8 +293,8 @@ eamodio.gitlens: "{\"gitlens:premium:subscription\":{\"v\":1,\"data\":{\"plan\"\
   ssues:executed\":{\"count\":1,\"firstUsedAt\":1741760987167,\"lastUsedAt\":17\
   41760987167},\"command:gitlens.plus.continueFeaturePreview:executed\":{\"count\
   \":1,\"firstUsedAt\":1741761012478,\"lastUsedAt\":1741761012478},\"command:gi\
-  tlens.plus.upgrade:executed\":{\"count\":2,\"firstUsedAt\":1741761034759,\"la\
-  stUsedAt\":1743421689064},\"command:gitlens.showLaunchpad:executed\":{\"count\
+  tlens.plus.upgrade:executed\":{\"count\":1,\"firstUsedAt\":1741761034759,\"la\
+  stUsedAt\":1741761034759},\"command:gitlens.showLaunchpad:executed\":{\"count\
   \":3,\"firstUsedAt\":1741761327809,\"lastUsedAt\":1741764346484},\"launchpadV\
   iew:shown\":{\"count\":1,\"firstUsedAt\":1741761348458,\"lastUsedAt\":1741761\
   348458},\"draftsView:shown\":{\"count\":1,\"firstUsedAt\":1741761350182,\"las\
@@ -152,25 +305,25 @@ eamodio.gitlens: "{\"gitlens:premium:subscription\":{\"v\":1,\"data\":{\"plan\"\
   741763060420},\"command:gitlens.copyShaToClipboard:executed\":{\"count\":4,\"\
   firstUsedAt\":1741762722465,\"lastUsedAt\":1742143954831},\"command:gitlens.s\
   howInCommitGraph:executed\":{\"count\":1,\"firstUsedAt\":1741762724509,\"last\
-  UsedAt\":1741762724509},\"graphView:shown\":{\"count\":26,\"firstUsedAt\":174\
-  1762738807,\"lastUsedAt\":1743421795622},\"graphDetailsView:shown\":{\"count\
-  \":28,\"firstUsedAt\":1741762738810,\"lastUsedAt\":1743421795003},\"command:g\
+  UsedAt\":1741762724509},\"graphView:shown\":{\"count\":20,\"firstUsedAt\":174\
+  1762738807,\"lastUsedAt\":1743080939039},\"graphDetailsView:shown\":{\"count\
+  \":23,\"firstUsedAt\":1741762738810,\"lastUsedAt\":1743080939043},\"command:g\
   itlens.graph.switchToAnotherBranch:executed\":{\"count\":3,\"firstUsedAt\":17\
   41762761373,\"lastUsedAt\":1741763015183},\"command:gitlens.gitCommands:execu\
-  ted\":{\"count\":40,\"firstUsedAt\":1741762761374,\"lastUsedAt\":174342180866\
-  0},\"command:gitlens.showInCommitGraphView:executed\":{\"count\":9,\"firstUse\
+  ted\":{\"count\":38,\"firstUsedAt\":1741762761374,\"lastUsedAt\":174334379173\
+  5},\"command:gitlens.showInCommitGraphView:executed\":{\"count\":9,\"firstUse\
   dAt\":1741762790834,\"lastUsedAt\":1741763162399},\"command:gitlens.showQuick\
-  CommitDetails:executed\":{\"count\":7,\"firstUsedAt\":1741762793312,\"lastUse\
-  dAt\":1743421808660},\"command:gitlens.diffWith:executed\":{\"count\":25,\"fi\
+  CommitDetails:executed\":{\"count\":5,\"firstUsedAt\":1741762793312,\"lastUse\
+  dAt\":1742115037611},\"command:gitlens.diffWith:executed\":{\"count\":25,\"fi\
   rstUsedAt\":1741762809657,\"lastUsedAt\":1743177196801},\"command:gitlens.gra\
   ph.fetch:executed\":{\"count\":1,\"firstUsedAt\":1741762854639,\"lastUsedAt\"\
   :1741762854639},\"command:gitlens.gitCommands.branch:executed\":{\"count\":1,\
   \"firstUsedAt\":1741762870604,\"lastUsedAt\":1741762870604},\"command:gitlens\
   .graph.compareWithWorking:executed\":{\"count\":1,\"firstUsedAt\":17417630603\
   98,\"lastUsedAt\":1741763060398},\"command:gitlens.views.graph.refresh:execut\
-  ed\":{\"count\":4,\"firstUsedAt\":1741763174172,\"lastUsedAt\":1743421765437},\
-  \"command:gitlens.toggleFileBlame:executed\":{\"count\":5,\"firstUsedAt\":174\
-  1764402008,\"lastUsedAt\":1743108536778},\"command:gitlens.toggleFileHeatmap:\
+  ed\":{\"count\":1,\"firstUsedAt\":1741763174172,\"lastUsedAt\":1741763174172},\
+  \"command:gitlens.toggleFileBlame:executed\":{\"count\":6,\"firstUsedAt\":174\
+  1764402008,\"lastUsedAt\":1743688768248},\"command:gitlens.toggleFileHeatmap:\
   executed\":{\"count\":2,\"firstUsedAt\":1741764409698,\"lastUsedAt\":17417644\
   14043},\"command:gitlens.showSettingsPage!file-annotations:executed\":{\"count\
   \":3,\"firstUsedAt\":1741764417068,\"lastUsedAt\":1742008773903},\"settingsWe\
@@ -186,8 +339,8 @@ eamodio.gitlens: "{\"gitlens:premium:subscription\":{\"v\":1,\"data\":{\"plan\"\
   \"command:gitlens.openOnRemote:executed\":{\"count\":1,\"firstUsedAt\":174194\
   4624497,\"lastUsedAt\":1741944624497},\"command:gitlens.plus.signUp:executed\
   \":{\"count\":1,\"firstUsedAt\":1742142251376,\"lastUsedAt\":1742142251376},\
-  \"command:gitlens.showAccountView:executed\":{\"count\":5,\"firstUsedAt\":174\
-  2142251376,\"lastUsedAt\":1743421664391},\"command:gitlens.graph.createBranch\
+  \"command:gitlens.showAccountView:executed\":{\"count\":4,\"firstUsedAt\":174\
+  2142251376,\"lastUsedAt\":1743341279186},\"command:gitlens.graph.createBranch\
   :executed\":{\"count\":5,\"firstUsedAt\":1742142488834,\"lastUsedAt\":1742377\
   534628},\"command:gitlens.graph.switchToBranch:executed\":{\"count\":4,\"firs\
   tUsedAt\":1742143859999,\"lastUsedAt\":1742375395614},\"command:gitlens.graph\
@@ -207,122 +360,101 @@ eamodio.gitlens: "{\"gitlens:premium:subscription\":{\"v\":1,\"data\":{\"plan\"\
   \":1743177189798,\"lastUsedAt\":1743177189798},\"command:gitlens.diffLineWith\
   Working:executed\":{\"count\":1,\"firstUsedAt\":1743177196755,\"lastUsedAt\":\
   1743177196755},\"command:gitlens.stashSave:executed\":{\"count\":2,\"firstUse\
-  dAt\":1743343734591,\"lastUsedAt\":1743343791735},\"command:gitlens.plus.logi\
-  n:executed\":{\"count\":6,\"firstUsedAt\":1743421664390,\"lastUsedAt\":174342\
-  1729124}},\"gitlens:home:walkthrough:dismissed\":true,\"gitlens:home:sections\
-  :collapsed\":[\"newHomePreview\",\"integrationBanner\"],\"gitlens:repoVisibil\
-  ity\":[[\"e:/Company/free-ai\",{\"visibility\":\"private\",\"timestamp\":1741\
-  760961912,\"remotesHash\":\"github.com/wcw-xb/free-ai\"}],[\"e:/Company/SCIEn\
-  d/SCIWriting\",{\"visibility\":\"private\",\"timestamp\":1741761314390,\"remo\
-  tesHash\":\"github.com/wcw-xb/sci_end\"}],[\"e:/Company/FreeStatistic\",{\"vi\
-  sibility\":\"private\",\"timestamp\":1742051371290,\"remotesHash\":\"github.c\
-  om/wcw-xb/FreeStatistic\"}],[\"e:/Company/风锐AI/free-webchat\",{\"visibility\":\
-  \"private\",\"timestamp\":1742154187737,\"remotesHash\":\"github.com/wcw-xb/f\
-  ree-webchat\"}]],\"gitlens:plus:preview:graph:usages\":[{\"startedOn\":\"2025\
-  -03-12T06:30:12.478Z\",\"expiresOn\":\"2025-03-13T06:30:12.478Z\"}],\"gitlens\
-  :launchpad:indicator:hasInteracted\":\"2025-03-12T06:35:27.810Z\",\"gitlens:g\
-  raph:searchMode\":\"normal\",\"gitlens:gk:d2e20bd4-4d73-4cb5-9171-f889e2f4959\
-  6:checkin\":{\"v\":1,\"timestamp\":1743421689978,\"data\":{\"user\":{\"id\":\
-  \"d2e20bd4-4d73-4cb5-9171-f889e2f49596\",\"name\":\"wendy\",\"email\":\"18228\
-  02162@qq.com\",\"status\":\"activated\",\"createdDate\":\"2025-03-12T06:31:01\
-  .866Z\"},\"licenses\":{\"paidLicenses\":{},\"effectiveLicenses\":{}},\"nextOp\
-  tInDate\":\"2025-06-28T00:00:00.000Z\"}},\"gitlens:gk:d2e20bd4-4d73-4cb5-9171\
-  -f889e2f49596:organizations\":{\"v\":1,\"timestamp\":1743421690833,\"data\":[{\
-  \"id\":\"67d12a2564a58c22e87e7cee\",\"name\":\"1822802162's
+  dAt\":1743343734591,\"lastUsedAt\":1743343791735}},\"gitlens:home:walkthrough\
+  :dismissed\":true,\"gitlens:home:sections:collapsed\":[\"newHomePreview\",\"i\
+  ntegrationBanner\"],\"gitlens:repoVisibility\":[[\"e:/Company/free-ai\",{\"vi\
+  sibility\":\"private\",\"timestamp\":1741760961912,\"remotesHash\":\"github.c\
+  om/wcw-xb/free-ai\"}],[\"e:/Company/SCIEnd/SCIWriting\",{\"visibility\":\"pri\
+  vate\",\"timestamp\":1741761314390,\"remotesHash\":\"github.com/wcw-xb/sci_end\
+  \"}],[\"e:/Company/FreeStatistic\",{\"visibility\":\"private\",\"timestamp\":\
+  1742051371290,\"remotesHash\":\"github.com/wcw-xb/FreeStatistic\"}],[\"e:/Com\
+  pany/风锐AI/free-webchat\",{\"visibility\":\"private\",\"timestamp\":1742154187\
+  737,\"remotesHash\":\"github.com/wcw-xb/free-webchat\"}]],\"gitlens:plus:prev\
+  iew:graph:usages\":[{\"startedOn\":\"2025-03-12T06:30:12.478Z\",\"expiresOn\":\
+  \"2025-03-13T06:30:12.478Z\"}],\"gitlens:launchpad:indicator:hasInteracted\":\
+  \"2025-03-12T06:35:27.810Z\",\"gitlens:graph:searchMode\":\"normal\",\"gitlen\
+  s:gk:d2e20bd4-4d73-4cb5-9171-f889e2f49596:checkin\":{\"v\":1,\"timestamp\":17\
+  43823269651,\"data\":{\"user\":{\"id\":\"d2e20bd4-4d73-4cb5-9171-f889e2f49596\
+  \",\"name\":\"wendy\",\"email\":\"1822802162@qq.com\",\"status\":\"activated\
+  \",\"createdDate\":\"2025-03-12T06:31:01.866Z\"},\"licenses\":{\"paidLicenses\
+  \":{},\"effectiveLicenses\":{}},\"nextOptInDate\":\"2025-06-28T00:00:00.000Z\
+  \"}},\"gitlens:gk:d2e20bd4-4d73-4cb5-9171-f889e2f49596:organizations\":{\"v\"\
+  :1,\"timestamp\":1743823270515,\"data\":[{\"id\":\"67d12a2564a58c22e87e7cee\",\
+  \"name\":\"1822802162's
   organization\",\"role\":\"owner\"}]},\"gitlens:integrations:configured\":{\"g\
   ithub\":[{\"integrationId\":\"github\",\"expiresAt\":\"2059-03-26T06:01:34.54\
   2Z\",\"scopes\":\"repo,read:user,user:email\",\"cloud\":true}],\"gitlab\":[],\
-  \"azureDevOps\":[],\"jira\":[]},\"gitlens:avatars\":[[\"9d90ec8e22e8248628cd8\
-  ee16af5397a:64\",{\"uri\":\"https://avatars.githubusercontent.com/u/58203054?\
-  s%3D64%26v%3D4\",\"timestamp\":1742142380601}],[\"9d90ec8e22e8248628cd8ee16af\
-  5397a:32\",{\"uri\":\"https://avatars.githubusercontent.com/u/58203054?s%3D32\
-  %26v%3D4\",\"timestamp\":1742142512092}]]}"
-GitHub.copilot: '{"installedVersion":"1.293.0","codeReference.notified":true}'
-GitHub.copilot-chat: '{"VSCode.ABExp.FeatureData":{"features":["config.chat.experimental.statusIndicator.enabled","config.notebook.experimental.generate","config.python.analysis.enableEditableInstallscf","config.python.analysis.enableExperimentalServer","config.python.analysis.supportRestructuredText","config.python.locator","config.python.REPL.sendToNativeREPL","config.window.experimentalTitleBarStyle","copilotchat.aa","copilotchat.chatParticipantDetectionPublic","copilotchat.config.advanced.edit.rateLimit","copilotchat.config.advanced.inlineChatEndpoint","copilotchat.config.chat.advanced.edit.rateLimit","copilotchat.config.chat.advanced.inlineEdits.includeCursor","copilotchat.config.chat.advanced.inlineEdits.instructionsVariant","copilotchat.config.chat.advanced.workspace.useCodeSearchInstantIndexingcf","copilotchat.config.chat.advanced.workspace.useEmbeddingsCodeSearch","copilotchat.config.chat.languageContext.typescript.enabled","copilotchat.feedback.notificationProbability","copilotchat.feedback.notificationProbability.inactive","copilotchat.feedback.sessionProbability","copilotchat.feedback.sessionProbability.inactive","copilotchat.useCodeSearch","copilotchat.workspaceChunkSearch.shouldEagerlyInitLocalIndex","copilotImplementAbstractClasses","copilot_ci","livesharecontinuousaacf","mindaroBinariesVersion","msEntraShowUpdateUserFlow","portForwardingServiceEnabled-development","portForwardingServiceEnabled-production","portForwardingServiceEnabled-staging","shouldUseGrpcService","validate_mi"],"assignmentContext":"vsliv368cf:30146710;vspor879:30202332;vspor708:30202333;vspor363:30204092;binariesv615:30325510;c4g48928:30535728;ah738568:30811544;c771b703:30959264;nativerepl1:31139838;pythonrstrctxt:31112756;nativeloc1:31192215;c3e2j222:31144249;iacca1:31171482;b50ed353:31153171;5fd0e150:31155592;7d05f481:31265778;cg8ef616:31265775;85gh4286:31171602;adff0535:31171559;6074i472:31201624;customenabled:31248079;hdaa2157:31222309;copilot_t_ci:31222730;f27dg485:31264363;jda6j935:31233686;pythoneinst12cf:31262606;bgtreat:31268568;fh1c7952:31258891;4gafe986:31271826;31787653:31262186;3e8i5726:31271747;49da9784:31264548;","configs":[{"Id":"vscode","Parameters":{"config.chat.experimental.statusIndicator.enabled":true,"config.notebook.experimental.generate":true,"config.python.analysis.enableEditableInstalls":false,"config.python.analysis.enableExperimentalServer":true,"config.python.analysis.supportRestructuredText":true,"config.python.locator":"native","config.python.REPL.sendToNativeREPL":true,"config.window.experimentalTitleBarStyle":"custom","copilotchat.aa":true,"copilotchat.chatParticipantDetectionPublic":true,"copilotchat.config.advanced.edit.rateLimit":"14/600","copilotchat.config.advanced.inlineChatEndpoint":"gpt-4","copilotchat.config.chat.advanced.edit.rateLimit":"14/600","copilotchat.config.chat.advanced.inlineEdits.includeCursor":true,"copilotchat.config.chat.advanced.inlineEdits.instructionsVariant":"v1","copilotchat.config.chat.advanced.workspace.useCodeSearchInstantIndexing":false,"copilotchat.config.chat.advanced.workspace.useEmbeddingsCodeSearch":true,"copilotchat.config.chat.languageContext.typescript.enabled":true,"copilotchat.feedback.notificationProbability":10,"copilotchat.feedback.notificationProbability.inactive":100,"copilotchat.feedback.sessionProbability":3,"copilotchat.feedback.sessionProbability.inactive":2,"copilotchat.useCodeSearch":true,"copilotchat.workspaceChunkSearch.shouldEagerlyInitLocalIndex":true,"copilotImplementAbstractClasses":true,"copilot_ci":true,"livesharecontinuousaa":false,"mindaroBinariesVersion":"1.0.20210615.1","msEntraShowUpdateUserFlow":true,"portForwardingServiceEnabled-development":true,"portForwardingServiceEnabled-production":true,"portForwardingServiceEnabled-staging":true,"shouldUseGrpcService":true,"validate_mi":true}}]},"settingEmbeddings-version-remote":"1740276621466","settingEmbeddings-version":"1.98","commandEmbeddings-version-remote":"1740270981650","commandEmbeddings-version":"1.98","copilot.shownPermissiveTokenModal":true,"survey.usage":{"firstActive":1737444956264,"activeDays":[]},"copilot-chat.terminalToDebugging.registered":{"location":"c:\\Users\\18228\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand","version":"0.25.1/undefined"},"chat.debuggableCommands":{"languages":["code-runner-output"],"commands":["node","npx","mocha","jest","npm","yarn","ts-node","ava","tap","cypress"]}}'
+  \"azureDevOps\":[],\"bitbucket\":[],\"jira\":[]},\"gitlens:avatars\":[[\"9d90\
+  ec8e22e8248628cd8ee16af5397a:64\",{\"uri\":\"https://avatars.githubuserconten\
+  t.com/u/58203054?s%3D64%26v%3D4\",\"timestamp\":1742142380601}],[\"9d90ec8e22\
+  e8248628cd8ee16af5397a:32\",{\"uri\":\"https://avatars.githubusercontent.com/\
+  u/58203054?s%3D32%26v%3D4\",\"timestamp\":1742142512092}]]}"
 ms-python.debugpy: '{"PYTHON_GLOBAL_STORAGE_KEYS":[{"key":"PYTHON_EXTENSION_GLOBAL_STORAGE_KEYS","defaultValue":[]}]}'
-ms-python.python: "{\"VSCode.ABExp.FeatureData\":{\"features\":[\"config.chat.e\
-  xperimental.statusIndicator.enabled\",\"config.notebook.experimental.generate\
-  \",\"config.python.analysis.enableEditableInstallscf\",\"config.python.analys\
-  is.enableExperimentalServer\",\"config.python.analysis.supportRestructuredText\
-  \",\"config.python.locator\",\"config.python.REPL.sendToNativeREPL\",\"config\
-  .window.experimentalTitleBarStyle\",\"copilotchat.config.chat.advanced.inline\
-  Edits.includeCursor\",\"copilotchat.config.chat.advanced.inlineEdits.instruct\
-  ionsVariant\",\"copilotchat.workspaceChunkSearch.shouldEagerlyInitLocalIndex\
-  \",\"copilotImplementAbstractClasses\",\"copilot_ci\",\"livesharecontinuousaa\
-  cf\",\"mindaroBinariesVersion\",\"msEntraShowUpdateUserFlow\",\"portForwardin\
-  gServiceEnabled-development\",\"portForwardingServiceEnabled-production\",\"p\
-  ortForwardingServiceEnabled-staging\",\"pythonRecommendTensorboardExt\",\"pyt\
-  honTerminalEnvVarActivation\",\"pythonTestAdapter\",\"shouldUseGrpcService\",\
-  \"validate_mi\"],\"assignmentContext\":\"vsliv368cf:30146710;vspor879:3020233\
-  2;vspor708:30202333;vspor363:30204092;binariesv615:30325510;py29gd2263:310242\
-  39;c4g48928:30535728;962ge761:30959799;pythontbext0:30879054;nativerepl1:3113\
-  9838;pythonrstrctxt:31112756;nativeloc1:31192215;iacca1:31171482;5fd0e150:311\
-  55592;6074i472:31201624;customenabled:31248079;hdaa2157:31222309;copilot_t_ci\
-  :31222730;jda6j935:31233686;pythoneinst12cf:31262606;bgtreat:31268568;4gafe98\
-  6:31271826;31787653:31262186;3e8i5726:31271747;\",\"configs\":[{\"Id\":\"vsco\
-  de\",\"Parameters\":{\"config.chat.experimental.statusIndicator.enabled\":tru\
-  e,\"config.notebook.experimental.generate\":true,\"config.python.analysis.ena\
-  bleEditableInstalls\":false,\"config.python.analysis.enableExperimentalServer\
-  \":true,\"config.python.analysis.supportRestructuredText\":true,\"config.pyth\
-  on.locator\":\"native\",\"config.python.REPL.sendToNativeREPL\":true,\"config\
-  .window.experimentalTitleBarStyle\":\"custom\",\"copilotchat.config.chat.adva\
-  nced.inlineEdits.includeCursor\":true,\"copilotchat.config.chat.advanced.inli\
-  neEdits.instructionsVariant\":\"v1\",\"copilotchat.workspaceChunkSearch.shoul\
-  dEagerlyInitLocalIndex\":true,\"copilotImplementAbstractClasses\":true,\"copi\
-  lot_ci\":true,\"livesharecontinuousaa\":false,\"mindaroBinariesVersion\":\"1.\
-  0.20210615.1\",\"msEntraShowUpdateUserFlow\":true,\"portForwardingServiceEnab\
-  led-development\":true,\"portForwardingServiceEnabled-production\":true,\"por\
-  tForwardingServiceEnabled-staging\":true,\"pythonRecommendTensorboardExt\":tr\
-  ue,\"pythonTerminalEnvVarActivation\":true,\"pythonTestAdapter\":true,\"shoul\
-  dUseGrpcService\":true,\"validate_mi\":true}}]},\"PYTHON_WAS_DISCOVERY_TRIGGE\
-  RED_E:\\\\项目\\\\TEST\":true,\"autoSelectionInterpretersQueriedOnce\":true,\"r\
-  emoteWorkspaceFolderKeysForWhichTheCopyIsDone_Key\":[\"E:\\\\STUDY\\\\算法学习\",\
-  \"D:\\\\PYSIDE6-FLUENT-WIDGETS-PRO-V0.8.4\",\"E:\\\\STUDY\\\\FASTAPI-STUDY\",\
-  \"E:\\\\项目\\\\车辆爬虫项目\\\\ERP-MERGE\",\"C:\\\\USERS\\\\18228\\\\DESKTOP\\\\TEST1\
-  \\\\TEST\",\"E:\\\\COMPANY\\\\FREE-PUBMED\",\"E:\\\\COMPANY\\\\视频上传脚本\",\"E:\\\
-  \\COMPANY\\\\FREESTATISTIC\",\"E:\\\\COMPANY\\\\FREESTATISTICUPDATE\",\"E:\\\
-  \\COMPANY\\\\浏览器\\\\风锐浏览器\",\"E:\\\\COMPANY\\\\专利资料\",\"E:\\\\COMPANY\\\\SCIE\
-  ND\\\\SCIWRITING\",\"E:\\\\COMPANY\\\\FREE-AI\",\"E:\\\\项目\\\\车辆爬虫项目\\\\VIN-S\
-  EARCH\",\"E:\\\\项目\\\\车辆爬虫项目\\\\VIN_SEARCH_END\\\\VIN_SEARCH_END\",\"E:\\\\项目\
-  \\\\车辆爬虫项目\\\\VIN_SEARCH_END\",\"E:\\\\项目\\\\WECHAT-PROJECT\\\\WECHAT_PROJECT\
-  \",\"E:\\\\项目\\\\车辆爬虫项目\\\\OCR-PROJECT\",\"E:\\\\项目\\\\WECHAT-PROJECT\",\"E:\\\
-  \\STUDY\\\\TON\\\\TON_TOOLS\",\"E:\\\\项目\\\\车辆爬虫项目\\\\DEMO-PROJECT\",\"E:\\\\\
-  项目\\\\地址污染\\\\ADDRESS-GENERATOR\",\"E:\\\\项目\\\\TEST\"],\"isRemoteGlobalSetti\
-  ngCopiedKey\":true,\"SHELL_INTEGRATION_WORKING_KEY_powershellCore\":true,\"py\
-  lanceDefaultPromptMemento\":true,\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\项目\
-  \\\\TEST\":\"e:\\\\项目\\\\test\\\\.venv\\\\Scripts\\\\python.exe\",\"PYTHON_WA\
-  S_DISCOVERY_TRIGGERED_E:\\\\项目\\\\地址污染\\\\ADDRESS-GENERATOR\":true,\"PYTHON_W\
-  AS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\车辆爬虫项目\\\\DEMO-PROJECT\":true,\"TERMINAL_E\
-  NV_COLLECTION_PROMPT_KEY\":false,\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\STUDY\
-  \\\\TON\\\\TON_TOOLS\":true,\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\STUDY\\\
-  \\TON\\\\TON_TOOLS\":\"e:\\\\Study\\\\ton\\\\ton_tools\\\\venv\\\\Scripts\\\\\
-  python.exe\",\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\WECHAT-PROJECT\":tr\
-  ue,\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\项目\\\\WECHAT-PROJECT\":\"e:\\\\项目\
-  \\\\wechat-project\\\\.venv\\\\Scripts\\\\python.exe\",\"PYTHON_WAS_DISCOVERY\
-  _TRIGGERED_E:\\\\项目\\\\车辆爬虫项目\\\\OCR-PROJECT\":true,\"PYTHON_WAS_DISCOVERY_TR\
-  IGGERED_E:\\\\项目\\\\WECHAT-PROJECT\\\\WECHAT_PROJECT\":true,\"WORKSPACE_FOLDE\
-  R_INTERPRETER_PATH_E:\\\\项目\\\\WECHAT-PROJECT\\\\WECHAT_PROJECT\":\"e:\\\\项目\\\
-  \\wechat-project\\\\.venv\\\\Scripts\\\\python.exe\",\"PYTHON_WAS_DISCOVERY_T\
-  RIGGERED_E:\\\\项目\\\\车辆爬虫项目\\\\VIN_SEARCH_END\":true,\"PYTHON_WAS_DISCOVERY_T\
-  RIGGERED_E:\\\\项目\\\\车辆爬虫项目\\\\VIN_SEARCH_END\\\\VIN_SEARCH_END\":true,\"PYTH\
-  ON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\车辆爬虫项目\\\\VIN-SEARCH\":true,\"remoteWo\
-  rkspaceKeysForWhichTheCopyIsDone_Key\":[\"1741608305951\"],\"PYTHON_WAS_DISCO\
-  VERY_TRIGGERED_E:\\\\COMPANY\\\\FREE-AI\":true,\"PYTHON_WAS_DISCOVERY_TRIGGER\
-  ED_E:\\\\COMPANY\\\\SCIEND\\\\SCIWRITING\":true,\"WORKSPACE_FOLDER_INTERPRETE\
-  R_PATH_E:\\\\COMPANY\\\\SCIEND\\\\SCIWRITING\":\"e:\\\\Company\\\\SCIEnd\\\\v\
-  env\\\\Scripts\\\\python.exe\",\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\
-  \\\\专利资料\":true,\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\浏览器\\\\风锐浏览器\
-  \":true,\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\COMPANY\\\\浏览器\\\\风锐浏览器\":\
-  \"e:\\\\Company\\\\浏览器\\\\风锐浏览器\\\\.venv\\\\Scripts\\\\python.exe\",\"PYTHON_\
-  WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\FREESTATISTICUPDATE\":true,\"PYTHON_\
-  WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\FREESTATISTIC\":true,\"PYTHON_WAS_DI\
-  SCOVERY_TRIGGERED_E:\\\\COMPANY\\\\视频上传脚本\":true,\"PYTHON_WAS_DISCOVERY_TRIGG\
-  ERED_E:\\\\COMPANY\\\\FREE-PUBMED\":true,\"PYTHON_ENV_INFO_CACHEv2\":[{\"name\
-  \":\"\",\"location\":\"\",\"kind\":\"global-other\",\"executable\":{\"filename\
-  \":\"C:\\\\Users\\\\18228\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python\
-  38\\\\python.exe\",\"sysPrefix\":\"C:\\\\Users\\\\18228\\\\AppData\\\\Local\\\
-  \\Programs\\\\Python\\\\Python38\",\"ctime\":1709724913731,\"mtime\":16200140\
-  86000},\"display\":\"Python 3.8.10
+ms-python.python: "{\"VSCode.ABExp.FeatureData\":{\"features\":[\"config.python\
+  .analysis.supportRestructuredText\",\"config.python.locator\",\"config.window\
+  .experimentalTitleBarStyle\",\"copilotchat.config.chat.advanced.inlineEdits.i\
+  ncludeCursor\",\"copilotchat.config.chat.advanced.inlineEdits.instructionsVar\
+  iant\",\"copilot_ci\",\"extensions.gallery.useResourceApi\",\"livesharecontin\
+  uousaacf\",\"msEntraShowUpdateUserFlow\",\"pythonTerminalEnvVarActivation\",\
+  \"validate_micf\"],\"assignmentContext\":\"vsliv368cf:30146710;962ge761:30959\
+  799;pythonrstrctxt:31112756;nativeloc1:31192215;6074i472:31201624;customenabl\
+  ed:31248079;9064b325:31222308;copilot_t_ci:31222730;31787653:31262186;3e8i572\
+  6:31271747;useunpkgapi:31277719;\",\"configs\":[{\"Id\":\"vscode\",\"Paramete\
+  rs\":{\"config.python.analysis.supportRestructuredText\":true,\"config.python\
+  .locator\":\"native\",\"config.window.experimentalTitleBarStyle\":\"custom\",\
+  \"copilotchat.config.chat.advanced.inlineEdits.includeCursor\":true,\"copilot\
+  chat.config.chat.advanced.inlineEdits.instructionsVariant\":\"v1\",\"copilot_\
+  ci\":true,\"extensions.gallery.useResourceApi\":\"unpkg\",\"livesharecontinuo\
+  usaa\":false,\"msEntraShowUpdateUserFlow\":true,\"pythonTerminalEnvVarActivat\
+  ion\":true,\"validate_mi\":false}}]},\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\
+  \\\\TEST\":true,\"autoSelectionInterpretersQueriedOnce\":true,\"remoteWorkspa\
+  ceFolderKeysForWhichTheCopyIsDone_Key\":[\"E:\\\\STUDY\\\\SQLMODEL学习\",\"E:\\\
+  \\STUDY\\\\算法学习\",\"D:\\\\PYSIDE6-FLUENT-WIDGETS-PRO-V0.8.4\",\"E:\\\\STUDY\\\
+  \\FASTAPI-STUDY\",\"E:\\\\项目\\\\车辆爬虫项目\\\\ERP-MERGE\",\"C:\\\\USERS\\\\18228\\\
+  \\DESKTOP\\\\TEST1\\\\TEST\",\"E:\\\\COMPANY\\\\FREE-PUBMED\",\"E:\\\\COMPANY\
+  \\\\视频上传脚本\",\"E:\\\\COMPANY\\\\FREESTATISTIC\",\"E:\\\\COMPANY\\\\FREESTATIS\
+  TICUPDATE\",\"E:\\\\COMPANY\\\\浏览器\\\\风锐浏览器\",\"E:\\\\COMPANY\\\\专利资料\",\"E:\\\
+  \\COMPANY\\\\SCIEND\\\\SCIWRITING\",\"E:\\\\COMPANY\\\\FREE-AI\",\"E:\\\\项目\\\
+  \\车辆爬虫项目\\\\VIN-SEARCH\",\"E:\\\\项目\\\\车辆爬虫项目\\\\VIN_SEARCH_END\\\\VIN_SEARCH\
+  _END\",\"E:\\\\项目\\\\车辆爬虫项目\\\\VIN_SEARCH_END\",\"E:\\\\项目\\\\WECHAT-PROJECT\\\
+  \\WECHAT_PROJECT\",\"E:\\\\项目\\\\车辆爬虫项目\\\\OCR-PROJECT\",\"E:\\\\项目\\\\WECHAT\
+  -PROJECT\",\"E:\\\\STUDY\\\\TON\\\\TON_TOOLS\",\"E:\\\\项目\\\\车辆爬虫项目\\\\DEMO-P\
+  ROJECT\",\"E:\\\\项目\\\\地址污染\\\\ADDRESS-GENERATOR\",\"E:\\\\项目\\\\TEST\"],\"is\
+  RemoteGlobalSettingCopiedKey\":true,\"SHELL_INTEGRATION_WORKING_KEY_powershel\
+  lCore\":true,\"pylanceDefaultPromptMemento\":true,\"WORKSPACE_FOLDER_INTERPRE\
+  TER_PATH_E:\\\\项目\\\\TEST\":\"e:\\\\项目\\\\test\\\\.venv\\\\Scripts\\\\python.\
+  exe\",\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\地址污染\\\\ADDRESS-GENERATOR\
+  \":true,\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\车辆爬虫项目\\\\DEMO-PROJECT\"\
+  :true,\"TERMINAL_ENV_COLLECTION_PROMPT_KEY\":false,\"PYTHON_WAS_DISCOVERY_TRI\
+  GGERED_E:\\\\STUDY\\\\TON\\\\TON_TOOLS\":true,\"WORKSPACE_FOLDER_INTERPRETER_\
+  PATH_E:\\\\STUDY\\\\TON\\\\TON_TOOLS\":\"e:\\\\Study\\\\ton\\\\ton_tools\\\\v\
+  env\\\\Scripts\\\\python.exe\",\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\W\
+  ECHAT-PROJECT\":true,\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\项目\\\\WECHAT-P\
+  ROJECT\":\"e:\\\\项目\\\\wechat-project\\\\.venv\\\\Scripts\\\\python.exe\",\"P\
+  YTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\车辆爬虫项目\\\\OCR-PROJECT\":true,\"PYTH\
+  ON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\WECHAT-PROJECT\\\\WECHAT_PROJECT\":tru\
+  e,\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\项目\\\\WECHAT-PROJECT\\\\WECHAT_PR\
+  OJECT\":\"e:\\\\项目\\\\wechat-project\\\\.venv\\\\Scripts\\\\python.exe\",\"PY\
+  THON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\车辆爬虫项目\\\\VIN_SEARCH_END\":true,\"PY\
+  THON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\车辆爬虫项目\\\\VIN_SEARCH_END\\\\VIN_SEAR\
+  CH_END\":true,\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\车辆爬虫项目\\\\VIN-SEAR\
+  CH\":true,\"remoteWorkspaceKeysForWhichTheCopyIsDone_Key\":[\"1741608305951\"\
+  ],\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\FREE-AI\":true,\"PYTHON_W\
+  AS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\SCIEND\\\\SCIWRITING\":true,\"WORKSPA\
+  CE_FOLDER_INTERPRETER_PATH_E:\\\\COMPANY\\\\SCIEND\\\\SCIWRITING\":\"e:\\\\Co\
+  mpany\\\\SCIEnd\\\\venv\\\\Scripts\\\\python.exe\",\"PYTHON_WAS_DISCOVERY_TRI\
+  GGERED_E:\\\\COMPANY\\\\专利资料\":true,\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\CO\
+  MPANY\\\\浏览器\\\\风锐浏览器\":true,\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\COMPANY\
+  \\\\浏览器\\\\风锐浏览器\":\"e:\\\\Company\\\\浏览器\\\\风锐浏览器\\\\.venv\\\\Scripts\\\\pyt\
+  hon.exe\",\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\FREESTATISTICUPDA\
+  TE\":true,\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\FREESTATISTIC\":t\
+  rue,\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\视频上传脚本\":true,\"PYTHON_\
+  WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\FREE-PUBMED\":true,\"PYTHON_ENV_INFO\
+  _CACHEv2\":[{\"name\":\"\",\"location\":\"\",\"kind\":\"global-other\",\"exec\
+  utable\":{\"filename\":\"C:\\\\Users\\\\18228\\\\AppData\\\\Local\\\\Programs\
+  \\\\Python\\\\Python38\\\\python.exe\",\"sysPrefix\":\"C:\\\\Users\\\\18228\\\
+  \\AppData\\\\Local\\\\Programs\\\\Python\\\\Python38\",\"ctime\":170972491373\
+  1,\"mtime\":1620014086000},\"display\":\"Python 3.8.10
   64-bit\",\"version\":{\"major\":3,\"minor\":8,\"micro\":10,\"release\":{\"lev\
   el\":\"final\",\"serial\":0},\"sysVersion\":\"3.8.10 (tags/v3.8.10:3d8993a,
   May  3 2021, 11:48:03) [MSC v.1928 64 bit
@@ -333,8 +465,9 @@ ms-python.python: "{\"VSCode.ABExp.FeatureData\":{\"features\":[\"config.chat.e\
   64-bit\"},{\"name\":\".venv\",\"location\":\"e:\\\\项目\\\\test\\\\.venv\",\"ki\
   nd\":\"virt-venv\",\"executable\":{\"filename\":\"e:\\\\项目\\\\test\\\\.venv\\\
   \\Scripts\\\\python.exe\",\"sysPrefix\":\"e:\\\\项目\\\\test\\\\.venv\",\"ctime\
-  \":1734421930808,\"mtime\":1734421930808},\"searchLocation\":\"file:///e%3A/%\
-  E9%A1%B9%E7%9B%AE/test\",\"display\":\"Python 3.13.1
+  \":1734421930808,\"mtime\":1734421930808},\"searchLocation\":{\"$mid\":1,\"fs\
+  Path\":\"e:\\\\项目\\\\test\",\"_sep\":1,\"path\":\"/e:/项目/test\",\"scheme\":\"\
+  file\"},\"display\":\"Python 3.13.1
   ('.venv')\",\"version\":{\"major\":3,\"minor\":13,\"micro\":1,\"release\":{\"\
   level\":\"final\",\"serial\":0},\"sysVersion\":\"3.13.1 (main, Dec  6 2024,
   18:07:41) [MSC v.1942 64 bit
@@ -369,9 +502,9 @@ ms-python.python: "{\"VSCode.ABExp.FeatureData\":{\"features\":[\"config.chat.e\
   rator\\\\.venv\",\"kind\":\"virt-venv\",\"executable\":{\"filename\":\"e:\\\\\
   项目\\\\地址污染\\\\address-generator\\\\.venv\\\\Scripts\\\\python.exe\",\"sysPref\
   ix\":\"e:\\\\项目\\\\地址污染\\\\address-generator\\\\.venv\",\"ctime\":17344219308\
-  08,\"mtime\":1734421930808},\"searchLocation\":\"file:///e%3A/%E9%A1%B9%E7%9B\
-  %AE/%E5%9C%B0%E5%9D%80%E6%B1%A1%E6%9F%93/address-generator\",\"display\":\"Py\
-  thon 3.13.1
+  08,\"mtime\":1734421930808},\"searchLocation\":{\"$mid\":1,\"fsPath\":\"e:\\\
+  \\项目\\\\地址污染\\\\address-generator\",\"_sep\":1,\"path\":\"/e:/项目/地址污染/address\
+  -generator\",\"scheme\":\"file\"},\"display\":\"Python 3.13.1
   ('.venv')\",\"version\":{\"major\":3,\"minor\":13,\"micro\":1,\"release\":{\"\
   level\":\"final\",\"serial\":0},\"sysVersion\":\"3.13.1 (main, Dec  6 2024,
   18:07:41) [MSC v.1942 64 bit
@@ -382,9 +515,9 @@ ms-python.python: "{\"VSCode.ABExp.FeatureData\":{\"features\":[\"config.chat.e\
   \\\\.venv\",\"kind\":\"virt-venv\",\"executable\":{\"filename\":\"e:\\\\项目\\\
   \\车辆爬虫项目\\\\demo-project\\\\.venv\\\\Scripts\\\\python.exe\",\"sysPrefix\":\"\
   e:\\\\项目\\\\车辆爬虫项目\\\\demo-project\\\\.venv\",\"ctime\":1710067630942,\"mtime\
-  \":1707230490000},\"searchLocation\":\"file:///e%3A/%E9%A1%B9%E7%9B%AE/%E8%BD\
-  %A6%E8%BE%86%E7%88%AC%E8%99%AB%E9%A1%B9%E7%9B%AE/demo-project\",\"display\":\
-  \"Python 3.11.8
+  \":1707230490000},\"searchLocation\":{\"$mid\":1,\"fsPath\":\"e:\\\\项目\\\\车辆爬\
+  虫项目\\\\demo-project\",\"_sep\":1,\"path\":\"/e:/项目/车辆爬虫项目/demo-project\",\"sc\
+  heme\":\"file\"},\"display\":\"Python 3.11.8
   ('.venv')\",\"version\":{\"major\":3,\"minor\":11,\"micro\":8,\"release\":{\"\
   level\":\"final\",\"serial\":0},\"sysVersion\":\"3.11.8 (tags/v3.11.8:db85d51,
   Feb  6 2024, 22:03:32) [MSC v.1937 64 bit
@@ -395,8 +528,9 @@ ms-python.python: "{\"VSCode.ABExp.FeatureData\":{\"features\":[\"config.chat.e\
   \\venv\",\"kind\":\"virt-venv\",\"executable\":{\"filename\":\"e:\\\\Study\\\
   \\ton\\\\ton_tools\\\\venv\\\\Scripts\\\\python.exe\",\"sysPrefix\":\"e:\\\\S\
   tudy\\\\ton\\\\ton_tools\\\\venv\",\"ctime\":1717017941565,\"mtime\":17170179\
-  41565},\"searchLocation\":\"file:///e%3A/Study/ton/ton_tools/venv\",\"display\
-  \":\"Python 3.11.8
+  41565},\"searchLocation\":{\"$mid\":1,\"fsPath\":\"e:\\\\Study\\\\ton\\\\ton_\
+  tools\\\\venv\",\"_sep\":1,\"path\":\"/e:/Study/ton/ton_tools/venv\",\"scheme\
+  \":\"file\"},\"display\":\"Python 3.11.8
   ('venv')\",\"version\":{\"major\":3,\"minor\":11,\"micro\":8,\"release\":{\"l\
   evel\":\"final\",\"serial\":0},\"sysVersion\":\"3.11.8 (tags/v3.11.8:db85d51,
   Feb  6 2024, 22:03:32) [MSC v.1937 64 bit
@@ -407,8 +541,9 @@ ms-python.python: "{\"VSCode.ABExp.FeatureData\":{\"features\":[\"config.chat.e\
   nv\",\"kind\":\"virt-venv\",\"executable\":{\"filename\":\"e:\\\\项目\\\\wechat\
   -project\\\\.venv\\\\Scripts\\\\python.exe\",\"sysPrefix\":\"e:\\\\项目\\\\wech\
   at-project\\\\.venv\",\"ctime\":1710067630942,\"mtime\":1707230490000},\"sear\
-  chLocation\":\"file:///e%3A/%E9%A1%B9%E7%9B%AE/wechat-project\",\"display\":\
-  \"Python 3.11.8
+  chLocation\":{\"$mid\":1,\"fsPath\":\"e:\\\\项目\\\\wechat-project\",\"_sep\":1,\
+  \"path\":\"/e:/项目/wechat-project\",\"scheme\":\"file\"},\"display\":\"Python
+  3.11.8
   ('.venv')\",\"version\":{\"major\":3,\"minor\":11,\"micro\":8,\"release\":{\"\
   level\":\"final\",\"serial\":0},\"sysVersion\":\"3.11.8 (tags/v3.11.8:db85d51,
   Feb  6 2024, 22:03:32) [MSC v.1937 64 bit
@@ -419,9 +554,9 @@ ms-python.python: "{\"VSCode.ABExp.FeatureData\":{\"features\":[\"config.chat.e\
   \\\\.venv\",\"kind\":\"virt-venv\",\"executable\":{\"filename\":\"e:\\\\项目\\\
   \\车辆爬虫项目\\\\ocr-project\\\\.venv\\\\Scripts\\\\python.exe\",\"sysPrefix\":\"e:\
   \\\\项目\\\\车辆爬虫项目\\\\ocr-project\\\\.venv\",\"ctime\":1710067630942,\"mtime\":\
-  1707230490000},\"searchLocation\":\"file:///e%3A/%E9%A1%B9%E7%9B%AE/%E8%BD%A6\
-  %E8%BE%86%E7%88%AC%E8%99%AB%E9%A1%B9%E7%9B%AE/ocr-project\",\"display\":\"Pyt\
-  hon 3.11.8
+  1707230490000},\"searchLocation\":{\"$mid\":1,\"fsPath\":\"e:\\\\项目\\\\车辆爬虫项目\
+  \\\\ocr-project\",\"_sep\":1,\"path\":\"/e:/项目/车辆爬虫项目/ocr-project\",\"scheme\
+  \":\"file\"},\"display\":\"Python 3.11.8
   ('.venv')\",\"version\":{\"major\":3,\"minor\":11,\"micro\":8,\"release\":{\"\
   level\":\"final\",\"serial\":0},\"sysVersion\":\"3.11.8 (tags/v3.11.8:db85d51,
   Feb  6 2024, 22:03:32) [MSC v.1937 64 bit
@@ -431,9 +566,9 @@ ms-python.python: "{\"VSCode.ABExp.FeatureData\":{\"features\":[\"config.chat.e\
   venv)\"},{\"name\":\".venv\",\"location\":\"e:\\\\Company\\\\专利资料\\\\.venv\",\
   \"kind\":\"virt-venv\",\"executable\":{\"filename\":\"e:\\\\Company\\\\专利资料\\\
   \\.venv\\\\Scripts\\\\python.exe\",\"sysPrefix\":\"e:\\\\Company\\\\专利资料\\\\.\
-  venv\",\"ctime\":1734421930808,\"mtime\":1734421930808},\"searchLocation\":\"\
-  file:///e%3A/Company/%E4%B8%93%E5%88%A9%E8%B5%84%E6%96%99\",\"display\":\"Pyt\
-  hon 3.13.1
+  venv\",\"ctime\":1734421930808,\"mtime\":1734421930808},\"searchLocation\":{\
+  \"$mid\":1,\"fsPath\":\"e:\\\\Company\\\\专利资料\",\"_sep\":1,\"path\":\"/e:/Com\
+  pany/专利资料\",\"scheme\":\"file\"},\"display\":\"Python 3.13.1
   ('.venv')\",\"version\":{\"major\":3,\"minor\":13,\"micro\":1,\"release\":{\"\
   level\":\"final\",\"serial\":0},\"sysVersion\":\"3.13.1 (main, Dec  6 2024,
   18:07:41) [MSC v.1942 64 bit
@@ -444,8 +579,9 @@ ms-python.python: "{\"VSCode.ABExp.FeatureData\":{\"features\":[\"config.chat.e\
   .venv\",\"kind\":\"virt-venv\",\"executable\":{\"filename\":\"e:\\\\Company\\\
   \\浏览器\\\\风锐浏览器\\\\.venv\\\\Scripts\\\\python.exe\",\"sysPrefix\":\"e:\\\\Comp\
   any\\\\浏览器\\\\风锐浏览器\\\\.venv\",\"ctime\":1695546977259,\"mtime\":165936240000\
-  0},\"searchLocation\":\"file:///e%3A/Company/%E6%B5%8F%E8%A7%88%E5%99%A8/%E9%\
-  A3%8E%E9%94%90%E6%B5%8F%E8%A7%88%E5%99%A8\",\"display\":\"Python 3.10.6
+  0},\"searchLocation\":{\"$mid\":1,\"fsPath\":\"e:\\\\Company\\\\浏览器\\\\风锐浏览器\
+  \",\"_sep\":1,\"path\":\"/e:/Company/浏览器/风锐浏览器\",\"scheme\":\"file\"},\"displ\
+  ay\":\"Python 3.10.6
   ('.venv')\",\"version\":{\"major\":3,\"minor\":10,\"micro\":6,\"release\":{\"\
   level\":\"final\",\"serial\":0},\"sysVersion\":\"3.10.6 (tags/v3.10.6:9c7b4bd,
   Aug  1 2022, 21:53:49) [MSC v.1932 64 bit
@@ -456,8 +592,9 @@ ms-python.python: "{\"VSCode.ABExp.FeatureData\":{\"features\":[\"config.chat.e\
   ate\\\\.venv\",\"kind\":\"virt-venv\",\"executable\":{\"filename\":\"e:\\\\Co\
   mpany\\\\FreeStatisticUpdate\\\\.venv\\\\Scripts\\\\python.exe\",\"sysPrefix\
   \":\"e:\\\\Company\\\\FreeStatisticUpdate\\\\.venv\",\"ctime\":1695546977259,\
-  \"mtime\":1659362400000},\"searchLocation\":\"file:///e%3A/Company/FreeStatis\
-  ticUpdate\",\"display\":\"Python 3.10.6
+  \"mtime\":1659362400000},\"searchLocation\":{\"$mid\":1,\"fsPath\":\"e:\\\\Co\
+  mpany\\\\FreeStatisticUpdate\",\"_sep\":1,\"path\":\"/e:/Company/FreeStatisti\
+  cUpdate\",\"scheme\":\"file\"},\"display\":\"Python 3.10.6
   ('.venv')\",\"version\":{\"major\":3,\"minor\":10,\"micro\":6,\"release\":{\"\
   level\":\"final\",\"serial\":0},\"sysVersion\":\"3.10.6 (tags/v3.10.6:9c7b4bd,
   Aug  1 2022, 21:53:49) [MSC v.1932 64 bit
@@ -468,8 +605,9 @@ ms-python.python: "{\"VSCode.ABExp.FeatureData\":{\"features\":[\"config.chat.e\
   \\.venv\",\"kind\":\"virt-venv\",\"executable\":{\"filename\":\"e:\\\\Company\
   \\\\FreeStatistic\\\\.venv\\\\Scripts\\\\python.exe\",\"sysPrefix\":\"e:\\\\C\
   ompany\\\\FreeStatistic\\\\.venv\",\"ctime\":1710067630942,\"mtime\":17072304\
-  90000},\"searchLocation\":\"file:///e%3A/Company/FreeStatistic\",\"display\":\
-  \"Python 3.11.8
+  90000},\"searchLocation\":{\"$mid\":1,\"fsPath\":\"e:\\\\Company\\\\FreeStati\
+  stic\",\"_sep\":1,\"path\":\"/e:/Company/FreeStatistic\",\"scheme\":\"file\"},\
+  \"display\":\"Python 3.11.8
   ('.venv')\",\"version\":{\"major\":3,\"minor\":11,\"micro\":8,\"release\":{\"\
   level\":\"final\",\"serial\":0},\"sysVersion\":\"3.11.8 (tags/v3.11.8:db85d51,
   Feb  6 2024, 22:03:32) [MSC v.1937 64 bit
@@ -480,8 +618,8 @@ ms-python.python: "{\"VSCode.ABExp.FeatureData\":{\"features\":[\"config.chat.e\
   \",\"kind\":\"virt-venv\",\"executable\":{\"filename\":\"e:\\\\Company\\\\视频上\
   传脚本\\\\.venv\\\\Scripts\\\\python.exe\",\"sysPrefix\":\"e:\\\\Company\\\\视频上传\
   脚本\\\\.venv\",\"ctime\":1695546977259,\"mtime\":1659362400000},\"searchLocati\
-  on\":\"file:///e%3A/Company/%E8%A7%86%E9%A2%91%E4%B8%8A%E4%BC%A0%E8%84%9A%E6%\
-  9C%AC\",\"display\":\"Python 3.10.6
+  on\":{\"$mid\":1,\"fsPath\":\"e:\\\\Company\\\\视频上传脚本\",\"_sep\":1,\"path\":\
+  \"/e:/Company/视频上传脚本\",\"scheme\":\"file\"},\"display\":\"Python 3.10.6
   ('.venv')\",\"version\":{\"major\":3,\"minor\":10,\"micro\":6,\"release\":{\"\
   level\":\"final\",\"serial\":0},\"sysVersion\":\"3.10.6 (tags/v3.10.6:9c7b4bd,
   Aug  1 2022, 21:53:49) [MSC v.1932 64 bit
@@ -492,8 +630,9 @@ ms-python.python: "{\"VSCode.ABExp.FeatureData\":{\"features\":[\"config.chat.e\
   venv\",\"kind\":\"virt-venv\",\"executable\":{\"filename\":\"e:\\\\Company\\\
   \\free-pubmed\\\\.venv\\\\Scripts\\\\python.exe\",\"sysPrefix\":\"e:\\\\Compa\
   ny\\\\free-pubmed\\\\.venv\",\"ctime\":1734421930808,\"mtime\":1734421930808},\
-  \"searchLocation\":\"file:///e%3A/Company/free-pubmed\",\"display\":\"Python
-  3.13.1
+  \"searchLocation\":{\"$mid\":1,\"fsPath\":\"e:\\\\Company\\\\free-pubmed\",\"\
+  _sep\":1,\"path\":\"/e:/Company/free-pubmed\",\"scheme\":\"file\"},\"display\
+  \":\"Python 3.13.1
   ('.venv')\",\"version\":{\"major\":3,\"minor\":13,\"micro\":1,\"release\":{\"\
   level\":\"final\",\"serial\":0},\"sysVersion\":\"3.13.1 (main, Dec  6 2024,
   18:07:41) [MSC v.1942 64 bit
@@ -504,9 +643,9 @@ ms-python.python: "{\"VSCode.ABExp.FeatureData\":{\"features\":[\"config.chat.e\
   \\.venv\",\"kind\":\"virt-venv\",\"executable\":{\"filename\":\"e:\\\\项目\\\\车\
   辆爬虫项目\\\\erp-merge\\\\.venv\\\\Scripts\\\\python.exe\",\"sysPrefix\":\"e:\\\\\
   项目\\\\车辆爬虫项目\\\\erp-merge\\\\.venv\",\"ctime\":1710067630942,\"mtime\":170723\
-  0490000},\"searchLocation\":\"file:///e%3A/%E9%A1%B9%E7%9B%AE/%E8%BD%A6%E8%BE\
-  %86%E7%88%AC%E8%99%AB%E9%A1%B9%E7%9B%AE/erp-merge\",\"display\":\"Python
-  3.11.8
+  0490000},\"searchLocation\":{\"$mid\":1,\"fsPath\":\"e:\\\\项目\\\\车辆爬虫项目\\\\er\
+  p-merge\",\"_sep\":1,\"path\":\"/e:/项目/车辆爬虫项目/erp-merge\",\"scheme\":\"file\"\
+  },\"display\":\"Python 3.11.8
   ('.venv')\",\"version\":{\"major\":3,\"minor\":11,\"micro\":8,\"release\":{\"\
   level\":\"final\",\"serial\":0},\"sysVersion\":\"3.11.8 (tags/v3.11.8:db85d51,
   Feb  6 2024, 22:03:32) [MSC v.1937 64 bit
@@ -518,9 +657,9 @@ ms-python.python: "{\"VSCode.ABExp.FeatureData\":{\"features\":[\"config.chat.e\
   ename\":\"e:\\\\项目\\\\车辆爬虫项目\\\\vin_search_end\\\\vin_search_end\\\\.venv\\\\\
   Scripts\\\\python.exe\",\"sysPrefix\":\"e:\\\\项目\\\\车辆爬虫项目\\\\vin_search_end\\\
   \\vin_search_end\\\\.venv\",\"ctime\":1710067630942,\"mtime\":1707230490000},\
-  \"searchLocation\":\"file:///e%3A/%E9%A1%B9%E7%9B%AE/%E8%BD%A6%E8%BE%86%E7%88\
-  %AC%E8%99%AB%E9%A1%B9%E7%9B%AE/vin_search_end/vin_search_end\",\"display\":\"\
-  Python 3.11.8
+  \"searchLocation\":{\"$mid\":1,\"fsPath\":\"e:\\\\项目\\\\车辆爬虫项目\\\\vin_search_\
+  end\\\\vin_search_end\",\"_sep\":1,\"path\":\"/e:/项目/车辆爬虫项目/vin_search_end/vi\
+  n_search_end\",\"scheme\":\"file\"},\"display\":\"Python 3.11.8
   ('.venv')\",\"version\":{\"major\":3,\"minor\":11,\"micro\":8,\"release\":{\"\
   level\":\"final\",\"serial\":0},\"sysVersion\":\"3.11.8 (tags/v3.11.8:db85d51,
   Feb  6 2024, 22:03:32) [MSC v.1937 64 bit
@@ -532,8 +671,9 @@ ms-python.python: "{\"VSCode.ABExp.FeatureData\":{\"features\":[\"config.chat.e\
   venv\",\"kind\":\"virt-venv\",\"executable\":{\"filename\":\"e:\\\\Study\\\\f\
   astapi-study\\\\.venv\\\\Scripts\\\\python.exe\",\"sysPrefix\":\"e:\\\\Study\\\
   \\fastapi-study\\\\.venv\",\"ctime\":1710067630942,\"mtime\":1707230490000},\
-  \"searchLocation\":\"file:///e%3A/Study/fastapi-study\",\"display\":\"Python
-  3.11.8
+  \"searchLocation\":{\"$mid\":1,\"fsPath\":\"e:\\\\Study\\\\fastapi-study\",\"\
+  _sep\":1,\"path\":\"/e:/Study/fastapi-study\",\"scheme\":\"file\"},\"display\
+  \":\"Python 3.11.8
   ('.venv')\",\"version\":{\"major\":3,\"minor\":11,\"micro\":8,\"release\":{\"\
   level\":\"final\",\"serial\":0},\"sysVersion\":\"3.11.8 (tags/v3.11.8:db85d51,
   Feb  6 2024, 22:03:32) [MSC v.1937 64 bit
@@ -544,8 +684,9 @@ ms-python.python: "{\"VSCode.ABExp.FeatureData\":{\"features\":[\"config.chat.e\
   v0.8.4\\\\.venv\",\"kind\":\"virt-venv\",\"executable\":{\"filename\":\"d:\\\
   \\PySide6-Fluent-Widgets-Pro-v0.8.4\\\\.venv\\\\Scripts\\\\python.exe\",\"sys\
   Prefix\":\"d:\\\\PySide6-Fluent-Widgets-Pro-v0.8.4\\\\.venv\",\"ctime\":17100\
-  67630942,\"mtime\":1707230490000},\"searchLocation\":\"file:///d%3A/PySide6-F\
-  luent-Widgets-Pro-v0.8.4\",\"display\":\"Python 3.11.8
+  67630942,\"mtime\":1707230490000},\"searchLocation\":{\"$mid\":1,\"fsPath\":\
+  \"d:\\\\PySide6-Fluent-Widgets-Pro-v0.8.4\",\"_sep\":1,\"path\":\"/d:/PySide6\
+  -Fluent-Widgets-Pro-v0.8.4\",\"scheme\":\"file\"},\"display\":\"Python 3.11.8
   ('.venv')\",\"version\":{\"major\":3,\"minor\":11,\"micro\":8,\"release\":{\"\
   level\":\"final\",\"serial\":0},\"sysVersion\":\"3.11.8 (tags/v3.11.8:db85d51,
   Feb  6 2024, 22:03:32) [MSC v.1937 64 bit
@@ -555,14 +696,27 @@ ms-python.python: "{\"VSCode.ABExp.FeatureData\":{\"features\":[\"config.chat.e\
   venv)\"},{\"name\":\".venv\",\"location\":\"e:\\\\Study\\\\算法学习\\\\.venv\",\"\
   kind\":\"virt-venv\",\"executable\":{\"filename\":\"e:\\\\Study\\\\算法学习\\\\.v\
   env\\\\Scripts\\\\python.exe\",\"sysPrefix\":\"e:\\\\Study\\\\算法学习\\\\.venv\",\
-  \"ctime\":1710067630942,\"mtime\":1707230490000},\"searchLocation\":\"file://\
-  /e%3A/Study/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0\",\"display\":\"Python 3.11.8
+  \"ctime\":1710067630942,\"mtime\":1707230490000},\"searchLocation\":{\"$mid\"\
+  :1,\"fsPath\":\"e:\\\\Study\\\\算法学习\",\"_sep\":1,\"path\":\"/e:/Study/算法学习\",\
+  \"scheme\":\"file\"},\"display\":\"Python 3.11.8
   ('.venv')\",\"version\":{\"major\":3,\"minor\":11,\"micro\":8,\"release\":{\"\
   level\":\"final\",\"serial\":0},\"sysVersion\":\"3.11.8 (tags/v3.11.8:db85d51,
   Feb  6 2024, 22:03:32) [MSC v.1937 64 bit
   (AMD64)]\"},\"arch\":3,\"distro\":{\"org\":\"\"},\"source\":[],\"type\":\"Vir\
   tual\",\"id\":\"E:\\\\STUDY\\\\算法学习\\\\.VENV\\\\SCRIPTS\\\\PYTHON.EXE\",\"det\
   ailedDisplayName\":\"Python 3.11.8 ('.venv':
+  venv)\"},{\"name\":\".venv\",\"location\":\"e:\\\\Study\\\\SqlModel学习\\\\.venv\
+  \",\"kind\":\"virt-venv\",\"executable\":{\"filename\":\"e:\\\\Study\\\\SqlMo\
+  del学习\\\\.venv\\\\Scripts\\\\python.exe\",\"sysPrefix\":\"e:\\\\Study\\\\SqlM\
+  odel学习\\\\.venv\",\"ctime\":1710067630942,\"mtime\":1707230490000},\"searchLo\
+  cation\":{\"$mid\":1,\"fsPath\":\"e:\\\\Study\\\\SqlModel学习\",\"_sep\":1,\"pa\
+  th\":\"/e:/Study/SqlModel学习\",\"scheme\":\"file\"},\"display\":\"Python 3.11.8
+  ('.venv')\",\"version\":{\"major\":3,\"minor\":11,\"micro\":8,\"release\":{\"\
+  level\":\"final\",\"serial\":0},\"sysVersion\":\"3.11.8 (tags/v3.11.8:db85d51,
+  Feb  6 2024, 22:03:32) [MSC v.1937 64 bit
+  (AMD64)]\"},\"arch\":3,\"distro\":{\"org\":\"\"},\"source\":[],\"type\":\"Vir\
+  tual\",\"id\":\"E:\\\\STUDY\\\\SQLMODEL学习\\\\.VENV\\\\SCRIPTS\\\\PYTHON.EXE\",\
+  \"detailedDisplayName\":\"Python 3.11.8 ('.venv':
   venv)\"}],\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\COMPANY\\\\FREE-PUBMED\":\
   \"e:\\\\Company\\\\free-pubmed\\\\.venv\\\\Scripts\\\\python.exe\",\"PYTHON_W\
   AS_DISCOVERY_TRIGGERED_C:\\\\USERS\\\\18228\\\\DESKTOP\\\\TEST1\\\\TEST\":tru\
@@ -574,269 +728,99 @@ ms-python.python: "{\"VSCode.ABExp.FeatureData\":{\"features\":[\"config.chat.e\
   \\python.exe\",\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\STUDY\\\\FASTAPI-STUDY\
   \":true,\"PYTHON_WAS_DISCOVERY_TRIGGERED_D:\\\\PYSIDE6-FLUENT-WIDGETS-PRO-V0.\
   8.4\":true,\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\STUDY\\\\算法学习\":true,\"PYTH\
-  ON_GLOBAL_STORAGE_KEYS\":[{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COM\
-  PANY\\\\FREE-AI\",\"defaultValue\":false},{\"key\":\"WORKSPACE_FOLDER_INTERPR\
-  ETER_PATH_E:\\\\COMPANY\\\\FREE-AI\"},{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGER\
-  ED_E:\\\\STUDY\\\\算法学习\",\"defaultValue\":false},{\"key\":\"WORKSPACE_FOLDER_\
-  INTERPRETER_PATH_E:\\\\STUDY\\\\算法学习\"},{\"key\":\"SHELL_INTEGRATION_WORKING_\
-  KEY_other\"},{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\浏览器\\\
-  \\风锐浏览器\",\"defaultValue\":false},{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_PAT\
-  H_E:\\\\COMPANY\\\\浏览器\\\\风锐浏览器\"},{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED_\
-  D:\\\\PYSIDE6-FLUENT-WIDGETS-PRO-V0.8.4\",\"defaultValue\":false},{\"key\":\"\
-  WORKSPACE_FOLDER_INTERPRETER_PATH_D:\\\\PYSIDE6-FLUENT-WIDGETS-PRO-V0.8.4\"},{\
-  \"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\FREESTATISTICUPDATE\
-  \",\"defaultValue\":false},{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\
-  \\COMPANY\\\\FREESTATISTICUPDATE\"},{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED\
-  _E:\\\\COMPANY\\\\视频上传脚本\",\"defaultValue\":false},{\"key\":\"WORKSPACE_FOLDE\
-  R_INTERPRETER_PATH_E:\\\\COMPANY\\\\视频上传脚本\"},{\"key\":\"PYTHON_WAS_DISCOVERY\
-  _TRIGGERED_E:\\\\COMPANY\\\\FREESTATISTIC\",\"defaultValue\":false},{\"key\":\
-  \"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\COMPANY\\\\FREESTATISTIC\"},{\"key\
-  \":\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\STUDY\\\\FASTAPI-STUDY\",\"defaultV\
-  alue\":false},{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\STUDY\\\\FAS\
-  TAPI-STUDY\"},{\"key\":\"autoSelectionInterpretersQueriedOnce\"},{\"key\":\"V\
-  SCode.ABExp.FeatureData\",\"defaultValue\":{\"features\":[]}},{\"key\":\"TERM\
-  INAL_ENV_COLLECTION_PROMPT_KEY\",\"defaultValue\":true},{\"key\":\"isRemoteGl\
-  obalSettingCopiedKey\",\"defaultValue\":false},{\"key\":\"remoteWorkspaceFold\
-  erKeysForWhichTheCopyIsDone_Key\",\"defaultValue\":[]},{\"key\":\"doNotShowEx\
-  tensionSurveyUntilTime\",\"defaultValue\":false},{\"key\":\"doNotShowExtensio\
-  nSurveyAgain\",\"defaultValue\":false},{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGE\
-  RED_E:\\\\项目\\\\车辆爬虫项目\\\\VIN_SEARCH_END\\\\VIN_SEARCH_END\",\"defaultValue\"\
-  :false},{\"key\":\"PYTHON_ENV_INFO_CACHEv2\",\"defaultValue\":[]},{\"key\":\"\
-  PYTHON_EXTENSION_GLOBAL_STORAGE_KEYS\",\"defaultValue\":[]},{\"key\":\"Python\
-  TensorBoardWebviewPreferredViewGroup\",\"defaultValue\":-1},{\"key\":\"SHELL_\
-  INTEGRATION_WORKING_KEY_powershellCore\"},{\"key\":\"WORKSPACE_FOLDER_INTERPR\
-  ETER_PATH_E:\\\\项目\\\\车辆爬虫项目\\\\VIN_SEARCH_END\\\\VIN_SEARCH_END\"},{\"key\":\
-  \"preferredGlobalPyInterpreter\"}]}"
-ms-python.vscode-pylance: '{"VSCode.ABExp.FeatureData":{"features":["config.chat.experimental.statusIndicator.enabled","config.notebook.experimental.generate","config.python.analysis.enableEditableInstallscf","config.python.analysis.enableExperimentalServer","config.python.analysis.supportRestructuredText","config.python.locator","config.python.REPL.sendToNativeREPL","config.window.experimentalTitleBarStyle","copilotchat.config.chat.advanced.inlineEdits.includeCursor","copilotchat.config.chat.advanced.inlineEdits.instructionsVariant","copilotchat.workspaceChunkSearch.shouldEagerlyInitLocalIndex","copilotImplementAbstractClasses","copilot_ci","livesharecontinuousaacf","mindaroBinariesVersion","msEntraShowUpdateUserFlow","portForwardingServiceEnabled-development","portForwardingServiceEnabled-production","portForwardingServiceEnabled-staging","pythonRecommendTensorboardExt","pythonTerminalEnvVarActivation","pythonTestAdapter","shouldUseGrpcService","validate_mi"],"assignmentContext":"vsliv368cf:30146710;vspor879:30202332;vspor708:30202333;vspor363:30204092;binariesv615:30325510;py29gd2263:31024239;c4g48928:30535728;962ge761:30959799;pythontbext0:30879054;nativerepl1:31139838;pythonrstrctxt:31112756;nativeloc1:31192215;iacca1:31171482;5fd0e150:31155592;6074i472:31201624;customenabled:31248079;hdaa2157:31222309;copilot_t_ci:31222730;jda6j935:31233686;pythoneinst12cf:31262606;bgtreat:31268568;4gafe986:31271826;31787653:31262186;3e8i5726:31271747;","configs":[{"Id":"vscode","Parameters":{"config.chat.experimental.statusIndicator.enabled":true,"config.notebook.experimental.generate":true,"config.python.analysis.enableEditableInstalls":false,"config.python.analysis.enableExperimentalServer":true,"config.python.analysis.supportRestructuredText":true,"config.python.locator":"native","config.python.REPL.sendToNativeREPL":true,"config.window.experimentalTitleBarStyle":"custom","copilotchat.config.chat.advanced.inlineEdits.includeCursor":true,"copilotchat.config.chat.advanced.inlineEdits.instructionsVariant":"v1","copilotchat.workspaceChunkSearch.shouldEagerlyInitLocalIndex":true,"copilotImplementAbstractClasses":true,"copilot_ci":true,"livesharecontinuousaa":false,"mindaroBinariesVersion":"1.0.20210615.1","msEntraShowUpdateUserFlow":true,"portForwardingServiceEnabled-development":true,"portForwardingServiceEnabled-production":true,"portForwardingServiceEnabled-staging":true,"pythonRecommendTensorboardExt":true,"pythonTerminalEnvVarActivation":true,"pythonTestAdapter":true,"shouldUseGrpcService":true,"validate_mi":true}}]}}'
-ms-toolsai.jupyter: '{"VSCode.ABExp.FeatureData":{"features":["config.chat.experimental.statusIndicator.enabled","config.notebook.experimental.generate","config.python.analysis.enableEditableInstalls","config.python.analysis.enableExperimentalServer","config.python.analysis.supportRestructuredText","config.python.locator","config.python.REPL.sendToNativeREPLcf","config.window.experimentalTitleBarStyle","copilotchat.config.chat.advanced.inlineEdits.includeCursor","copilotchat.config.chat.advanced.inlineEdits.instructionsVariant","copilotchat.workspaceChunkSearch.shouldEagerlyInitLocalIndex","copilotImplementAbstractClasses","copilot_ci","livesharecontinuousaacf","mindaroBinariesVersion","msEntraShowUpdateUserFlow","portForwardingServiceEnabled-development","portForwardingServiceEnabled-production","portForwardingServiceEnabled-staging","pythonRecommendTensorboardExt","pythonTerminalEnvVarActivation","pythonTestAdapter","shouldUseGrpcService","test1234cf","validate_micf"],"assignmentContext":"vsliv368cf:30146710;vspor879:30202332;vspor708:30202333;vspor363:30204092;binariesv615:30325510;py29gd2263:31024239;c4g48928:30535728;962ge761:30959799;pythontbext0:30879054;nativerepl2:31139839;pythonrstrctxt:31112756;nativeloc1:31192215;iacca1:31171482;5fd0e150:31155592;6074i472:31201624;customenabled:31248079;9064b325:31222308;copilot_t_ci:31222730;jda6j935:31233686;pythoneinst12:31262605;bgtreat:31268568;4gafe986:31271826;563cc122:31253270;31787653:31262186;3e8i5726:31271747;","configs":[{"Id":"vscode","Parameters":{"config.chat.experimental.statusIndicator.enabled":true,"config.notebook.experimental.generate":true,"config.python.analysis.enableEditableInstalls":true,"config.python.analysis.enableExperimentalServer":true,"config.python.analysis.supportRestructuredText":true,"config.python.locator":"native","config.python.REPL.sendToNativeREPL":false,"config.window.experimentalTitleBarStyle":"custom","copilotchat.config.chat.advanced.inlineEdits.includeCursor":true,"copilotchat.config.chat.advanced.inlineEdits.instructionsVariant":"v1","copilotchat.workspaceChunkSearch.shouldEagerlyInitLocalIndex":true,"copilotImplementAbstractClasses":true,"copilot_ci":true,"livesharecontinuousaa":false,"mindaroBinariesVersion":"1.0.20210615.1","msEntraShowUpdateUserFlow":true,"portForwardingServiceEnabled-development":true,"portForwardingServiceEnabled-production":true,"portForwardingServiceEnabled-staging":true,"pythonRecommendTensorboardExt":true,"pythonTerminalEnvVarActivation":true,"pythonTestAdapter":true,"shouldUseGrpcService":true,"test1234":false,"validate_mi":false}}]},"INTERPRETER_PATH_WAS_SELECTED_FOR_JUPYTER_SERVER":true,"CACHE_KEY_FOR_JUPYTER_KERNELSPEC_ROOT_PATH.":"file:///c%3A/Users/18228/AppData/Roaming/jupyter/kernels","DATASCIENCE.LAST_SAVED_CELL_LANGUAGE":"python","43ab6fdf60f7e422c9766f609067107074c264cd4e79f32e9fc42c7481672afe#ipykernel":true}'
-ms-vscode-remote.remote-ssh: '{"localExtensions":["akamud.vscode-theme-onelight","bradlc.vscode-tailwindcss","butov-dev.new-ui-dark-theme","Catppuccin.catppuccin-vsc","chadalen.vscode-jetbrains-icon-theme","charliermarsh.ruff","christian-kohler.path-intellisense","cweijan.dbclient-jdbc","cweijan.vscode-mysql-client2","danielpinto8zz6.c-cpp-compile-run","dbaeumer.vscode-eslint","DivyanshuAgrawal.competitive-programming-helper","donjayamanne.python-environment-manager","eamodio.gitlens","EditorConfig.EditorConfig","EricSia.pythonsnippets3","esbenp.prettier-vscode","evan-buss.font-switcher","formulahendry.auto-rename-tag","formulahendry.code-runner","GitHub.copilot","GitHub.copilot-chat","GitHub.github-vscode-theme","Gruntfuggly.todo-tree","Hyzeta.vscode-theme-github-light","jeff-hykin.better-cpp-syntax","johnpapa.winteriscoming","JuanBlanco.solidity","k--kato.intellij-idea-keybindings","KevinRose.vsc-python-indent","kisstkondoros.vscode-gutter-preview","mechatroner.rainbow-csv","mgesbert.python-path","MS-CEINTL.vscode-language-pack-zh-hans","ms-python.debugpy","ms-python.python","ms-python.vscode-pylance","ms-toolsai.jupyter","ms-toolsai.jupyter-renderers","ms-toolsai.vscode-jupyter-cell-tags","ms-toolsai.vscode-jupyter-slideshow","ms-vscode-remote.remote-ssh","ms-vscode-remote.remote-ssh-edit","ms-vscode.cpptools","ms-vscode.remote-explorer","njpwerner.autodocstring","njqdev.vscode-python-typehint","obrejla.netbeans-light-theme","PKief.material-icon-theme","ritwickdey.LiveServer","sdras.vue-vscode-snippets","sleistner.vscode-fileutils","ton-community.tact-vscode","tonwhales.func-vscode","uloco.theme-bluloco-light","Vue.volar","WakaTime.vscode-wakatime","wayou.vscode-todo-highlight","yzhang.markdown-all-in-one","zokugun.cron-tasks","zokugun.sync-settings"]}'
+  ON_WAS_DISCOVERY_TRIGGERED_E:\\\\STUDY\\\\SQLMODEL学习\":true,\"PYTHON_GLOBAL_S\
+  TORAGE_KEYS\":[{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\STUDY\\\\SQLMO\
+  DEL学习\",\"defaultValue\":false},{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_\
+  E:\\\\STUDY\\\\SQLMODEL学习\"},{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\\
+  项目\\\\地址污染\\\\ADDRESS-GENERATOR\",\"defaultValue\":false},{\"key\":\"WORKSPAC\
+  E_FOLDER_INTERPRETER_PATH_E:\\\\项目\\\\地址污染\\\\ADDRESS-GENERATOR\"},{\"key\":\
+  \"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\STUDY\\\\算法学习\",\"defaultValue\":false\
+  },{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\STUDY\\\\算法学习\"},{\"key\
+  \":\"SHELL_INTEGRATION_WORKING_KEY_other\"},{\"key\":\"PYTHON_WAS_DISCOVERY_T\
+  RIGGERED_E:\\\\COMPANY\\\\浏览器\\\\风锐浏览器\",\"defaultValue\":false},{\"key\":\"W\
+  ORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\COMPANY\\\\浏览器\\\\风锐浏览器\"},{\"key\":\"\
+  PYTHON_WAS_DISCOVERY_TRIGGERED_D:\\\\PYSIDE6-FLUENT-WIDGETS-PRO-V0.8.4\",\"de\
+  faultValue\":false},{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_D:\\\\PYSIDE\
+  6-FLUENT-WIDGETS-PRO-V0.8.4\"},{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\
+  \\COMPANY\\\\FREESTATISTICUPDATE\",\"defaultValue\":false},{\"key\":\"WORKSPA\
+  CE_FOLDER_INTERPRETER_PATH_E:\\\\COMPANY\\\\FREESTATISTICUPDATE\"},{\"key\":\
+  \"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\视频上传脚本\",\"defaultValue\":f\
+  alse},{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\COMPANY\\\\视频上传脚本\"}\
+  ,{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\FREESTATISTIC\",\
+  \"defaultValue\":false},{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\CO\
+  MPANY\\\\FREESTATISTIC\"},{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\STU\
+  DY\\\\FASTAPI-STUDY\",\"defaultValue\":false},{\"key\":\"WORKSPACE_FOLDER_INT\
+  ERPRETER_PATH_E:\\\\STUDY\\\\FASTAPI-STUDY\"},{\"key\":\"autoSelectionInterpr\
+  etersQueriedOnce\"},{\"key\":\"VSCode.ABExp.FeatureData\",\"defaultValue\":{\
+  \"features\":[]}},{\"key\":\"TERMINAL_ENV_COLLECTION_PROMPT_KEY\",\"defaultVa\
+  lue\":true},{\"key\":\"isRemoteGlobalSettingCopiedKey\",\"defaultValue\":fals\
+  e},{\"key\":\"remoteWorkspaceFolderKeysForWhichTheCopyIsDone_Key\",\"defaultV\
+  alue\":[]},{\"key\":\"doNotShowExtensionSurveyUntilTime\",\"defaultValue\":fa\
+  lse},{\"key\":\"doNotShowExtensionSurveyAgain\",\"defaultValue\":false},{\"key\
+  \":\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\车辆爬虫项目\\\\VIN_SEARCH_END\\\\V\
+  IN_SEARCH_END\",\"defaultValue\":false},{\"key\":\"PYTHON_ENV_INFO_CACHEv2\",\
+  \"defaultValue\":[]},{\"key\":\"PYTHON_EXTENSION_GLOBAL_STORAGE_KEYS\",\"defa\
+  ultValue\":[]},{\"key\":\"PythonTensorBoardWebviewPreferredViewGroup\",\"defa\
+  ultValue\":-1},{\"key\":\"SHELL_INTEGRATION_WORKING_KEY_powershellCore\"},{\"\
+  key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\项目\\\\车辆爬虫项目\\\\VIN_SEARCH_END\
+  \\\\VIN_SEARCH_END\"},{\"key\":\"preferredGlobalPyInterpreter\"}]}"
+ms-python.vscode-pylance: '{"VSCode.ABExp.FeatureData":{"features":["config.python.analysis.supportRestructuredText","config.python.locator","config.window.experimentalTitleBarStyle","copilotchat.config.chat.advanced.inlineEdits.includeCursor","copilotchat.config.chat.advanced.inlineEdits.instructionsVariant","copilot_ci","extensions.gallery.useResourceApi","livesharecontinuousaacf","msEntraShowUpdateUserFlow","pythonTerminalEnvVarActivation","validate_micf"],"assignmentContext":"vsliv368cf:30146710;962ge761:30959799;pythonrstrctxt:31112756;nativeloc1:31192215;6074i472:31201624;customenabled:31248079;9064b325:31222308;copilot_t_ci:31222730;31787653:31262186;3e8i5726:31271747;useunpkgapi:31277719;","configs":[{"Id":"vscode","Parameters":{"config.python.analysis.supportRestructuredText":true,"config.python.locator":"native","config.window.experimentalTitleBarStyle":"custom","copilotchat.config.chat.advanced.inlineEdits.includeCursor":true,"copilotchat.config.chat.advanced.inlineEdits.instructionsVariant":"v1","copilot_ci":true,"extensions.gallery.useResourceApi":"unpkg","livesharecontinuousaa":false,"msEntraShowUpdateUserFlow":true,"pythonTerminalEnvVarActivation":true,"validate_mi":false}}]}}'
+ms-toolsai.jupyter: '{"VSCode.ABExp.FeatureData":{"features":["config.chat.experimental.statusIndicator.enabled","config.notebook.experimental.generate","config.python.analysis.enableEditableInstalls","config.python.analysis.enableExperimentalServer","config.python.analysis.supportRestructuredText","config.python.locator","config.window.experimentalTitleBarStyle","copilotchat.config.chat.advanced.inlineEdits.includeCursor","copilotchat.config.chat.advanced.inlineEdits.instructionsVariant","copilot_ci","extensions.gallery.useResourceApi","livesharecontinuousaacf","mindaroBinariesVersion","msEntraShowUpdateUserFlow","portForwardingServiceEnabled-development","portForwardingServiceEnabled-production","portForwardingServiceEnabled-staging","pythonRecommendTensorboardExt","pythonTerminalEnvVarActivation","shouldUseGrpcService","test1234cf","validate_micf"],"assignmentContext":"vsliv368cf:30146710;vspor879:30202332;vspor708:30202333;vspor363:30204092;binariesv615:30325510;c4g48928:30535728;962ge761:30959799;pythontbext0:30879054;pythonrstrctxt:31112756;nativeloc1:31192215;5fd0e150:31155592;6074i472:31201624;customenabled:31248079;9064b325:31222308;copilot_t_ci:31222730;pythoneinst12:31262605;bgtreat:31268568;4gafe986:31271826;563cc122:31253270;31787653:31262186;3e8i5726:31271747;useunpkgapi:31277719;","configs":[{"Id":"vscode","Parameters":{"config.chat.experimental.statusIndicator.enabled":true,"config.notebook.experimental.generate":true,"config.python.analysis.enableEditableInstalls":true,"config.python.analysis.enableExperimentalServer":true,"config.python.analysis.supportRestructuredText":true,"config.python.locator":"native","config.window.experimentalTitleBarStyle":"custom","copilotchat.config.chat.advanced.inlineEdits.includeCursor":true,"copilotchat.config.chat.advanced.inlineEdits.instructionsVariant":"v1","copilot_ci":true,"extensions.gallery.useResourceApi":"unpkg","livesharecontinuousaa":false,"mindaroBinariesVersion":"1.0.20210615.1","msEntraShowUpdateUserFlow":true,"portForwardingServiceEnabled-development":true,"portForwardingServiceEnabled-production":true,"portForwardingServiceEnabled-staging":true,"pythonRecommendTensorboardExt":true,"pythonTerminalEnvVarActivation":true,"shouldUseGrpcService":true,"test1234":false,"validate_mi":false}}]},"INTERPRETER_PATH_WAS_SELECTED_FOR_JUPYTER_SERVER":true,"CACHE_KEY_FOR_JUPYTER_KERNELSPEC_ROOT_PATH.":"file:///c%3A/Users/18228/AppData/Roaming/jupyter/kernels","DATASCIENCE.LAST_SAVED_CELL_LANGUAGE":"python","43ab6fdf60f7e422c9766f609067107074c264cd4e79f32e9fc42c7481672afe#ipykernel":true}'
 ms-vscode.cpptools: '{"CPP.1.24.2.Progress":300,"CPP.1.24.2.ignoreMismatchedCompatibleVsix":false,"CPP.migratedInsiders":false,"CPP.displayedPreReleasePrompt":false,"CPP.isOnPreRelease":true,"CPP.machineId":"01c4150220367ed3dc1880b7c677b8d4ff668cdd0875c189975097c595f6137f","CPP.1.24.2.checkForConflictingExtensions":false,"CPP.lastWorkspaceFallbackEncoding":"utf8","CPP.referencesGroupByFile":false,"VSCode.ABExp.FeatureData":{"features":["config.window.experimentalTitleBarStyle","copilotchat.config.chat.advanced.inlineEdits.includeCursor","copilotchat.config.chat.advanced.inlineEdits.instructionsVariant","copilotchat.tagBasedDocumentSummary","copilotchat.workspaceChunkSearch.shouldEagerlyInitLocalIndex","copilot_ci","CppCopilotHover","CppTools1","livesharecontinuousaacf","msEntraShowUpdateUserFlow","portForwardingServiceEnabled-development","portForwardingServiceEnabled-production","portForwardingServiceEnabled-staging","shouldUseGrpcService","test1234cf","validate_micf"],"assignmentContext":"vsliv368cf:30146710;vspor879:30202332;vspor708:30202333;vspor363:30204092;c4g48928:30535728;cppperfnew:30980852;5b1c1929:31184661;6074i472:31201624;customenabled:31248079;9064b325:31222308;copilot_t_ci:31222730;jda6j935:31233686;copilothoveron:31262361;563cc122:31251109;31787653:31262186;3e8i5726:31271747;","configs":[{"Id":"vscode","Parameters":{"config.window.experimentalTitleBarStyle":"custom","copilotchat.config.chat.advanced.inlineEdits.includeCursor":true,"copilotchat.config.chat.advanced.inlineEdits.instructionsVariant":"v1","copilotchat.tagBasedDocumentSummary":true,"copilotchat.workspaceChunkSearch.shouldEagerlyInitLocalIndex":true,"copilot_ci":true,"CppCopilotHover":true,"CppTools1":true,"livesharecontinuousaa":false,"msEntraShowUpdateUserFlow":true,"portForwardingServiceEnabled-development":true,"portForwardingServiceEnabled-production":true,"portForwardingServiceEnabled-staging":true,"shouldUseGrpcService":true,"test1234":false,"validate_mi":false}}]},"CPP.1.24.3.Progress":300,"CPP.1.24.3.ignoreMismatchedCompatibleVsix":false,"CPP.1.24.4.Progress":300,"CPP.1.24.4.ignoreMismatchedCompatibleVsix":false,"CPP.1.24.4.checkForConflictingExtensions":false}'
 PKief.material-icon-theme: '{"config":{"version":"5.20.0","config":{"folders":{"theme":"specific","color":"#90a4ae","associations":{},"customClones":[]},"rootFolders":{"color":"#90a4ae","associations":{}},"activeIconPack":"angular","hidesExplorerArrows":false,"opacity":1,"saturation":1,"files":{"color":"#90a4ae","associations":{},"customClones":[]},"languages":{"associations":{},"customClones":[]},"enableLogging":false,"logLevel":"info"}}}'
 ritwickdey.LiveServer: '{"liveServer.setup.version":"5.7.9"}'
 sleistner.vscode-fileutils: '{"workspace:e:\\项目\\车辆爬虫项目\\demo-project":{"last":"/"},"workspace:e:\\项目\\wechat-project":{"last":"\\wechat_project\\core"},"workspace:e:\\Company\\专利资料":{"last":"/"},"workspace:e:\\Company\\浏览器\\风锐浏览器":{"last":"/"},"workspace:e:\\Company\\SCIEnd\\SCIWriting":{"last":"/"},"workspace:e:\\Study\\算法学习":{"last":"/"}}'
-workbench.accounts.experimental.showEntitlements: "false"
-workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":true,"order":0},{"id":"workbench.view.search","pinned":true,"visible":true,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":true,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":true,"order":3},{"id":"workbench.view.extensions","pinned":true,"visible":true,"order":4},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":true,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.copilot-chat","pinned":true,"visible":false,"order":16},{"id":"workbench.view.extension.jupyter","pinned":true,"visible":false,"order":18},{"id":"workbench.view.extension.gitlens","pinned":true,"visible":false,"order":13},{"id":"workbench.view.extension.gitlensInspect","pinned":true,"visible":false,"order":14},{"id":"workbench.view.extension.gitlensPatch","pinned":true,"visible":false,"order":15},{"id":"workbench.view.extension.github-cweijan-mysql","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.github-dbclient-history","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.github-cweijan-nosql","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.cph-judge-view-container","pinned":true,"visible":false,"order":11},{"id":"workbench.view.extension.package-explorer","pinned":true,"visible":false,"order":12},{"id":"workbench.view.extension.todo-tree-container","pinned":true,"visible":false,"order":17},{"id":"workbench.view.extension.dockerView","pinned":true,"visible":false,"order":19},{"id":"workbench.panel.chatSidebar.copilot","pinned":true,"visible":false,"order":100},{"id":"workbench.view.sync","pinned":true,"visible":false},{"id":"workbench.view.editSessions","pinned":true,"visible":false},{"id":"userDataProfiles","pinned":true,"visible":false}]'
-workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
-  \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"资源管理器\",\"isBuiltin\
-  \":true,\"views\":[{},{},{},{\"when\":\"timelineHasProvider\"},{\"when\":\"np\
-  m:showScriptExplorer\"}]},{\"id\":\"workbench.view.search\",\"themeIcon\":{\"\
-  id\":\"search-view-icon\"},\"name\":\"搜索\",\"isBuiltin\":true,\"views\":[{}]}\
-  ,{\"id\":\"workbench.view.scm\",\"themeIcon\":{\"id\":\"source-control-view-i\
-  con\"},\"name\":\"源代码管理\",\"isBuiltin\":true,\"views\":[{\"when\":\"scm.provi\
-  derCount && scm.providerCount !=
-  '0'\"},{},{\"when\":\"scm.historyProviderCount && scm.historyProviderCount !=
-  '0'\"},{\"when\":\"!config.gitlens.views.scm.grouped.views.repositories &&
-  !gitlens:disabled &&
-  !gitlens:views:scm:grouped:views:repositories\"},{\"when\":\"!config.gitlens.\
-  views.scm.grouped.views.commits && !gitlens:disabled &&
-  !gitlens:views:scm:grouped:views:commits\"},{\"when\":\"!config.gitlens.views\
-  .scm.grouped.views.branches && !gitlens:disabled &&
-  !gitlens:views:scm:grouped:views:branches\"},{\"when\":\"!config.gitlens.view\
-  s.scm.grouped.views.remotes && !gitlens:disabled &&
-  !gitlens:views:scm:grouped:views:remotes\"},{\"when\":\"!config.gitlens.views\
-  .scm.grouped.views.stashes && !gitlens:disabled && !gitlens:hasVirtualFolders
-  &&
-  !gitlens:views:scm:grouped:views:stashes\"},{\"when\":\"!config.gitlens.views\
-  .scm.grouped.views.tags && !gitlens:disabled &&
-  !gitlens:views:scm:grouped:views:tags\"},{\"when\":\"gitlens:plus:enabled &&
-  !config.gitlens.views.scm.grouped.views.worktrees && !gitlens:disabled &&
-  !gitlens:hasVirtualFolders &&
-  !gitlens:views:scm:grouped:views:worktrees\"},{\"when\":\"!config.gitlens.vie\
-  ws.scm.grouped.views.contributors && !gitlens:disabled &&
-  !gitlens:views:scm:grouped:views:contributors\"},{\"when\":\"config.gitlens.v\
-  iews.scm.grouped.views.branches && !gitlens:disabled ||
-  config.gitlens.views.scm.grouped.views.commits && !gitlens:disabled ||
-  config.gitlens.views.scm.grouped.views.contributors && !gitlens:disabled ||
-  config.gitlens.views.scm.grouped.views.launchpad && !gitlens:disabled ||
-  config.gitlens.views.scm.grouped.views.remotes && !gitlens:disabled ||
-  config.gitlens.views.scm.grouped.views.repositories && !gitlens:disabled ||
-  config.gitlens.views.scm.grouped.views.searchAndCompare && !gitlens:disabled
-  || config.gitlens.views.scm.grouped.views.stashes && !gitlens:disabled ||
-  config.gitlens.views.scm.grouped.views.tags && !gitlens:disabled ||
-  config.gitlens.views.scm.grouped.views.worktrees && !gitlens:disabled ||
-  gitlens:views:scm:grouped:views:branches && !gitlens:disabled ||
-  gitlens:views:scm:grouped:views:commits && !gitlens:disabled ||
-  gitlens:views:scm:grouped:views:contributors && !gitlens:disabled ||
-  gitlens:views:scm:grouped:views:launchpad && !gitlens:disabled ||
-  gitlens:views:scm:grouped:views:remotes && !gitlens:disabled ||
-  gitlens:views:scm:grouped:views:repositories && !gitlens:disabled ||
-  gitlens:views:scm:grouped:views:searchAndCompare && !gitlens:disabled ||
-  gitlens:views:scm:grouped:views:stashes && !gitlens:disabled ||
-  gitlens:views:scm:grouped:views:tags && !gitlens:disabled ||
-  gitlens:views:scm:grouped:views:worktrees &&
-  !gitlens:disabled\"}]},{\"id\":\"workbench.view.debug\",\"themeIcon\":{\"id\":\
-  \"run-view-icon\"},\"name\":\"运行和调试\",\"isBuiltin\":true,\"views\":[{\"when\":\
-  \"debugUx == 'simple'\"},{\"when\":\"debugUx ==
-  'default'\"},{\"when\":\"debugUx == 'default'\"},{\"when\":\"debugUx ==
-  'default'\"},{\"when\":\"loadedScriptsSupported && debugUx ==
-  'default'\"},{\"when\":\"breakpointsExist || hasDebugged || debugUx ==
-  'default'\"},{\"when\":\"debugType == 'pwa-chrome' || debugType ==
-  'pwa-msedge'\"},{\"when\":\"jsDebugHasExcludedCallers && debugType ==
-  'node-terminal' || jsDebugHasExcludedCallers && debugType == 'pwa-chrome' ||
-  jsDebugHasExcludedCallers && debugType == 'pwa-extensionHost' ||
-  jsDebugHasExcludedCallers && debugType == 'pwa-msedge' ||
-  jsDebugHasExcludedCallers && debugType ==
-  'pwa-node'\"},{\"when\":\"jsDebugNetworkAvailable\"},{\"when\":\"cpptools.ena\
-  bleSshTargetsView\"}]},{\"id\":\"workbench.view.extensions\",\"themeIcon\":{\
-  \"id\":\"extensions-view-icon\"},\"name\":\"扩展\",\"isBuiltin\":true,\"views\"\
-  :[{\"when\":\"defaultExtensionViews\"},{\"when\":\"searchExtensionUpdates ||
-  searchOutdatedExtensions\"},{\"when\":\"recommendedExtensions &&
-  workbenchState != 'empty'\"},{\"when\":\"defaultExtensionViews && hasGallery
-  && !hasInstalledExtensions\"},{\"when\":\"searchExtensionUpdates ||
-  searchRecentlyUpdatedExtensions\"},{\"when\":\"recommendedExtensions\"},{\"wh\
-  en\":\"defaultExtensionViews && hasGallery &&
-  !config.extensions.showRecommendationsOnlyOnDemand &&
-  !sortByUpdateDate\"},{\"when\":\"defaultExtensionViews &&
-  hasInstalledExtensions\"},{\"when\":\"defaultExtensionViews &&
-  hasInstalledExtensions\"},{\"when\":\"searchMarketplaceExtensions\"},{\"when\
-  \":\"installedExtensions ||
-  searchInstalledExtensions\"},{\"when\":\"searchEnabledExtensions\"},{\"when\":\
-  \"searchDisabledExtensions\"},{\"when\":\"searchBuiltInExtensions\"},{\"when\
-  \":\"searchWorkspaceUnsupportedExtensions\"},{\"when\":\"builtInExtensions\"}\
-  ,{\"when\":\"builtInExtensions\"},{\"when\":\"builtInExtensions\"},{\"when\":\
-  \"searchUnsupportedWorkspaceExtensions\"},{\"when\":\"searchUnsupportedWorksp\
-  aceExtensions\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
-  virtualWorkspace\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
-  virtualWorkspace\"},{\"when\":\"searchDeprecatedExtensions\"}]},{\"id\":\"wor\
-  kbench.view.remote\",\"themeIcon\":{\"id\":\"remote-explorer-view-icon\"},\"n\
-  ame\":\"远程资源管理器\",\"isBuiltin\":true,\"views\":[{}]},{\"id\":\"workbench.view\
-  .extension.test\",\"themeIcon\":{\"id\":\"test-view-icon\"},\"name\":\"测试\",\
-  \"isBuiltin\":true,\"views\":[{\"when\":\"testing.providerCount >
-  0\"},{\"when\":\"testing.isTestCoverageOpen\"}]},{\"id\":\"workbench.view.ext\
-  ension.references-view\",\"themeIcon\":{\"id\":\"references\"},\"name\":\"引用\
-  \",\"isBuiltin\":false,\"views\":[{\"when\":\"reference-list.isActive\"},{\"w\
-  hen\":\"cpptools.hasReferencesResults\"}]},{\"id\":\"workbench.view.extension\
-  .copilot-chat\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/gi\
-  thub.copilot-chat-0.25.1/assets/debug-icon.svg\",\"scheme\":\"file\"},\"name\
-  \":\"Copilot Chat
-  Debug\",\"isBuiltin\":false,\"views\":[{\"when\":\"github.copilot.chat.debug\
-  \"}]},{\"id\":\"workbench.view.extension.jupyter\",\"themeIcon\":{\"id\":\"no\
-  tebook\"},\"name\":\"Jupyter\",\"isBuiltin\":false,\"views\":[]},{\"id\":\"wo\
-  rkbench.view.extension.gitlens\",\"themeIcon\":{\"id\":\"gitlens-gitlens\"},\
-  \"name\":\"GitLens\",\"isBuiltin\":false,\"views\":[{},{\"when\":\"!config.gi\
-  tlens.views.scm.grouped.views.launchpad &&
-  !gitlens:views:scm:grouped:views:launchpad\"},{\"when\":\"config.gitlens.clou\
-  dPatches.enabled && gitlens:gk:organization:drafts:enabled &&
-  !gitlens:hasVirtualFolders &&
-  !gitlens:untrusted\"},{\"when\":\"!gitlens:hasVirtualFolders &&
-  !gitlens:untrusted\"}]},{\"id\":\"workbench.view.extension.gitlensInspect\",\
-  \"themeIcon\":{\"id\":\"gitlens-gitlens-inspect\"},\"name\":\"GitLens
-  Inspect\",\"isBuiltin\":false,\"views\":[{\"when\":\"!gitlens:disabled\"},{\"\
-  when\":\"gitlens:views:pullRequest:visible &&
-  !gitlens:disabled\"},{\"when\":\"!gitlens:disabled &&
-  !gitlens:hasVirtualFolders\"},{\"when\":\"!gitlens:disabled\"},{\"when\":\"gi\
-  tlens:plus:enabled &&
-  !gitlens:disabled\"},{\"when\":\"!config.gitlens.views.scm.grouped.views.sear\
-  chAndCompare && !gitlens:disabled &&
-  !gitlens:views:scm:grouped:views:searchAndCompare\"}]},{\"id\":\"workbench.vi\
-  ew.extension.gitlensPatch\",\"themeIcon\":{\"id\":\"gitlens-cloud-patch\"},\"\
-  name\":\"GitLens
-  Patch\",\"isBuiltin\":false,\"views\":[{\"when\":\"config.gitlens.cloudPatche\
-  s.enabled && gitlens:views:patchDetails:mode &&
-  !gitlens:untrusted\"}]},{\"id\":\"workbench.view.extension.github-cweijan-mys\
-  ql\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/cweijan.vscod\
-  e-mysql-client2-8.2.3/resources/icon/database.svg\",\"scheme\":\"file\"},\"na\
-  me\":\"Database\",\"isBuiltin\":false,\"views\":[{}]},{\"id\":\"workbench.vie\
-  w.extension.github-dbclient-history\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EX\
-  TENSION_DATA_PATH%%/cweijan.vscode-mysql-client2-8.2.3/resources/icon/history\
-  .svg\",\"scheme\":\"file\"},\"name\":\"SQL
-  History\",\"isBuiltin\":false,\"views\":[{\"when\":\"showDatabaseClientHistory\
-  \"}]},{\"id\":\"workbench.view.extension.github-cweijan-nosql\",\"iconUrl\":{\
-  \"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/cweijan.vscode-mysql-client2-8.\
-  2.3/resources/icon/layer-group.svg\",\"scheme\":\"file\"},\"name\":\"NoSQL\",\
-  \"isBuiltin\":false,\"views\":[{}]},{\"id\":\"workbench.view.extension.cph-ju\
-  dge-view-container\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH\
-  %%/divyanshuagrawal.competitive-programming-helper-2025.3.1742989763/dist/sta\
-  tic/panel-view-icon.svg\",\"scheme\":\"file\"},\"name\":\"CPH
-  Judge\",\"isBuiltin\":false,\"views\":[{}]},{\"id\":\"workbench.view.extensio\
-  n.package-explorer\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH\
-  %%/donjayamanne.python-environment-manager-1.2.7/resources/logo.svg\",\"scheme\
-  \":\"file\"},\"name\":\"Python\",\"isBuiltin\":false,\"views\":[{\"when\":\"w\
-  orkspaceFolderCount >=
-  1\"},{}]},{\"id\":\"workbench.view.extension.todo-tree-container\",\"iconUrl\
-  \":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/gruntfuggly.todo-tree-0.0.2\
-  26/resources/todo-tree-container.svg\",\"scheme\":\"file\"},\"name\":\"待办事项\",\
-  \"isBuiltin\":false,\"views\":[{\"when\":\"!todo-tree-is-empty\"}]},{\"id\":\
-  \"workbench.view.extension.dockerView\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%\
-  EXTENSION_DATA_PATH%%/ms-azuretools.vscode-docker-1.29.4/resources/docker.svg\
-  \",\"scheme\":\"file\"},\"name\":\"Docker\",\"isBuiltin\":false,\"views\":[{}\
-  ,{},{},{},{},{},{}]},{\"id\":\"workbench.panel.chatSidebar.copilot\",\"isBuil\
-  tin\":false},{\"id\":\"workbench.view.sync\",\"themeIcon\":{\"id\":\"settings\
-  -sync-view-icon\"},\"name\":\"设置同步\",\"isBuiltin\":true,\"views\":[{\"when\":\
-  \"enableSyncConflictsView &&
-  hasConflicts\"},{\"when\":\"enableSyncActivityViews &&
-  userDataSyncAccountStatus == 'available' && syncStatus !=
-  'uninitialized'\"},{\"when\":\"enableSyncActivityViews &&
-  userDataSyncAccountStatus == 'available' && syncStatus !=
-  'uninitialized'\"},{\"when\":\"enableSyncActivityViews &&
-  userDataSyncAccountStatus == 'available' && syncStatus !=
-  'uninitialized'\"},{\"when\":\"enableSyncActivityViews\"},{\"when\":\"enableS\
-  yncActivityViews\"}]},{\"id\":\"workbench.view.editSessions\",\"themeIcon\":{\
-  \"id\":\"edit-sessions-view-icon\"},\"name\":\"云更改\",\"isBuiltin\":true,\"vie\
-  ws\":[{\"when\":\"editSessionsShowView\"}]},{\"id\":\"userDataProfiles\",\"na\
-  me\":\"个人资料\",\"isBuiltin\":false}]"
-workbench.activityBar.location: default
-workbench.auxiliarybar.pinnedPanels: '[{"id":"workbench.panel.composerViewPane2","pinned":true,"visible":false,"order":1},{"id":"workbench.panel.aichat.05466a58-b65d-4ece-9208-7c797eb7ff04","pinned":true,"visible":false,"order":2},{"id":"workbench.panel.chat","pinned":true,"visible":false,"order":100},{"id":"workbench.panel.chatEditing","pinned":true,"visible":false,"order":101}]'
-workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.composerViewPane2","name":"Composer","isBuiltin":false},{"id":"workbench.panel.aichat.05466a58-b65d-4ece-9208-7c797eb7ff04","name":"New
-  chat","isBuiltin":false},{"id":"workbench.panel.chat","themeIcon":{"id":"comment-discussion"},"name":"聊天","isBuiltin":true,"views":[{"when":"chatExtensionInvalid
-  || chatPanelParticipantRegistered || chatSetupInstalled ||
-  !chatSetupHidden"}]},{"id":"workbench.panel.chatEditing","themeIcon":{"id":"edit-session"},"name":"Copilot
-  编辑","isBuiltin":true,"views":[{"when":"chatEditingParticipantRegistered ||
-  chatSetupInstalled || !chatSetupHidden"}]}]'
-workbench.auxiliaryBar.size: "604"
-workbench.chat.experimental.showWelcomeView: "false"
-workbench.chat.hideMovedChatWelcomeView: "true"
-workbench.chat.hideWelcomeView: "true"
+workbench.auxiliarybar.pinnedPanels: '[{"id":"workbench.panel.aichat.05466a58-b65d-4ece-9208-7c797eb7ff04","pinned":true,"visible":false,"order":1},{"id":"workbench.panel.composerViewPane2","pinned":true,"visible":false,"order":1},{"id":"workbench.panel.chat","pinned":true,"visible":false,"order":100},{"id":"workbench.panel.chatEditing","pinned":true,"visible":false,"order":101}]'
+workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.aichat.05466a58-b65d-4ece-9208-7c797eb7ff04","themeIcon":{"id":"files"},"name":"解决SQLModel循环导入问题","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.composerViewPane2","name":"Composer","isBuiltin":false},{"id":"workbench.panel.chat","name":"聊天","isBuiltin":false},{"id":"workbench.panel.chatEditing","name":"Copilot
+  编辑","isBuiltin":false}]'
+workbench.auxiliaryBar.size: "578"
+workbench.backgroundComposer.persistentData: '{"archivedBcIds":[],"showControlPanel":false,"selectedTab":"personal","dataVersion":1}'
+workbench.contrib.onboarding.browser.changeManagement.03122025.shown: "true"
+workbench.contrib.onboarding.browser.changeRemainingCmdBackspaceKeybindings.04012025.shown: "true"
 workbench.contrib.onboarding.browser.gettingStarted.contribution.ts.firsttime: "false"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["qss",true],["ignore",true],["log",true],["json",true],["shellscript",true],["properties",true],["typescript",true],["jsonc",true],["python",true],["yaml",true],["plaintext",true],["vue",true]]'
-workbench.explorer.views.state.hidden: '[{"id":"notepad","isHidden":true},{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"commitViewProvider","isHidden":false},{"id":"compareCommitViewProvider","isHidden":false},{"id":"objectExplorer","isHidden":false},{"id":"queryHistory","isHidden":false},{"id":"dataworkspace.views.main","isHidden":false},{"id":"package-main","isHidden":false},{"id":"workspaceEnvironments","isHidden":false},{"id":"pythonEnvironments","isHidden":false},{"id":"gistpad.gists","isHidden":false},{"id":"gistpad.repos","isHidden":false},{"id":"gistpad.showcase","isHidden":false}]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["log",true],["json",true],["shellscript",true],["yaml",true],["typescript",true],["vue",true],["properties",true],["editorconfig",true],["plaintext",true],["jsonc",true],["sql",true],["python",true]]'
+workbench.explorer.views.state.hidden: '[{"id":"notepad","isHidden":true},{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"commitViewProvider","isHidden":false},{"id":"compareCommitViewProvider","isHidden":false},{"id":"objectExplorer","isHidden":false},{"id":"queryHistory","isHidden":false},{"id":"dataworkspace.views.main","isHidden":false},{"id":"package-main","isHidden":false},{"id":"workspaceEnvironments","isHidden":false},{"id":"pythonEnvironments","isHidden":false},{"id":"gistpad.gists","isHidden":false},{"id":"gistpad.repos","isHidden":false},{"id":"gistpad.showcase","isHidden":false},{"id":"backgroundComposerExplorer","isHidden":false}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.alignment: center
-workbench.panel.chat.hidden: '[{"id":"workbench.panel.chat.view.copilot","isHidden":false}]'
-workbench.panel.chat.view.experimental.showGettingStarted: installed
-workbench.panel.chatEditing.hidden: '[{"id":"workbench.panel.chat.view.edits","isHidden":false}]'
-workbench.panel.chatSidebar.copilot.hidden: '[{"id":"workbench.panel.chat.view.copilot","isHidden":false}]'
-workbench.panel.chatSidebar.hidden: '[{"id":"workbench.panel.chat.view.copilot","isHidden":false},{"id":"workbench.chat.movedView.welcomeView","isHidden":false}]'
 workbench.panel.composerChatViewPane..05466a58-b65d-4ece-9208-7c797eb7ff04.hidden: '[{"id":"workbench.panel.aichat.view","isHidden":false}]'
 workbench.panel.composerChatViewPane..9f810933-0276-468b-b737-9ab943adea8c.hidden: '[{"id":"workbench.panel.aichat.view","isHidden":false}]'
+workbench.panel.composerChatViewPane.05466a58-b65d-4ece-9208-7c797eb7ff04.hidden:
+  '[{"id":"workbench.panel.aichat.view.a3c54f4b-206d-4cd3-ac40-4c130650458c","isHidden":false},{"id":"workbench.panel.aichat.view.f299887e-2bbb-4257-9111-5bf7e70b30ae","isHidden":false},{"id":"workbench.panel.aichat.view.1c877dfc-a425-4f10-9d11-5bb99d235bcc","isHidden":false},{"id":"workbench.panel.aichat.view.3d2e3538-7bc1-482f-a3b0-01fd32b4d36c","isHidden":false},{"id":"workbench.panel.aichat.view.b2c5f3f4-989a-4d87-a0a8-3332dda1b8f3","isHidden":false},{"id":"workbench.panel.aichat.view.017ae6e2-1016-4024-b094-f145e3ca4bd6","isHidden":false},{"id":"workbench.panel.aichat.view.3b1e3a1f-6132-4c61-9786-5fafde8b0974","isHidden":false},{"id":"workbench.panel.aichat.view.5064a57d-ebe2-4cb6-b5d1-eeaee0ccc87e","isHidden":false}]'
 workbench.panel.composerChatViewPane.hidden: '[{"id":"workbench.panel.aichat.view","isHidden":false}]'
 workbench.panel.composerViewPane2.hidden: '[{"id":"workbench.panel.composerViewPane2.view","isHidden":false}]'
 workbench.panel.lastNonMaximizedHeight: "340"
 workbench.panel.lastNonMaximizedWidth: "300"
 workbench.panel.markers.hidden: '[{"id":"workbench.panel.markers.view","isHidden":false}]'
 workbench.panel.output.hidden: '[{"id":"workbench.panel.output","isHidden":false}]'
-workbench.panel.pinnedPanels: '[{"id":"workbench.panel.markers","pinned":true,"visible":false,"order":0},{"id":"workbench.view.extension.jupyter-variables","pinned":true,"visible":false,"order":9},{"id":"workbench.panel.comments","pinned":true,"visible":false,"order":10},{"id":"workbench.panel.output","pinned":true,"visible":false,"order":1},{"id":"workbench.panel.repl","pinned":true,"visible":false,"order":2},{"id":"workbench.panel.testResults","pinned":true,"visible":false,"order":3},{"id":"~remote.forwardedPortsContainer","pinned":true,"visible":false,"order":5},{"id":"terminal","pinned":true,"visible":false,"order":3},{"id":"workbench.view.extension.gitlensPanel","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.dbclient-search-result","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.queryResult","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.postman-console-view-container","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.dbclient-variable-config-view","pinned":true,"visible":false,"order":7},{"id":"refactorPreview","pinned":true,"visible":false}]'
+workbench.panel.pinnedPanels: '[{"id":"workbench.panel.markers","pinned":true,"visible":false,"order":0},{"id":"workbench.view.extension.jupyter-variables","pinned":true,"visible":false,"order":9},{"id":"workbench.panel.comments","pinned":true,"visible":false,"order":10},{"id":"workbench.views.service.panel.d1702a3f-bdfb-4206-b035-8526a9701575","pinned":true,"visible":false},{"id":"workbench.panel.output","pinned":true,"visible":false,"order":1},{"id":"workbench.panel.repl","pinned":true,"visible":false,"order":2},{"id":"workbench.panel.testResults","pinned":true,"visible":false,"order":3},{"id":"~remote.forwardedPortsContainer","pinned":true,"visible":false,"order":5},{"id":"terminal","pinned":true,"visible":false,"order":3},{"id":"workbench.view.extension.gitlensPanel","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.dbclient-search-result","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.queryResult","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.postman-console-view-container","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.dbclient-variable-config-view","pinned":true,"visible":false,"order":7},{"id":"refactorPreview","pinned":true,"visible":false}]'
 workbench.panel.placeholderPanels: '[{"id":"workbench.panel.markers","themeIcon":{"id":"markers-view-icon"},"name":"问题","isBuiltin":true,"views":[{}]},{"id":"workbench.view.extension.jupyter-variables","themeIcon":{"id":"notebook"},"name":"Jupyter","isBuiltin":false,"views":[{"when":"jupyter.hasNativeNotebookOrInteractiveWindowOpen"},{"when":"jupyter.hasNativeNotebookOrInteractiveWindowOpen
   &&
-  jupyter:showTagsExplorer"}]},{"id":"workbench.panel.comments","themeIcon":{"id":"comments-view-icon"},"name":"评论","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.output","themeIcon":{"id":"output-view-icon"},"name":"输出","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.repl","themeIcon":{"id":"debug-console-view-icon"},"name":"调试控制台","isBuiltin":true,"views":[{"when":"debuggersAvailable"}]},{"id":"workbench.panel.testResults","themeIcon":{"id":"test-results-icon"},"name":"测试结果","isBuiltin":true,"views":[{"when":"testing.hasAnyResults"}]},{"id":"~remote.forwardedPortsContainer","themeIcon":{"id":"ports-view-icon"},"name":"端口","isBuiltin":true,"views":[{}]},{"id":"terminal","themeIcon":{"id":"terminal-view-icon"},"name":"终端","isBuiltin":true,"views":[{}]},{"id":"workbench.view.extension.gitlensPanel","themeIcon":{"id":"gitlens-graph"},"name":"GitLens","isBuiltin":false,"views":[{"when":"gitlens:plus:enabled
+  jupyter:showTagsExplorer"}]},{"id":"workbench.panel.comments","name":"注释","isBuiltin":false},{"id":"workbench.views.service.panel.d1702a3f-bdfb-4206-b035-8526a9701575","themeIcon":{"id":"ports-view-icon"},"name":"端口","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.output","themeIcon":{"id":"output-view-icon"},"name":"输出","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.repl","themeIcon":{"id":"debug-console-view-icon"},"name":"调试控制台","isBuiltin":true,"views":[{"when":"debuggersAvailable"}]},{"id":"workbench.panel.testResults","themeIcon":{"id":"test-results-icon"},"name":"测试结果","isBuiltin":true,"views":[{"when":"testing.hasAnyResults"}]},{"id":"~remote.forwardedPortsContainer","themeIcon":{"id":"ports-view-icon"},"name":"端口","isBuiltin":true,"views":[]},{"id":"terminal","themeIcon":{"id":"terminal-view-icon"},"name":"终端","isBuiltin":true,"views":[{}]},{"id":"workbench.view.extension.gitlensPanel","themeIcon":{"id":"gitlens-graph"},"name":"GitLens","isBuiltin":false,"views":[{"when":"gitlens:plus:enabled
   && !gitlens:disabled"},{"when":"gitlens:plus:enabled &&
-  !gitlens:disabled"}]},{"id":"workbench.view.extension.dbclient-search-result","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/cweijan.vscode-mysql-client2-8.2.3/resources/icon/database.svg","scheme":"file"},"name":"Full-Text
+  !gitlens:disabled"}]},{"id":"workbench.view.extension.dbclient-search-result","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/cweijan.vscode-mysql-client2-8.2.4/resources/icon/database.svg","scheme":"file"},"name":"Full-Text
   Search","isBuiltin":false,"views":[{"when":"showFullTextSearchResult"}]},{"id":"workbench.view.extension.queryResult","name":"Query
   Results
   (Preview)","isBuiltin":false},{"id":"workbench.view.extension.postman-console-view-container","name":"Postman
-  Console","isBuiltin":false},{"id":"workbench.view.extension.dbclient-variable-config-view","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/cweijan.vscode-mysql-client2-8.2.3/resources/icon/database.svg","scheme":"file"},"name":"SQL
+  Console","isBuiltin":false},{"id":"workbench.view.extension.dbclient-variable-config-view","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/cweijan.vscode-mysql-client2-8.2.4/resources/icon/database.svg","scheme":"file"},"name":"SQL
   Variables","isBuiltin":false,"views":[{"when":"showSQLVariableConfig"}]},{"id":"refactorPreview","themeIcon":{"id":"refactor-preview-view-icon"},"name":"重构预览","isBuiltin":true,"views":[{"when":"refactorPreview.enabled"}]}]'
 workbench.panel.repl.hidden: '[{"id":"workbench.panel.repl.view","isHidden":false}]'
-workbench.panel.size: "297"
+workbench.panel.size: "241"
 workbench.scm.views.state.hidden: '[{"id":"workbench.scm.repositories","isHidden":true},{"id":"workbench.scm","isHidden":false},{"id":"workbench.scm.history","isHidden":false},{"id":"gitlens.views.repositories","isHidden":true},{"id":"gitlens.views.commits","isHidden":false},{"id":"gitlens.views.branches","isHidden":false},{"id":"gitlens.views.remotes","isHidden":false},{"id":"gitlens.views.stashes","isHidden":false},{"id":"gitlens.views.tags","isHidden":false},{"id":"gitlens.views.worktrees","isHidden":false},{"id":"gitlens.views.contributors","isHidden":false},{"id":"gitlens.views.scm.grouped","isHidden":false}]'
 workbench.services.onFirstStartupService.hasNotResetJetBrainsMonoFont: "false"
 workbench.services.onFirstStartupService.isVeryFirstTime: "false"
-workbench.sideBar.size: "282"
-workbench.statusbar.hidden: '["status.workspaceTrust.1660897819621","status.workspaceTrust.8ded014fb90453d18b262406e49e5a71","status.workspaceTrust.8e5902e808fe29ebd8c4e1c0b4aac0f8","status.workspaceTrust.1664268103042","status.workspaceTrust.2bf07430704c8a052a108d12872bd1ab","status.workspaceTrust.7ab2aada78458d0108dd3f1e4840e8ea","status.workspaceTrust.28a6d06cf791a1d0aeb7bec3da2574a7","status.workspaceTrust.13c77fa91ad3674a0a35acc47b34c1c1","status.workspaceTrust.1664528499668","status.workspaceTrust.15925ba8850af62529cc4311a8a54a76","status.workspaceTrust.c7e4449e4e36ed71d42944b549e9a94f","status.workspaceTrust.47266579b7eb867980a68d6f225b5a1b","status.workspaceTrust.1665592929103","status.workspaceTrust.1665932887234","status.workspaceTrust.1666029632718","status.workspaceTrust.1666060411237","status.workspaceTrust.1666168389055","status.workspaceTrust.1666193323623","status.workspaceTrust.1666332420376","status.workspaceTrust.1666339085145","status.workspaceTrust.1666343847127","status.workspaceTrust.1666343884442","status.workspaceTrust.22ffd711fef31dbaa5117419e49c76f1","status.workspaceTrust.20320d33e6add75e084000d1725c9781","status.workspaceTrust.1668414503739","status.workspaceTrust.bfdf9e2e4a16e1b33183e97f77588b1b","status.workspaceTrust.a521b6f7fd9f25bd50ec4e388a1aad8b","status.workspaceTrust.f953d40dc34445244869b7ea22ee6515","status.workspaceTrust.494f663a484c81819a9940d252f00a52","status.workspaceTrust.57881087e3fa65943adcd11877607912","status.workspaceTrust.fba0ca5f51a6295f73cdaecfb15fe566","status.workspaceTrust.1b769e675b650c0c85f402a3ba0bf75d","status.workspaceTrust.f0e7f42e712c54c7217cd886a113e5f5","status.workspaceTrust.efc2d89d9c12eb89b4e8f1d5ced62073","status.workspaceTrust.bb6a9e25c4718a8a7bfd7203631d8981","status.workspaceTrust.9af60375193acb5c39fc1e4b8a30cb3f","status.workspaceTrust.9fb0e059e688787758ff17dec801c3c3","status.workspaceTrust.1670986014489","status.workspaceTrust.1671265790823","status.workspaceTrust.1564b3db04888b03dfe9e8104691c841","status.workspaceTrust.0b3ff33ae50fc016876cdd3e261b71d8","status.workspaceTrust.201bb2ebd4c16118c163d7b0c2453a6e","status.workspaceTrust.123d0fb307bf05e3e2c52a632fd5ba08","status.workspaceTrust.a579336c30bd491d75f41dc0af4aca12","status.workspaceTrust.1672804675525","status.workspaceTrust.1672804703423","status.workspaceTrust.1672804756379","status.workspaceTrust.4b00fb8b5d92f4cae34f7d3b56e9495f","status.workspaceTrust.a597e230398bda120b41a4377a9889c0","status.workspaceTrust.181d4f698c4d1cb6b7cd90c55b46e5c2","status.workspaceTrust.4856dcf6c18b6bd7bb186a2555ab35e9","status.workspaceTrust.c290eb7955ae4ba2f96c815301bc3177","status.workspaceTrust.b26dbf880c2805194c586b89fa64f03c","status.workspaceTrust.495185d6309486b866cb562ba94f9b92","status.workspaceTrust.727e576ff191041f58dc62b01434c167","status.workspaceTrust.ff5d954ee26846d2c1ace57884063639","status.workspaceTrust.1676614301339","status.workspaceTrust.1676614455910","status.workspaceTrust.0b2c8a808227d1316adb9644c42f692e","status.workspaceTrust.b67b9d980e43b2185d77be67e79895ab","status.workspaceTrust.d058e3d51849698831b05266f72185a8","status.workspaceTrust.4c78538cfeef864bbfeebebb66bbe336","status.workspaceTrust.2164dca936a11ec0c0203669776165ab","status.workspaceTrust.f74fe1a427e9c1e87f4630065f1c9bb6","status.workspaceTrust.c7797197a0ac04366e6795bcc9f931a4","status.workspaceTrust.43a13967e978a10de955169fd24259b6","status.workspaceTrust.ae52778a711e1f7cc892ef8b5570321b","status.workspaceTrust.495dc571db4e012b79d99c2562b093c9","status.workspaceTrust.3664a9c6c4867ba54d0b2f0608ea04bd","status.workspaceTrust.2c332cc12fc5eeebc02f1517f2ebb05c","status.workspaceTrust.79315afb7f91e32411d979b8d8a8e60b","status.workspaceTrust.8d60b08d1ffafb67b4f20da32faae0fb","status.workspaceTrust.a4645edccec36dded759e1d58df14520","status.workspaceTrust.29f5806862249814ae6ec7e5a14efb8b","status.workspaceTrust.34220babe26c88ff4abe6cb083d118cb","status.workspaceTrust.5dff3298133ec2b3c075aa4d4947b331","status.workspaceTrust.09e39cb7df51db5a7f7a2e2c3007c3e9","status.workspaceTrust.a6b4e08fe931ce498508535662f3cf63","status.workspaceTrust.7c42dcf546f79590f8b366eb58c56b49","status.workspaceTrust.854541ece40e2f63391667f429ff4a2c","status.workspaceTrust.1683531071571","status.workspaceTrust.7012fe04d0f5913f3d8c0bf3f90b4b9d","status.workspaceTrust.17e54cd48fb5dbf228d797ecb5313bc5","status.workspaceTrust.768d0f623133f8cd28d0fb5aa8156958","status.workspaceTrust.1683963392734","status.workspaceTrust.fbb428ae70a818d0682e8a742f883826","status.workspaceTrust.e7f39a6e8643f36724ca3d95dc2c1679","status.workspaceTrust.e6abbc1a62eaa947393071df7f59913a","status.workspaceTrust.124e8b8a82e232895827e5e8180d72be","status.workspaceTrust.83d8b168c2cc5fbe66a41520c04b69d9","status.workspaceTrust.5b3fdd82c7d283aa6d8cc71e29d09eb3","status.workspaceTrust.1685340640393","status.workspaceTrust.f2910483bcc2e348b738f0c05e228cec","status.workspaceTrust.3c08c7c05ccc2ce072cebfdab87ecb0c","status.workspaceTrust.19143b81fbcdc29214b0fa434d2da20d","status.workspaceTrust.912cf6d4d2729b3ce034abb888875bcf","status.workspaceTrust.af6ecf4e04e319a41c1060a2dc9674bd","status.workspaceTrust.d446b7f73c6cd8b308dc0718ccf778e4","status.workspaceTrust.1689236417930","status.workspaceTrust.591af72a76348c589d797f2bfd6ae6d1","status.workspaceTrust.cc9566a26053c643a742c5682ed3a135","status.workspaceTrust.8aa29dcf466f6f0cb9e252bec37132f1","status.workspaceTrust.efafd4cefb3e7d3ced54e45dd87893e7","status.workspaceTrust.92f46c4a3e379b3c848a759503d9c8a0","status.workspaceTrust.2f876368f0b0c092ca63fdb81b4080bf","status.workspaceTrust.53051b81f0b3421255ccd4bb8103f298","status.workspaceTrust.ef3925758759f4a9740fb437f8cc6b83","status.workspaceTrust.f5de80c5bb70d679449cbabc54301f20","status.workspaceTrust.870f4867674db462489422cbd33d7131","status.workspaceTrust.3391f482d1a65c31d30cd02330624169","status.workspaceTrust.cd3cdf9bcc6022bdef6ee4df80f7b88e","status.workspaceTrust.83c3ae304c2c6056415f93b9aa012452","status.workspaceTrust.b75ab62162f9de1706a37df89dc9d303","status.workspaceTrust.6a16f119563d64dece7f42eaf8fd73fc","status.workspaceTrust.cc986c4c11a5974ec5514c591e0ba6f6","status.workspaceTrust.1692888934232","status.workspaceTrust.2067312bfc6201da5532c7a7af80d3c0","GitHub.copilot.status"]'
-workbench.telemetryOptOutShown: "true"
+workbench.sideBar.size: "271"
 workbench.view.bugbot.hidden: '[{"id":"workbench.views.bugbot","isHidden":false}]'
 workbench.view.debug.state.hidden: '[{"id":"workbench.debug.welcome","isHidden":false},{"id":"workbench.debug.variablesView","isHidden":false},{"id":"workbench.debug.watchExpressionsView","isHidden":false},{"id":"workbench.debug.callStackView","isHidden":false},{"id":"workbench.debug.loadedScriptsView","isHidden":false},{"id":"workbench.debug.breakPointsView","isHidden":false},{"id":"jsBrowserBreakpoints","isHidden":false},{"id":"jsExcludedCallers","isHidden":false},{"id":"jsDebugNetworkTree","isHidden":false},{"id":"CppSshTargetsView","isHidden":false}]'
 workbench.view.extension.cph-judge-view-container.state.hidden: '[{"id":"cph.judgeView","isHidden":false}]'
 workbench.view.extension.dataworkspace.state.hidden: '[{"id":"dataworkspace.views.main","isHidden":false}]'
-workbench.view.extension.dockerView.state.hidden: '[{"id":"dockerContainers","isHidden":false},{"id":"dockerImages","isHidden":false},{"id":"dockerRegistries","isHidden":false},{"id":"dockerNetworks","isHidden":false},{"id":"dockerVolumes","isHidden":false},{"id":"vscode-docker.views.dockerContexts","isHidden":false},{"id":"vscode-docker.views.help","isHidden":false}]'
 workbench.view.extension.gistpad.state.hidden: '[{"id":"gistpad.gists","isHidden":false},{"id":"gistpad.repos","isHidden":false},{"id":"gistpad.showcase","isHidden":true}]'
 workbench.view.extension.github-cweijan-mysql.state.hidden: '[{"id":"github.cweijan.mysql","isHidden":false}]'
 workbench.view.extension.github-cweijan-nosql.state.hidden: '[{"id":"github.cweijan.nosql","isHidden":false}]'
+workbench.view.extension.github-dbclient-history.state.hidden: '[{"id":"github.dbclient.history","isHidden":false}]'
 workbench.view.extension.gitlens.state.hidden: '[{"id":"gitlens.views.home","isHidden":false},{"id":"gitlens.views.launchpad","isHidden":false},{"id":"gitlens.views.drafts","isHidden":false},{"id":"gitlens.views.workspaces","isHidden":false}]'
 workbench.view.extension.gitlensInspect.state.hidden: '[{"id":"gitlens.views.commitDetails","isHidden":false},{"id":"gitlens.views.pullRequest","isHidden":false},{"id":"gitlens.views.lineHistory","isHidden":false},{"id":"gitlens.views.fileHistory","isHidden":false},{"id":"gitlens.views.timeline","isHidden":false},{"id":"gitlens.views.searchAndCompare","isHidden":false}]'
 workbench.view.extension.gitlensPanel.state.hidden: '[{"id":"gitlens.views.graph","isHidden":false},{"id":"gitlens.views.graphDetails","isHidden":false}]'
 workbench.view.extension.jupyter-variables.state.hidden: '[{"id":"jupyterViewVariables","isHidden":false},{"id":"cell-tag","isHidden":false}]'
-workbench.view.extension.jupyter.state.hidden: '[{"id":"cell-tag","isHidden":false}]'
 workbench.view.extension.main-sidebar.state.hidden: '[{"id":"package-main","isHidden":false}]'
 workbench.view.extension.objectExplorer.state.hidden: '[{"id":"objectExplorer","isHidden":false},{"id":"queryHistory","isHidden":false}]'
 workbench.view.extension.package-explorer.state.hidden: '[{"id":"workspaceEnvironments","isHidden":false},{"id":"pythonEnvironments","isHidden":false}]'
@@ -848,16 +832,10 @@ workbench.view.extension.sidebar-panel.state.hidden: '[{"id":"postman-for-vscode
 workbench.view.extension.spring-api-helper.state.hidden: '[{"id":"apiFoxHelper.view","isHidden":false}]'
 workbench.view.extension.test.state.hidden: '[{"id":"workbench.view.testing","isHidden":false},{"id":"workbench.view.testCoverage","isHidden":false}]'
 workbench.view.extension.todo-tree-container.state.hidden: '[{"id":"todo-tree-view","isHidden":false}]'
-workbench.view.extension.workspaceViewer.state.hidden: '[{"id":"workspaceViewer","isHidden":false},{"id":"rHelpPages","isHidden":false},{"id":"rLiveShare","isHidden":false}]'
 workbench.view.extensions.state.hidden: '[{"id":"workbench.views.extensions.installed","isHidden":false},{"id":"workbench.views.extensions.searchOutdated","isHidden":false},{"id":"workbench.views.extensions.workspaceRecommendations","isHidden":false},{"id":"workbench.views.extensions.popular","isHidden":false},{"id":"workbench.views.extensions.searchRecentlyUpdated","isHidden":false},{"id":"workbench.views.extensions.otherRecommendations","isHidden":false},{"id":"extensions.recommendedList","isHidden":false},{"id":"workbench.views.extensions.enabled","isHidden":true},{"id":"workbench.views.extensions.disabled","isHidden":true},{"id":"workbench.views.extensions.marketplace","isHidden":false},{"id":"workbench.views.extensions.searchInstalled","isHidden":false},{"id":"workbench.views.extensions.searchEnabled","isHidden":false},{"id":"workbench.views.extensions.searchDisabled","isHidden":false},{"id":"workbench.views.extensions.searchBuiltin","isHidden":false},{"id":"workbench.views.extensions.searchWorkspaceUnsupported","isHidden":false},{"id":"workbench.views.extensions.builtinFeatureExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinThemeExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinProgrammingLanguageExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.deprecatedExtensions","isHidden":false}]'
 workbench.view.remote.state.hidden: '[{"id":"remoteTargets","isHidden":false},{"id":"~remote.helpPanel","isHidden":false}]'
 workbench.view.search.state.hidden: '[{"id":"workbench.view.search","isHidden":false}]'
-workbench.view.sync.state.hidden: '[{"id":"workbench.views.sync.conflicts","isHidden":false},{"id":"workbench.views.sync.remoteActivity","isHidden":false},{"id":"workbench.views.sync.machines","isHidden":false},{"id":"workbench.views.sync.localActivity","isHidden":true},{"id":"workbench.views.sync.troubleshoot","isHidden":true},{"id":"workbench.views.sync.externalActivity","isHidden":false}]'
-workbench.views.extensions.installed.size: "63"
+workbench.views.extensions.installed.size: "62"
 workbench.views.service.panel.d1702a3f-bdfb-4206-b035-8526a9701575.state.hidden: '[{"id":"~remote.forwardedPorts","isHidden":false}]'
-workbench.welcomePage.extensionMetadata.github.copilot: '{"title":"GitHub
-  Copilot","description":"Your AI pair
-  programmer","imagePath":"https://github.gallerycdn.vsassets.io/extensions/github/copilot/1.114.426/1695206360941/Microsoft.VisualStudio.Services.Icons.Default","date":1695280594417}'
-workbench.welcomePage.hiddenCategories: '["github.copilot","SetupWeb"]'
-workbench.welcomePage.walkthroughMetadata: '[["eamodio.gitlens#welcome",{"firstSeen":1741857196603,"stepIDs":["get-started-community","welcome-in-trial","welcome-in-trial-expired","welcome-in-trial-expired-eligible","welcome-paid","visualize-code-history","accelerate-pr-reviews","streamline-collaboration","improve-workflows-with-integrations"],"manaullyOpened":false}],["ms-python.python#pythonWelcome",{"firstSeen":1741857196603,"stepIDs":["python.createPythonFolder","python.createPythonFile","python.installPythonWin8","python.installPythonMac","python.installPythonLinux","python.createEnvironment","python.runAndDebug","python.learnMoreWithDS"],"manaullyOpened":false}],["ms-python.python#pythonDataScienceWelcome",{"firstSeen":1741857196603,"stepIDs":["python.installJupyterExt","python.createNewNotebook","python.openInteractiveWindow","python.dataScienceLearnMore"],"manaullyOpened":false}],["ms-vscode.cpptools#cppWelcome",{"firstSeen":1741857196603,"stepIDs":["awaiting.activation.mac","awaiting.activation.linux","awaiting.activation.windows","awaiting.activation.windows10","awaiting.activation.windows11","no.compilers.found.mac","no.compilers.found.linux","no.compilers.found.windows","no.compilers.found.windows10","no.compilers.found.windows11","verify.compiler.mac","verify.compiler.linux","verify.compiler.windows","verify.compiler.windows10","verify.compiler.windows11","create.cpp.file","relaunch.developer.command.prompt.windows","run.project.mac","run.project.linux","run.project.windows","customize.debugging.linux","customize.debugging.windows","customize.debugging.mac"],"manaullyOpened":false}],["GitHub.copilot-chat#copilotWelcome",{"firstSeen":1743421487822,"stepIDs":["copilot.setup.signIn","copilot.setup.signInNoAction","copilot.setup.signUp","copilot.setup.signUpNoAction","copilot.panelChat","copilot.edits","copilot.firstSuggest","copilot.inlineChatNotMac","copilot.inlineChatMac","copilot.sparkle"],"manaullyOpened":false}],["ms-toolsai.jupyter#jupyterWelcome",{"firstSeen":1743421487822,"stepIDs":["ipynb.newUntitledIpynb","jupyter.selectKernel","jupyter.exploreAndDebug","jupyter.dataScienceLearnMore"],"manaullyOpened":false}]]'
+workbench.welcomePage.walkthroughMetadata: '[["eamodio.gitlens#welcome",{"firstSeen":1741857196603,"stepIDs":["get-started-community","welcome-in-trial","welcome-in-trial-expired","welcome-in-trial-expired-eligible","welcome-paid","visualize-code-history","accelerate-pr-reviews","streamline-collaboration","improve-workflows-with-integrations"],"manaullyOpened":false}],["ms-python.python#pythonWelcome",{"firstSeen":1741857196603,"stepIDs":["python.createPythonFolder","python.createPythonFile","python.installPythonWin8","python.installPythonMac","python.installPythonLinux","python.createEnvironment","python.runAndDebug","python.learnMoreWithDS"],"manaullyOpened":false}],["ms-python.python#pythonDataScienceWelcome",{"firstSeen":1741857196603,"stepIDs":["python.installJupyterExt","python.createNewNotebook","python.openInteractiveWindow","python.dataScienceLearnMore"],"manaullyOpened":false}],["ms-vscode.cpptools#cppWelcome",{"firstSeen":1741857196603,"stepIDs":["awaiting.activation.mac","awaiting.activation.linux","awaiting.activation.windows","awaiting.activation.windows10","awaiting.activation.windows11","no.compilers.found.mac","no.compilers.found.linux","no.compilers.found.windows","no.compilers.found.windows10","no.compilers.found.windows11","verify.compiler.mac","verify.compiler.linux","verify.compiler.windows","verify.compiler.windows10","verify.compiler.windows11","create.cpp.file","relaunch.developer.command.prompt.windows","run.project.mac","run.project.linux","run.project.windows","customize.debugging.linux","customize.debugging.windows","customize.debugging.mac"],"manaullyOpened":false}]]'
 zokugun.cron-tasks: '{"version":"0.2.0"}'

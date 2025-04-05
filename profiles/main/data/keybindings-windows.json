@@ -116,5 +116,22 @@
         "key": "shift+enter",
         "command": "-editor.action.insertLineAfter",
         "when": "editorTextFocus && !editorReadonly && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "composerMode.agent"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "composerMode.chat"
+    },
+    {
+        "key": "ctrl+shift+alt+o",
+        "command": "revealFileInOS"
+    },
+    {
+        "key": "shift+alt+r",
+        "command": "-revealFileInOS",
+        "when": "!editorFocus"
     }
 ]
