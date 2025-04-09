@@ -9,6 +9,8 @@ enabled:
     uuid: ee33fd31-7bb4-4252-8368-fdd5bcd94cf8
   - id: anysphere.pyright
     uuid: d990d7f1-60b6-4234-91a7-d146a42bb230
+  - id: Augment.vscode-augment
+    uuid: fc0e137d-e132-47ed-9455-c4636fa5b897
   - id: bradlc.vscode-tailwindcss
     uuid: 4db62a7c-7d70-419c-96d2-6c3a4dc77ea5
   - id: butov-dev.new-ui-dark-theme
@@ -101,6 +103,8 @@ enabled:
     uuid: de040f22-8a86-45da-9cfe-d4f4c0c8fdc0
   - id: PKief.material-icon-theme
     uuid: 5db78037-f674-459f-a236-db622c427c5b
+  - id: qwtel.sqlite-viewer
+    uuid: 94fef082-6c2d-43ac-9540-6617b51a3a12
   - id: ritwickdey.LiveServer
     uuid: b63c44fd-0457-4696-99e9-dbfdf70d77de
   - id: sdras.vue-vscode-snippets

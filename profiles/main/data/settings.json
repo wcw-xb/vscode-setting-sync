@@ -9,6 +9,7 @@
   },
   "editor.mouseWheelZoom": true,
   "code-runner.executorMap": {
+    
     "javascript": "node",
     "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
     "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
@@ -139,5 +140,5 @@
     "*.sdb": "${capture}.${extname}-*",
     "*.s3db": "${capture}.${extname}-*"
   },
-  "workbench.colorTheme": "Default Light Modern",
+  "workbench.colorTheme": "New UI Dark",
 }

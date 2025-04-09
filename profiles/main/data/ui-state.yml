@@ -1,3 +1,4 @@
+Augment.vscode-augment: '{"sessionId":"8c4c1902-1b3d-4a9b-ac71-40fd58450733","actionSystemStates":"[[\"authenticated\",{\"name\":\"authenticated\",\"status\":\"complete\"}],[\"syncingPermitted\",{\"name\":\"syncingPermitted\",\"status\":\"complete\"}],[\"disabledGithubCopilot\",{\"name\":\"disabledGithubCopilot\",\"status\":\"complete\"}],[\"hasMovedExtensionAside\",{\"name\":\"hasMovedExtensionAside\",\"status\":\"incomplete\"}],[\"workspacePopulated\",{\"name\":\"workspacePopulated\",\"status\":\"complete\"}],[\"workspaceSelected\",{\"name\":\"workspaceSelected\",\"status\":\"complete\"}],[\"disabledCodeium\",{\"name\":\"disabledCodeium\",\"status\":\"complete\"}],[\"uploadingHomeDir\",{\"name\":\"uploadingHomeDir\",\"status\":\"initializing\"}],[\"workspaceTooLarge\",{\"name\":\"workspaceTooLarge\",\"status\":\"initializing\"}]]","lastEnabledExtensionVersion":"0.404.1","workspaceMessageStates":[{"folderRoot":"e:\\Study\\ton\\ton_tools","workspaceSummary":true}],"sidecar.agent.hasEverUsedAgent":true,"memoriesFileOpenCount":1}'
 cweijan.vscode-mysql-client2: "{\"databaseMetas\":null,\"version_map\":{\"17418\
   53726652\":\"8.2.0\",\"1741853726652@@47.94.168.160@3306@sci_writting\":\"2.3M\
   \",\"1743674968459\":\"
@@ -28,14 +29,14 @@ cweijan.vscode-mysql-client2: "{\"databaseMetas\":null,\"version_map\":{\"17418\
   ocksProxy\":false,\"useHTTPProxy\":false,\"global\":true,\"savePassword\":\"F\
   orever\",\"readonly\":false,\"sort\":13,\"useSSL\":false,\"dbPath\":\"e:\\\\S\
   tudy\\\\SqlModel学习\\\\database.db\",\"fs\":{\"encoding\":\"utf8\",\"showHidden\
-  \":true},\"connectionKey\":\"database.connections\",\"disable\":false}},\"mys\
-  ql.database.cache.collapseState\":{\"1741853726652@@47.94.168.160@3306\":1,\"\
-  1741853726652@@47.94.168.160@3306@sci_writting\":1,\"1741853726652@@47.94.168\
-  .160@3306@sci_writting#user_info\":1,\"1743674968459@@127.0.0.1@3306\":1,\"17\
-  43674968459@@127.0.0.1@3306@transfer\":1,\"1743674968459@@127.0.0.1@3306@tran\
-  sfer#Tables\":1,\"1743674968459@@127.0.0.1@3306@transfer#Views\":1,\"17436749\
-  68459@@127.0.0.1@3306@transfer#Functions\":1,\"1743674968459@@127.0.0.1@3306@\
-  transfer#Procedures\":1,\"1743674968459@@127.0.0.1@3306@address_generator\":2,\
+  \":true},\"connectionKey\":\"database.connections\",\"disable\":true}},\"mysq\
+  l.database.cache.collapseState\":{\"1741853726652@@47.94.168.160@3306\":1,\"1\
+  741853726652@@47.94.168.160@3306@sci_writting\":1,\"1741853726652@@47.94.168.\
+  160@3306@sci_writting#user_info\":1,\"1743674968459@@127.0.0.1@3306\":1,\"174\
+  3674968459@@127.0.0.1@3306@transfer\":1,\"1743674968459@@127.0.0.1@3306@trans\
+  fer#Tables\":1,\"1743674968459@@127.0.0.1@3306@transfer#Views\":1,\"174367496\
+  8459@@127.0.0.1@3306@transfer#Functions\":1,\"1743674968459@@127.0.0.1@3306@t\
+  ransfer#Procedures\":1,\"1743674968459@@127.0.0.1@3306@address_generator\":2,\
   \"1743674968459@@127.0.0.1@3306@address_generator#Tables\":2,\"1743674968459@\
   @127.0.0.1@3306@address_generator#Views\":1,\"1743674968459@@127.0.0.1@3306@a\
   ddress_generator#Functions\":1,\"1743674968459@@127.0.0.1@3306@address_genera\
@@ -45,7 +46,7 @@ cweijan.vscode-mysql-client2: "{\"databaseMetas\":null,\"version_map\":{\"17418\
   0.1@3306#Tables\":2,\"1741853726652@@47.94.168.160@3306@sci_writting#Tables\"\
   :1,\"1743742005810@@127.0.0.1@3306#Views\":2,\"1743742005810@@127.0.0.1@3306#\
   hero\":1,\"1743742005810@@127.0.0.1@3306#sqlite_sequence\":1,\"1743830214901@\
-  @127.0.0.1@3306\":2,\"1743830214901@@127.0.0.1@3306#Tables\":1},\"View#send_t\
+  @127.0.0.1@3306\":2,\"1743830214901@@127.0.0.1@3306#Tables\":2},\"View#send_t\
   ime\":1743830219926,\"dbclient_state\":{\"showPayNotice\":false},\"sql.history\
   \":[{\"sql\":\"SELECT * FROM team LIMIT
   100;\",\"costTime\":1,\"date\":1743834919674,\"dbType\":\"SQLite\",\"connecti\
@@ -162,8 +163,16 @@ cweijan.vscode-mysql-client2: "{\"databaseMetas\":null,\"version_map\":{\"17418\
   \\\"id\\\"=2;\",\"costTime\":57,\"date\":1743835496012,\"dbType\":\"SQLite\",\
   \"connectionId\":\"database.connections\"},{\"sql\":\"SELECT * FROM hero LIMIT
   100;\",\"costTime\":1,\"date\":1743835499270,\"dbType\":\"SQLite\",\"connecti\
+  onId\":\"database.connections\"},{\"sql\":\"DELETE FROM \\\"team\\\" WHERE
+  \\\"id\\\"=2;\",\"costTime\":70,\"date\":1743838068951,\"dbType\":\"SQLite\",\
+  \"connectionId\":\"database.connections\"},{\"sql\":\"SELECT * FROM hero LIMIT
+  100;\",\"costTime\":0,\"date\":1743838071914,\"dbType\":\"SQLite\",\"connecti\
+  onId\":\"database.connections\"},{\"sql\":\"SELECT * FROM team LIMIT
+  100;\",\"costTime\":1,\"date\":1743838149851,\"dbType\":\"SQLite\",\"connecti\
+  onId\":\"database.connections\"},{\"sql\":\"SELECT * FROM hero LIMIT
+  100;\",\"costTime\":0,\"date\":1743838152990,\"dbType\":\"SQLite\",\"connecti\
   onId\":\"database.connections\"}],\"lastActiveUid\":\"1743830214901@@127.0.0.\
-  1@3306#team\",\"Show_Table#send_time\":1743743063274}"
+  1@3306\",\"Show_Table#send_time\":1743743063274}"
 donjayamanne.python-environment-manager: "{\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\
   \\COMPANY\\\\视频上传脚本\":true,\"PYTHON_EXTENSION_GLOBAL_STORAGE_KEYS\":[],\"PYTH\
   ON_ENV_INFO_CACHE\":[{\"name\":\"\",\"location\":\"\",\"kind\":\"global-other\
@@ -258,7 +267,7 @@ eamodio.gitlens: "{\"gitlens:premium:subscription\":{\"v\":1,\"data\":{\"plan\"\
   22802162@qq.com\",\"verified\":true,\"createdOn\":\"2025-03-12T06:31:01.866Z\
   \"},\"activeOrganization\":{\"id\":\"67d12a2564a58c22e87e7cee\",\"name\":\"18\
   22802162's
-  organization\",\"role\":\"owner\"},\"lastValidatedAt\":1743823270521}},\"gitl\
+  organization\",\"role\":\"owner\"},\"lastValidatedAt\":1744162956583}},\"gitl\
   ens:version\":\"17.0.1\",\"gitlens:synced:version\":\"17.0.1\",\"gitlens:laun\
   chpad:indicator:hasLoaded\":true,\"gitlens:product:config\":{\"data\":{\"prom\
   os\":[{\"key\":\"gkholiday\",\"code\":\"GKHOLIDAY\",\"states\":[0,1,2,3,4,5],\
@@ -269,11 +278,11 @@ eamodio.gitlens: "{\"gitlens:premium:subscription\":{\"v\":1,\"data\":{\"plan\"\
   Pro\",\"title\":\"Upgrade now and save up to 80% on GitLens
   Pro\"}}},\"percentile\":50},{\"key\":\"pro50\",\"states\":[0,1,2,3,4,5],\"loc\
   ations\":[\"home\",\"account\",\"badge\",\"gate\"],\"content\":{\"quickpick\"\
-  :{\"detail\":\"$(star-full) Save 33% or more on GitLens
-  Pro\"},\"webview\":{\"info\":{\"html\":\"<b>Save 33% or more</b> on GitLens
-  Pro\"},\"link\":{\"html\":\"<b>Save 33% or more</b> on GitLens
-  Pro\",\"title\":\"Upgrade now and save 33% or more on GitLens
-  Pro\"}}}}]},\"v\":1,\"timestamp\":1743835099088},\"gitlens:usages\":{\"comman\
+  :{\"detail\":\"$(star-full) Save 50% on GitLens
+  Pro\"},\"webview\":{\"info\":{\"html\":\"<b>Save 50%</b> on GitLens
+  Pro\"},\"link\":{\"html\":\"<b>Save 50%</b> on GitLens
+  Pro\",\"title\":\"Upgrade now and save 50% on GitLens
+  Pro\"}}}}]},\"v\":1,\"timestamp\":1744192946166},\"gitlens:usages\":{\"comman\
   d:gitlens.openWalkthrough:executed\":{\"count\":1,\"firstUsedAt\":17411860951\
   05,\"lastUsedAt\":1741186095105},\"command:gitlens.home.startWork:executed\":{\
   \"count\":1,\"firstUsedAt\":1741186101756,\"lastUsedAt\":1741186101756},\"com\
@@ -369,18 +378,22 @@ eamodio.gitlens: "{\"gitlens:premium:subscription\":{\"v\":1,\"data\":{\"plan\"\
   \"}],[\"e:/Company/FreeStatistic\",{\"visibility\":\"private\",\"timestamp\":\
   1742051371290,\"remotesHash\":\"github.com/wcw-xb/FreeStatistic\"}],[\"e:/Com\
   pany/风锐AI/free-webchat\",{\"visibility\":\"private\",\"timestamp\":1742154187\
-  737,\"remotesHash\":\"github.com/wcw-xb/free-webchat\"}]],\"gitlens:plus:prev\
-  iew:graph:usages\":[{\"startedOn\":\"2025-03-12T06:30:12.478Z\",\"expiresOn\":\
-  \"2025-03-13T06:30:12.478Z\"}],\"gitlens:launchpad:indicator:hasInteracted\":\
-  \"2025-03-12T06:35:27.810Z\",\"gitlens:graph:searchMode\":\"normal\",\"gitlen\
-  s:gk:d2e20bd4-4d73-4cb5-9171-f889e2f49596:checkin\":{\"v\":1,\"timestamp\":17\
-  43823269651,\"data\":{\"user\":{\"id\":\"d2e20bd4-4d73-4cb5-9171-f889e2f49596\
-  \",\"name\":\"wendy\",\"email\":\"1822802162@qq.com\",\"status\":\"activated\
-  \",\"createdDate\":\"2025-03-12T06:31:01.866Z\"},\"licenses\":{\"paidLicenses\
-  \":{},\"effectiveLicenses\":{}},\"nextOptInDate\":\"2025-06-28T00:00:00.000Z\
-  \"}},\"gitlens:gk:d2e20bd4-4d73-4cb5-9171-f889e2f49596:organizations\":{\"v\"\
-  :1,\"timestamp\":1743823270515,\"data\":[{\"id\":\"67d12a2564a58c22e87e7cee\",\
-  \"name\":\"1822802162's
+  737,\"remotesHash\":\"github.com/wcw-xb/free-webchat\"}],[\"e:/Study/ton/暮色安然\
+  /nft-template-in-tact\",{\"visibility\":\"private\",\"timestamp\":17440760913\
+  76,\"remotesHash\":\"github.com/wendy-TON-project/nft-contract\"}],[\"e:/Stud\
+  y/ton/ton_tools\",{\"visibility\":\"private\",\"timestamp\":1744192947519,\"r\
+  emotesHash\":\"github.com/wendy-TON-project/wendy-TON-project-address-scraping\
+  \"}]],\"gitlens:plus:preview:graph:usages\":[{\"startedOn\":\"2025-03-12T06:3\
+  0:12.478Z\",\"expiresOn\":\"2025-03-13T06:30:12.478Z\"}],\"gitlens:launchpad:\
+  indicator:hasInteracted\":\"2025-03-12T06:35:27.810Z\",\"gitlens:graph:search\
+  Mode\":\"normal\",\"gitlens:gk:d2e20bd4-4d73-4cb5-9171-f889e2f49596:checkin\"\
+  :{\"v\":1,\"timestamp\":1744162955813,\"data\":{\"user\":{\"id\":\"d2e20bd4-4\
+  d73-4cb5-9171-f889e2f49596\",\"name\":\"wendy\",\"email\":\"1822802162@qq.com\
+  \",\"status\":\"activated\",\"createdDate\":\"2025-03-12T06:31:01.866Z\"},\"l\
+  icenses\":{\"paidLicenses\":{},\"effectiveLicenses\":{}},\"nextOptInDate\":\"\
+  2025-06-28T00:00:00.000Z\"}},\"gitlens:gk:d2e20bd4-4d73-4cb5-9171-f889e2f4959\
+  6:organizations\":{\"v\":1,\"timestamp\":1744162956580,\"data\":[{\"id\":\"67\
+  d12a2564a58c22e87e7cee\",\"name\":\"1822802162's
   organization\",\"role\":\"owner\"}]},\"gitlens:integrations:configured\":{\"g\
   ithub\":[{\"integrationId\":\"github\",\"expiresAt\":\"2059-03-26T06:01:34.54\
   2Z\",\"scopes\":\"repo,read:user,user:email\",\"cloud\":true}],\"gitlab\":[],\
@@ -394,67 +407,68 @@ ms-python.python: "{\"VSCode.ABExp.FeatureData\":{\"features\":[\"config.python\
   .analysis.supportRestructuredText\",\"config.python.locator\",\"config.window\
   .experimentalTitleBarStyle\",\"copilotchat.config.chat.advanced.inlineEdits.i\
   ncludeCursor\",\"copilotchat.config.chat.advanced.inlineEdits.instructionsVar\
-  iant\",\"copilot_ci\",\"extensions.gallery.useResourceApi\",\"livesharecontin\
-  uousaacf\",\"msEntraShowUpdateUserFlow\",\"pythonTerminalEnvVarActivation\",\
-  \"validate_micf\"],\"assignmentContext\":\"vsliv368cf:30146710;962ge761:30959\
-  799;pythonrstrctxt:31112756;nativeloc1:31192215;6074i472:31201624;customenabl\
-  ed:31248079;9064b325:31222308;copilot_t_ci:31222730;31787653:31262186;3e8i572\
-  6:31271747;useunpkgapi:31277719;\",\"configs\":[{\"Id\":\"vscode\",\"Paramete\
-  rs\":{\"config.python.analysis.supportRestructuredText\":true,\"config.python\
-  .locator\":\"native\",\"config.window.experimentalTitleBarStyle\":\"custom\",\
-  \"copilotchat.config.chat.advanced.inlineEdits.includeCursor\":true,\"copilot\
-  chat.config.chat.advanced.inlineEdits.instructionsVariant\":\"v1\",\"copilot_\
-  ci\":true,\"extensions.gallery.useResourceApi\":\"unpkg\",\"livesharecontinuo\
-  usaa\":false,\"msEntraShowUpdateUserFlow\":true,\"pythonTerminalEnvVarActivat\
-  ion\":true,\"validate_mi\":false}}]},\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\
-  \\\\TEST\":true,\"autoSelectionInterpretersQueriedOnce\":true,\"remoteWorkspa\
-  ceFolderKeysForWhichTheCopyIsDone_Key\":[\"E:\\\\STUDY\\\\SQLMODEL学习\",\"E:\\\
-  \\STUDY\\\\算法学习\",\"D:\\\\PYSIDE6-FLUENT-WIDGETS-PRO-V0.8.4\",\"E:\\\\STUDY\\\
-  \\FASTAPI-STUDY\",\"E:\\\\项目\\\\车辆爬虫项目\\\\ERP-MERGE\",\"C:\\\\USERS\\\\18228\\\
-  \\DESKTOP\\\\TEST1\\\\TEST\",\"E:\\\\COMPANY\\\\FREE-PUBMED\",\"E:\\\\COMPANY\
-  \\\\视频上传脚本\",\"E:\\\\COMPANY\\\\FREESTATISTIC\",\"E:\\\\COMPANY\\\\FREESTATIS\
-  TICUPDATE\",\"E:\\\\COMPANY\\\\浏览器\\\\风锐浏览器\",\"E:\\\\COMPANY\\\\专利资料\",\"E:\\\
-  \\COMPANY\\\\SCIEND\\\\SCIWRITING\",\"E:\\\\COMPANY\\\\FREE-AI\",\"E:\\\\项目\\\
-  \\车辆爬虫项目\\\\VIN-SEARCH\",\"E:\\\\项目\\\\车辆爬虫项目\\\\VIN_SEARCH_END\\\\VIN_SEARCH\
-  _END\",\"E:\\\\项目\\\\车辆爬虫项目\\\\VIN_SEARCH_END\",\"E:\\\\项目\\\\WECHAT-PROJECT\\\
-  \\WECHAT_PROJECT\",\"E:\\\\项目\\\\车辆爬虫项目\\\\OCR-PROJECT\",\"E:\\\\项目\\\\WECHAT\
-  -PROJECT\",\"E:\\\\STUDY\\\\TON\\\\TON_TOOLS\",\"E:\\\\项目\\\\车辆爬虫项目\\\\DEMO-P\
-  ROJECT\",\"E:\\\\项目\\\\地址污染\\\\ADDRESS-GENERATOR\",\"E:\\\\项目\\\\TEST\"],\"is\
-  RemoteGlobalSettingCopiedKey\":true,\"SHELL_INTEGRATION_WORKING_KEY_powershel\
-  lCore\":true,\"pylanceDefaultPromptMemento\":true,\"WORKSPACE_FOLDER_INTERPRE\
-  TER_PATH_E:\\\\项目\\\\TEST\":\"e:\\\\项目\\\\test\\\\.venv\\\\Scripts\\\\python.\
-  exe\",\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\地址污染\\\\ADDRESS-GENERATOR\
-  \":true,\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\车辆爬虫项目\\\\DEMO-PROJECT\"\
-  :true,\"TERMINAL_ENV_COLLECTION_PROMPT_KEY\":false,\"PYTHON_WAS_DISCOVERY_TRI\
-  GGERED_E:\\\\STUDY\\\\TON\\\\TON_TOOLS\":true,\"WORKSPACE_FOLDER_INTERPRETER_\
-  PATH_E:\\\\STUDY\\\\TON\\\\TON_TOOLS\":\"e:\\\\Study\\\\ton\\\\ton_tools\\\\v\
-  env\\\\Scripts\\\\python.exe\",\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\W\
-  ECHAT-PROJECT\":true,\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\项目\\\\WECHAT-P\
-  ROJECT\":\"e:\\\\项目\\\\wechat-project\\\\.venv\\\\Scripts\\\\python.exe\",\"P\
-  YTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\车辆爬虫项目\\\\OCR-PROJECT\":true,\"PYTH\
-  ON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\WECHAT-PROJECT\\\\WECHAT_PROJECT\":tru\
-  e,\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\项目\\\\WECHAT-PROJECT\\\\WECHAT_PR\
-  OJECT\":\"e:\\\\项目\\\\wechat-project\\\\.venv\\\\Scripts\\\\python.exe\",\"PY\
-  THON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\车辆爬虫项目\\\\VIN_SEARCH_END\":true,\"PY\
-  THON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\车辆爬虫项目\\\\VIN_SEARCH_END\\\\VIN_SEAR\
-  CH_END\":true,\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\车辆爬虫项目\\\\VIN-SEAR\
-  CH\":true,\"remoteWorkspaceKeysForWhichTheCopyIsDone_Key\":[\"1741608305951\"\
-  ],\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\FREE-AI\":true,\"PYTHON_W\
-  AS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\SCIEND\\\\SCIWRITING\":true,\"WORKSPA\
-  CE_FOLDER_INTERPRETER_PATH_E:\\\\COMPANY\\\\SCIEND\\\\SCIWRITING\":\"e:\\\\Co\
-  mpany\\\\SCIEnd\\\\venv\\\\Scripts\\\\python.exe\",\"PYTHON_WAS_DISCOVERY_TRI\
-  GGERED_E:\\\\COMPANY\\\\专利资料\":true,\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\CO\
-  MPANY\\\\浏览器\\\\风锐浏览器\":true,\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\COMPANY\
-  \\\\浏览器\\\\风锐浏览器\":\"e:\\\\Company\\\\浏览器\\\\风锐浏览器\\\\.venv\\\\Scripts\\\\pyt\
-  hon.exe\",\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\FREESTATISTICUPDA\
-  TE\":true,\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\FREESTATISTIC\":t\
-  rue,\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\视频上传脚本\":true,\"PYTHON_\
-  WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\FREE-PUBMED\":true,\"PYTHON_ENV_INFO\
-  _CACHEv2\":[{\"name\":\"\",\"location\":\"\",\"kind\":\"global-other\",\"exec\
-  utable\":{\"filename\":\"C:\\\\Users\\\\18228\\\\AppData\\\\Local\\\\Programs\
-  \\\\Python\\\\Python38\\\\python.exe\",\"sysPrefix\":\"C:\\\\Users\\\\18228\\\
-  \\AppData\\\\Local\\\\Programs\\\\Python\\\\Python38\",\"ctime\":170972491373\
-  1,\"mtime\":1620014086000},\"display\":\"Python 3.8.10
+  iant\",\"copilotdisablecontextualfiltercf\",\"copilot_ci\",\"extensions.galle\
+  ry.useResourceApi\",\"livesharecontinuousaacf\",\"msEntraShowUpdateUserFlow\",\
+  \"pythonTerminalEnvVarActivation\",\"validate_micf\"],\"assignmentContext\":\
+  \"vsliv368cf:30146710;962ge761:30959799;pythonrstrctxt:31112756;nativeloc1:31\
+  192215;6074i472:31201624;customenabled:31248079;9064b325:31222308;copilot_t_c\
+  i:31222730;cp15370_c:31280196;31787653:31262186;3e8i5726:31271747;useunpkgapi\
+  :31280918;\",\"configs\":[{\"Id\":\"vscode\",\"Parameters\":{\"config.python.\
+  analysis.supportRestructuredText\":true,\"config.python.locator\":\"native\",\
+  \"config.window.experimentalTitleBarStyle\":\"custom\",\"copilotchat.config.c\
+  hat.advanced.inlineEdits.includeCursor\":true,\"copilotchat.config.chat.advan\
+  ced.inlineEdits.instructionsVariant\":\"v1\",\"copilotdisablecontextualfilter\
+  \":false,\"copilot_ci\":true,\"extensions.gallery.useResourceApi\":\"unpkg\",\
+  \"livesharecontinuousaa\":false,\"msEntraShowUpdateUserFlow\":true,\"pythonTe\
+  rminalEnvVarActivation\":true,\"validate_mi\":false}}]},\"PYTHON_WAS_DISCOVER\
+  Y_TRIGGERED_E:\\\\项目\\\\TEST\":true,\"autoSelectionInterpretersQueriedOnce\":\
+  true,\"remoteWorkspaceFolderKeysForWhichTheCopyIsDone_Key\":[\"E:\\\\STUDY\\\
+  \\SQLMODEL学习\",\"E:\\\\STUDY\\\\算法学习\",\"D:\\\\PYSIDE6-FLUENT-WIDGETS-PRO-V0.\
+  8.4\",\"E:\\\\STUDY\\\\FASTAPI-STUDY\",\"E:\\\\项目\\\\车辆爬虫项目\\\\ERP-MERGE\",\"\
+  C:\\\\USERS\\\\18228\\\\DESKTOP\\\\TEST1\\\\TEST\",\"E:\\\\COMPANY\\\\FREE-PU\
+  BMED\",\"E:\\\\COMPANY\\\\视频上传脚本\",\"E:\\\\COMPANY\\\\FREESTATISTIC\",\"E:\\\
+  \\COMPANY\\\\FREESTATISTICUPDATE\",\"E:\\\\COMPANY\\\\浏览器\\\\风锐浏览器\",\"E:\\\\\
+  COMPANY\\\\专利资料\",\"E:\\\\COMPANY\\\\SCIEND\\\\SCIWRITING\",\"E:\\\\COMPANY\\\
+  \\FREE-AI\",\"E:\\\\项目\\\\车辆爬虫项目\\\\VIN-SEARCH\",\"E:\\\\项目\\\\车辆爬虫项目\\\\VIN_\
+  SEARCH_END\\\\VIN_SEARCH_END\",\"E:\\\\项目\\\\车辆爬虫项目\\\\VIN_SEARCH_END\",\"E:\\\
+  \\项目\\\\WECHAT-PROJECT\\\\WECHAT_PROJECT\",\"E:\\\\项目\\\\车辆爬虫项目\\\\OCR-PROJECT\
+  \",\"E:\\\\项目\\\\WECHAT-PROJECT\",\"E:\\\\STUDY\\\\TON\\\\TON_TOOLS\",\"E:\\\
+  \\项目\\\\车辆爬虫项目\\\\DEMO-PROJECT\",\"E:\\\\项目\\\\地址污染\\\\ADDRESS-GENERATOR\",\"\
+  E:\\\\项目\\\\TEST\"],\"isRemoteGlobalSettingCopiedKey\":true,\"SHELL_INTEGRATI\
+  ON_WORKING_KEY_powershellCore\":true,\"pylanceDefaultPromptMemento\":true,\"W\
+  ORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\项目\\\\TEST\":\"e:\\\\项目\\\\test\\\\.ve\
+  nv\\\\Scripts\\\\python.exe\",\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\地址\
+  污染\\\\ADDRESS-GENERATOR\":true,\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\车\
+  辆爬虫项目\\\\DEMO-PROJECT\":true,\"TERMINAL_ENV_COLLECTION_PROMPT_KEY\":false,\"P\
+  YTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\STUDY\\\\TON\\\\TON_TOOLS\":true,\"WORKSP\
+  ACE_FOLDER_INTERPRETER_PATH_E:\\\\STUDY\\\\TON\\\\TON_TOOLS\":\"e:\\\\Study\\\
+  \\ton\\\\ton_tools\\\\venv\\\\Scripts\\\\python.exe\",\"PYTHON_WAS_DISCOVERY_\
+  TRIGGERED_E:\\\\项目\\\\WECHAT-PROJECT\":true,\"WORKSPACE_FOLDER_INTERPRETER_PA\
+  TH_E:\\\\项目\\\\WECHAT-PROJECT\":\"e:\\\\项目\\\\wechat-project\\\\.venv\\\\Scri\
+  pts\\\\python.exe\",\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\车辆爬虫项目\\\\OC\
+  R-PROJECT\":true,\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\WECHAT-PROJECT\\\
+  \\WECHAT_PROJECT\":true,\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\项目\\\\WECHA\
+  T-PROJECT\\\\WECHAT_PROJECT\":\"e:\\\\项目\\\\wechat-project\\\\.venv\\\\Scripts\
+  \\\\python.exe\",\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\车辆爬虫项目\\\\VIN_S\
+  EARCH_END\":true,\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\车辆爬虫项目\\\\VIN_S\
+  EARCH_END\\\\VIN_SEARCH_END\":true,\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\
+  \\车辆爬虫项目\\\\VIN-SEARCH\":true,\"remoteWorkspaceKeysForWhichTheCopyIsDone_Key\
+  \":[\"1741608305951\"],\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\FREE\
+  -AI\":true,\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\SCIEND\\\\SCIWRI\
+  TING\":true,\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\COMPANY\\\\SCIEND\\\\SC\
+  IWRITING\":\"e:\\\\Company\\\\SCIEnd\\\\venv\\\\Scripts\\\\python.exe\",\"PYT\
+  HON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\专利资料\":true,\"PYTHON_WAS_DISCOVE\
+  RY_TRIGGERED_E:\\\\COMPANY\\\\浏览器\\\\风锐浏览器\":true,\"WORKSPACE_FOLDER_INTERPRE\
+  TER_PATH_E:\\\\COMPANY\\\\浏览器\\\\风锐浏览器\":\"e:\\\\Company\\\\浏览器\\\\风锐浏览器\\\\.\
+  venv\\\\Scripts\\\\python.exe\",\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\
+  \\\\FREESTATISTICUPDATE\":true,\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\
+  \\\\FREESTATISTIC\":true,\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\视频\
+  上传脚本\":true,\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\FREE-PUBMED\":t\
+  rue,\"PYTHON_ENV_INFO_CACHEv2\":[{\"name\":\"\",\"location\":\"\",\"kind\":\"\
+  global-other\",\"executable\":{\"filename\":\"C:\\\\Users\\\\18228\\\\AppData\
+  \\\\Local\\\\Programs\\\\Python\\\\Python38\\\\python.exe\",\"sysPrefix\":\"C:\
+  \\\\Users\\\\18228\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python38\",\"\
+  ctime\":1709724913731,\"mtime\":1620014086000},\"display\":\"Python 3.8.10
   64-bit\",\"version\":{\"major\":3,\"minor\":8,\"micro\":10,\"release\":{\"lev\
   el\":\"final\",\"serial\":0},\"sysVersion\":\"3.8.10 (tags/v3.8.10:3d8993a,
   May  3 2021, 11:48:03) [MSC v.1928 64 bit
@@ -729,73 +743,85 @@ ms-python.python: "{\"VSCode.ABExp.FeatureData\":{\"features\":[\"config.python\
   \":true,\"PYTHON_WAS_DISCOVERY_TRIGGERED_D:\\\\PYSIDE6-FLUENT-WIDGETS-PRO-V0.\
   8.4\":true,\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\STUDY\\\\算法学习\":true,\"PYTH\
   ON_WAS_DISCOVERY_TRIGGERED_E:\\\\STUDY\\\\SQLMODEL学习\":true,\"PYTHON_GLOBAL_S\
-  TORAGE_KEYS\":[{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\STUDY\\\\SQLMO\
-  DEL学习\",\"defaultValue\":false},{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_\
-  E:\\\\STUDY\\\\SQLMODEL学习\"},{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\\
-  项目\\\\地址污染\\\\ADDRESS-GENERATOR\",\"defaultValue\":false},{\"key\":\"WORKSPAC\
-  E_FOLDER_INTERPRETER_PATH_E:\\\\项目\\\\地址污染\\\\ADDRESS-GENERATOR\"},{\"key\":\
-  \"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\STUDY\\\\算法学习\",\"defaultValue\":false\
-  },{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\STUDY\\\\算法学习\"},{\"key\
-  \":\"SHELL_INTEGRATION_WORKING_KEY_other\"},{\"key\":\"PYTHON_WAS_DISCOVERY_T\
-  RIGGERED_E:\\\\COMPANY\\\\浏览器\\\\风锐浏览器\",\"defaultValue\":false},{\"key\":\"W\
-  ORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\COMPANY\\\\浏览器\\\\风锐浏览器\"},{\"key\":\"\
-  PYTHON_WAS_DISCOVERY_TRIGGERED_D:\\\\PYSIDE6-FLUENT-WIDGETS-PRO-V0.8.4\",\"de\
-  faultValue\":false},{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_D:\\\\PYSIDE\
-  6-FLUENT-WIDGETS-PRO-V0.8.4\"},{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\
-  \\COMPANY\\\\FREESTATISTICUPDATE\",\"defaultValue\":false},{\"key\":\"WORKSPA\
-  CE_FOLDER_INTERPRETER_PATH_E:\\\\COMPANY\\\\FREESTATISTICUPDATE\"},{\"key\":\
-  \"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\视频上传脚本\",\"defaultValue\":f\
-  alse},{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\COMPANY\\\\视频上传脚本\"}\
-  ,{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\FREESTATISTIC\",\
-  \"defaultValue\":false},{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\CO\
-  MPANY\\\\FREESTATISTIC\"},{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\STU\
-  DY\\\\FASTAPI-STUDY\",\"defaultValue\":false},{\"key\":\"WORKSPACE_FOLDER_INT\
-  ERPRETER_PATH_E:\\\\STUDY\\\\FASTAPI-STUDY\"},{\"key\":\"autoSelectionInterpr\
-  etersQueriedOnce\"},{\"key\":\"VSCode.ABExp.FeatureData\",\"defaultValue\":{\
-  \"features\":[]}},{\"key\":\"TERMINAL_ENV_COLLECTION_PROMPT_KEY\",\"defaultVa\
-  lue\":true},{\"key\":\"isRemoteGlobalSettingCopiedKey\",\"defaultValue\":fals\
-  e},{\"key\":\"remoteWorkspaceFolderKeysForWhichTheCopyIsDone_Key\",\"defaultV\
-  alue\":[]},{\"key\":\"doNotShowExtensionSurveyUntilTime\",\"defaultValue\":fa\
-  lse},{\"key\":\"doNotShowExtensionSurveyAgain\",\"defaultValue\":false},{\"key\
-  \":\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\车辆爬虫项目\\\\VIN_SEARCH_END\\\\V\
-  IN_SEARCH_END\",\"defaultValue\":false},{\"key\":\"PYTHON_ENV_INFO_CACHEv2\",\
-  \"defaultValue\":[]},{\"key\":\"PYTHON_EXTENSION_GLOBAL_STORAGE_KEYS\",\"defa\
-  ultValue\":[]},{\"key\":\"PythonTensorBoardWebviewPreferredViewGroup\",\"defa\
-  ultValue\":-1},{\"key\":\"SHELL_INTEGRATION_WORKING_KEY_powershellCore\"},{\"\
-  key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\项目\\\\车辆爬虫项目\\\\VIN_SEARCH_END\
-  \\\\VIN_SEARCH_END\"},{\"key\":\"preferredGlobalPyInterpreter\"}]}"
-ms-python.vscode-pylance: '{"VSCode.ABExp.FeatureData":{"features":["config.python.analysis.supportRestructuredText","config.python.locator","config.window.experimentalTitleBarStyle","copilotchat.config.chat.advanced.inlineEdits.includeCursor","copilotchat.config.chat.advanced.inlineEdits.instructionsVariant","copilot_ci","extensions.gallery.useResourceApi","livesharecontinuousaacf","msEntraShowUpdateUserFlow","pythonTerminalEnvVarActivation","validate_micf"],"assignmentContext":"vsliv368cf:30146710;962ge761:30959799;pythonrstrctxt:31112756;nativeloc1:31192215;6074i472:31201624;customenabled:31248079;9064b325:31222308;copilot_t_ci:31222730;31787653:31262186;3e8i5726:31271747;useunpkgapi:31277719;","configs":[{"Id":"vscode","Parameters":{"config.python.analysis.supportRestructuredText":true,"config.python.locator":"native","config.window.experimentalTitleBarStyle":"custom","copilotchat.config.chat.advanced.inlineEdits.includeCursor":true,"copilotchat.config.chat.advanced.inlineEdits.instructionsVariant":"v1","copilot_ci":true,"extensions.gallery.useResourceApi":"unpkg","livesharecontinuousaa":false,"msEntraShowUpdateUserFlow":true,"pythonTerminalEnvVarActivation":true,"validate_mi":false}}]}}'
-ms-toolsai.jupyter: '{"VSCode.ABExp.FeatureData":{"features":["config.chat.experimental.statusIndicator.enabled","config.notebook.experimental.generate","config.python.analysis.enableEditableInstalls","config.python.analysis.enableExperimentalServer","config.python.analysis.supportRestructuredText","config.python.locator","config.window.experimentalTitleBarStyle","copilotchat.config.chat.advanced.inlineEdits.includeCursor","copilotchat.config.chat.advanced.inlineEdits.instructionsVariant","copilot_ci","extensions.gallery.useResourceApi","livesharecontinuousaacf","mindaroBinariesVersion","msEntraShowUpdateUserFlow","portForwardingServiceEnabled-development","portForwardingServiceEnabled-production","portForwardingServiceEnabled-staging","pythonRecommendTensorboardExt","pythonTerminalEnvVarActivation","shouldUseGrpcService","test1234cf","validate_micf"],"assignmentContext":"vsliv368cf:30146710;vspor879:30202332;vspor708:30202333;vspor363:30204092;binariesv615:30325510;c4g48928:30535728;962ge761:30959799;pythontbext0:30879054;pythonrstrctxt:31112756;nativeloc1:31192215;5fd0e150:31155592;6074i472:31201624;customenabled:31248079;9064b325:31222308;copilot_t_ci:31222730;pythoneinst12:31262605;bgtreat:31268568;4gafe986:31271826;563cc122:31253270;31787653:31262186;3e8i5726:31271747;useunpkgapi:31277719;","configs":[{"Id":"vscode","Parameters":{"config.chat.experimental.statusIndicator.enabled":true,"config.notebook.experimental.generate":true,"config.python.analysis.enableEditableInstalls":true,"config.python.analysis.enableExperimentalServer":true,"config.python.analysis.supportRestructuredText":true,"config.python.locator":"native","config.window.experimentalTitleBarStyle":"custom","copilotchat.config.chat.advanced.inlineEdits.includeCursor":true,"copilotchat.config.chat.advanced.inlineEdits.instructionsVariant":"v1","copilot_ci":true,"extensions.gallery.useResourceApi":"unpkg","livesharecontinuousaa":false,"mindaroBinariesVersion":"1.0.20210615.1","msEntraShowUpdateUserFlow":true,"portForwardingServiceEnabled-development":true,"portForwardingServiceEnabled-production":true,"portForwardingServiceEnabled-staging":true,"pythonRecommendTensorboardExt":true,"pythonTerminalEnvVarActivation":true,"shouldUseGrpcService":true,"test1234":false,"validate_mi":false}}]},"INTERPRETER_PATH_WAS_SELECTED_FOR_JUPYTER_SERVER":true,"CACHE_KEY_FOR_JUPYTER_KERNELSPEC_ROOT_PATH.":"file:///c%3A/Users/18228/AppData/Roaming/jupyter/kernels","DATASCIENCE.LAST_SAVED_CELL_LANGUAGE":"python","43ab6fdf60f7e422c9766f609067107074c264cd4e79f32e9fc42c7481672afe#ipykernel":true}'
+  TORAGE_KEYS\":[{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\STUDY\\\\TON\\\
+  \\TON_TOOLS\",\"defaultValue\":false},{\"key\":\"WORKSPACE_FOLDER_INTERPRETER\
+  _PATH_E:\\\\STUDY\\\\TON\\\\TON_TOOLS\"},{\"key\":\"PYTHON_WAS_DISCOVERY_TRIG\
+  GERED_E:\\\\STUDY\\\\SQLMODEL学习\",\"defaultValue\":false},{\"key\":\"WORKSPAC\
+  E_FOLDER_INTERPRETER_PATH_E:\\\\STUDY\\\\SQLMODEL学习\"},{\"key\":\"PYTHON_WAS_\
+  DISCOVERY_TRIGGERED_E:\\\\项目\\\\地址污染\\\\ADDRESS-GENERATOR\",\"defaultValue\":\
+  false},{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\项目\\\\地址污染\\\\ADDRE\
+  SS-GENERATOR\"},{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\STUDY\\\\算法学习\
+  \",\"defaultValue\":false},{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\
+  \\STUDY\\\\算法学习\"},{\"key\":\"SHELL_INTEGRATION_WORKING_KEY_other\"},{\"key\":\
+  \"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\浏览器\\\\风锐浏览器\",\"defaultVal\
+  ue\":false},{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\COMPANY\\\\浏览器\
+  \\\\风锐浏览器\"},{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED_D:\\\\PYSIDE6-FLUENT-W\
+  IDGETS-PRO-V0.8.4\",\"defaultValue\":false},{\"key\":\"WORKSPACE_FOLDER_INTER\
+  PRETER_PATH_D:\\\\PYSIDE6-FLUENT-WIDGETS-PRO-V0.8.4\"},{\"key\":\"PYTHON_WAS_\
+  DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\FREESTATISTICUPDATE\",\"defaultValue\":f\
+  alse},{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\COMPANY\\\\FREESTATI\
+  STICUPDATE\"},{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\\\\视频上传\
+  脚本\",\"defaultValue\":false},{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\
+  \\COMPANY\\\\视频上传脚本\"},{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\COMPANY\
+  \\\\FREESTATISTIC\",\"defaultValue\":false},{\"key\":\"WORKSPACE_FOLDER_INTER\
+  PRETER_PATH_E:\\\\COMPANY\\\\FREESTATISTIC\"},{\"key\":\"PYTHON_WAS_DISCOVERY\
+  _TRIGGERED_E:\\\\STUDY\\\\FASTAPI-STUDY\",\"defaultValue\":false},{\"key\":\"\
+  WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\STUDY\\\\FASTAPI-STUDY\"},{\"key\":\"\
+  autoSelectionInterpretersQueriedOnce\"},{\"key\":\"VSCode.ABExp.FeatureData\",\
+  \"defaultValue\":{\"features\":[]}},{\"key\":\"TERMINAL_ENV_COLLECTION_PROMPT\
+  _KEY\",\"defaultValue\":true},{\"key\":\"isRemoteGlobalSettingCopiedKey\",\"d\
+  efaultValue\":false},{\"key\":\"remoteWorkspaceFolderKeysForWhichTheCopyIsDon\
+  e_Key\",\"defaultValue\":[]},{\"key\":\"doNotShowExtensionSurveyUntilTime\",\
+  \"defaultValue\":false},{\"key\":\"doNotShowExtensionSurveyAgain\",\"defaultV\
+  alue\":false},{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED_E:\\\\项目\\\\车辆爬虫项目\\\
+  \\VIN_SEARCH_END\\\\VIN_SEARCH_END\",\"defaultValue\":false},{\"key\":\"PYTHO\
+  N_ENV_INFO_CACHEv2\",\"defaultValue\":[]},{\"key\":\"PYTHON_EXTENSION_GLOBAL_\
+  STORAGE_KEYS\",\"defaultValue\":[]},{\"key\":\"PythonTensorBoardWebviewPrefer\
+  redViewGroup\",\"defaultValue\":-1},{\"key\":\"SHELL_INTEGRATION_WORKING_KEY_\
+  powershellCore\"},{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\项目\\\\车辆\
+  爬虫项目\\\\VIN_SEARCH_END\\\\VIN_SEARCH_END\"},{\"key\":\"preferredGlobalPyInter\
+  preter\"}]}"
+ms-python.vscode-pylance: '{"VSCode.ABExp.FeatureData":{"features":["config.python.analysis.supportRestructuredText","config.python.locator","config.window.experimentalTitleBarStyle","copilotchat.config.chat.advanced.inlineEdits.includeCursor","copilotchat.config.chat.advanced.inlineEdits.instructionsVariant","copilotdisablecontextualfiltercf","copilot_ci","extensions.gallery.useResourceApi","livesharecontinuousaacf","msEntraShowUpdateUserFlow","pythonTerminalEnvVarActivation","validate_micf"],"assignmentContext":"vsliv368cf:30146710;962ge761:30959799;pythonrstrctxt:31112756;nativeloc1:31192215;6074i472:31201624;customenabled:31248079;9064b325:31222308;copilot_t_ci:31222730;cp15370_c:31280196;31787653:31262186;3e8i5726:31271747;useunpkgapi:31280918;","configs":[{"Id":"vscode","Parameters":{"config.python.analysis.supportRestructuredText":true,"config.python.locator":"native","config.window.experimentalTitleBarStyle":"custom","copilotchat.config.chat.advanced.inlineEdits.includeCursor":true,"copilotchat.config.chat.advanced.inlineEdits.instructionsVariant":"v1","copilotdisablecontextualfilter":false,"copilot_ci":true,"extensions.gallery.useResourceApi":"unpkg","livesharecontinuousaa":false,"msEntraShowUpdateUserFlow":true,"pythonTerminalEnvVarActivation":true,"validate_mi":false}}]}}'
+ms-toolsai.jupyter: '{"VSCode.ABExp.FeatureData":{"features":["config.chat.experimental.statusIndicator.enabled","config.notebook.experimental.generate","config.python.analysis.enableEditableInstalls","config.python.analysis.enableExperimentalServer","config.python.analysis.supportRestructuredText","config.python.locator","config.window.experimentalTitleBarStyle","copilotchat.config.chat.advanced.inlineEdits.includeCursor","copilotchat.config.chat.advanced.inlineEdits.instructionsVariant","copilotdisablecontextualfiltercf","copilot_ci","extensions.gallery.useResourceApi","livesharecontinuousaacf","mindaroBinariesVersion","msEntraShowUpdateUserFlow","portForwardingServiceEnabled-development","portForwardingServiceEnabled-production","portForwardingServiceEnabled-staging","pythonRecommendTensorboardExt","pythonTerminalEnvVarActivation","shouldUseGrpcService","test1234cf","validate_micf"],"assignmentContext":"vsliv368cf:30146710;vspor879:30202332;vspor708:30202333;vspor363:30204092;binariesv615:30325510;c4g48928:30535728;962ge761:30959799;pythontbext0:30879054;pythonrstrctxt:31112756;nativeloc1:31192215;5fd0e150:31155592;6074i472:31201624;customenabled:31248079;9064b325:31222308;copilot_t_ci:31222730;cp15370_c:31280196;pythoneinst12:31262605;bgtreat:31268568;4gafe986:31271826;563cc122:31253270;31787653:31262186;3e8i5726:31271747;useunpkgapi:31280918;","configs":[{"Id":"vscode","Parameters":{"config.chat.experimental.statusIndicator.enabled":true,"config.notebook.experimental.generate":true,"config.python.analysis.enableEditableInstalls":true,"config.python.analysis.enableExperimentalServer":true,"config.python.analysis.supportRestructuredText":true,"config.python.locator":"native","config.window.experimentalTitleBarStyle":"custom","copilotchat.config.chat.advanced.inlineEdits.includeCursor":true,"copilotchat.config.chat.advanced.inlineEdits.instructionsVariant":"v1","copilotdisablecontextualfilter":false,"copilot_ci":true,"extensions.gallery.useResourceApi":"unpkg","livesharecontinuousaa":false,"mindaroBinariesVersion":"1.0.20210615.1","msEntraShowUpdateUserFlow":true,"portForwardingServiceEnabled-development":true,"portForwardingServiceEnabled-production":true,"portForwardingServiceEnabled-staging":true,"pythonRecommendTensorboardExt":true,"pythonTerminalEnvVarActivation":true,"shouldUseGrpcService":true,"test1234":false,"validate_mi":false}}]},"INTERPRETER_PATH_WAS_SELECTED_FOR_JUPYTER_SERVER":true,"CACHE_KEY_FOR_JUPYTER_KERNELSPEC_ROOT_PATH.":"file:///c%3A/Users/18228/AppData/Roaming/jupyter/kernels","DATASCIENCE.LAST_SAVED_CELL_LANGUAGE":"python","43ab6fdf60f7e422c9766f609067107074c264cd4e79f32e9fc42c7481672afe#ipykernel":true}'
 ms-vscode.cpptools: '{"CPP.1.24.2.Progress":300,"CPP.1.24.2.ignoreMismatchedCompatibleVsix":false,"CPP.migratedInsiders":false,"CPP.displayedPreReleasePrompt":false,"CPP.isOnPreRelease":true,"CPP.machineId":"01c4150220367ed3dc1880b7c677b8d4ff668cdd0875c189975097c595f6137f","CPP.1.24.2.checkForConflictingExtensions":false,"CPP.lastWorkspaceFallbackEncoding":"utf8","CPP.referencesGroupByFile":false,"VSCode.ABExp.FeatureData":{"features":["config.window.experimentalTitleBarStyle","copilotchat.config.chat.advanced.inlineEdits.includeCursor","copilotchat.config.chat.advanced.inlineEdits.instructionsVariant","copilotchat.tagBasedDocumentSummary","copilotchat.workspaceChunkSearch.shouldEagerlyInitLocalIndex","copilot_ci","CppCopilotHover","CppTools1","livesharecontinuousaacf","msEntraShowUpdateUserFlow","portForwardingServiceEnabled-development","portForwardingServiceEnabled-production","portForwardingServiceEnabled-staging","shouldUseGrpcService","test1234cf","validate_micf"],"assignmentContext":"vsliv368cf:30146710;vspor879:30202332;vspor708:30202333;vspor363:30204092;c4g48928:30535728;cppperfnew:30980852;5b1c1929:31184661;6074i472:31201624;customenabled:31248079;9064b325:31222308;copilot_t_ci:31222730;jda6j935:31233686;copilothoveron:31262361;563cc122:31251109;31787653:31262186;3e8i5726:31271747;","configs":[{"Id":"vscode","Parameters":{"config.window.experimentalTitleBarStyle":"custom","copilotchat.config.chat.advanced.inlineEdits.includeCursor":true,"copilotchat.config.chat.advanced.inlineEdits.instructionsVariant":"v1","copilotchat.tagBasedDocumentSummary":true,"copilotchat.workspaceChunkSearch.shouldEagerlyInitLocalIndex":true,"copilot_ci":true,"CppCopilotHover":true,"CppTools1":true,"livesharecontinuousaa":false,"msEntraShowUpdateUserFlow":true,"portForwardingServiceEnabled-development":true,"portForwardingServiceEnabled-production":true,"portForwardingServiceEnabled-staging":true,"shouldUseGrpcService":true,"test1234":false,"validate_mi":false}}]},"CPP.1.24.3.Progress":300,"CPP.1.24.3.ignoreMismatchedCompatibleVsix":false,"CPP.1.24.4.Progress":300,"CPP.1.24.4.ignoreMismatchedCompatibleVsix":false,"CPP.1.24.4.checkForConflictingExtensions":false}'
 PKief.material-icon-theme: '{"config":{"version":"5.20.0","config":{"folders":{"theme":"specific","color":"#90a4ae","associations":{},"customClones":[]},"rootFolders":{"color":"#90a4ae","associations":{}},"activeIconPack":"angular","hidesExplorerArrows":false,"opacity":1,"saturation":1,"files":{"color":"#90a4ae","associations":{},"customClones":[]},"languages":{"associations":{},"customClones":[]},"enableLogging":false,"logLevel":"info"}}}'
+qwtel.sqlite-viewer: '{"fistInstallMs":1743741916793,"qwtel.sqlite-viewer":"0.10.5","fileNestingPatternsAdded":true,"sidebarLeft":203,"sidebarRight":264}'
 ritwickdey.LiveServer: '{"liveServer.setup.version":"5.7.9"}'
 sleistner.vscode-fileutils: '{"workspace:e:\\项目\\车辆爬虫项目\\demo-project":{"last":"/"},"workspace:e:\\项目\\wechat-project":{"last":"\\wechat_project\\core"},"workspace:e:\\Company\\专利资料":{"last":"/"},"workspace:e:\\Company\\浏览器\\风锐浏览器":{"last":"/"},"workspace:e:\\Company\\SCIEnd\\SCIWriting":{"last":"/"},"workspace:e:\\Study\\算法学习":{"last":"/"}}'
 workbench.auxiliarybar.pinnedPanels: '[{"id":"workbench.panel.aichat.05466a58-b65d-4ece-9208-7c797eb7ff04","pinned":true,"visible":false,"order":1},{"id":"workbench.panel.composerViewPane2","pinned":true,"visible":false,"order":1},{"id":"workbench.panel.chat","pinned":true,"visible":false,"order":100},{"id":"workbench.panel.chatEditing","pinned":true,"visible":false,"order":101}]'
-workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.aichat.05466a58-b65d-4ece-9208-7c797eb7ff04","themeIcon":{"id":"files"},"name":"解决SQLModel循环导入问题","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.composerViewPane2","name":"Composer","isBuiltin":false},{"id":"workbench.panel.chat","name":"聊天","isBuiltin":false},{"id":"workbench.panel.chatEditing","name":"Copilot
+workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.aichat.05466a58-b65d-4ece-9208-7c797eb7ff04","themeIcon":{"id":"files"},"name":"New
+  chat","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.composerViewPane2","name":"Composer","isBuiltin":false},{"id":"workbench.panel.chat","name":"聊天","isBuiltin":false},{"id":"workbench.panel.chatEditing","name":"Copilot
   编辑","isBuiltin":false}]'
-workbench.auxiliaryBar.size: "578"
+workbench.auxiliaryBar.size: "421"
 workbench.backgroundComposer.persistentData: '{"archivedBcIds":[],"showControlPanel":false,"selectedTab":"personal","dataVersion":1}'
 workbench.contrib.onboarding.browser.changeManagement.03122025.shown: "true"
 workbench.contrib.onboarding.browser.changeRemainingCmdBackspaceKeybindings.04012025.shown: "true"
 workbench.contrib.onboarding.browser.gettingStarted.contribution.ts.firsttime: "false"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["log",true],["json",true],["shellscript",true],["yaml",true],["typescript",true],["vue",true],["properties",true],["editorconfig",true],["plaintext",true],["jsonc",true],["sql",true],["python",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["editorconfig",true],["sql",true],["tact",true],["jsonc",true],["solidity",true],["shellscript",true],["properties",true],["typescript",true],["vue",true],["yaml",true],["plaintext",true],["python",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"notepad","isHidden":true},{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"commitViewProvider","isHidden":false},{"id":"compareCommitViewProvider","isHidden":false},{"id":"objectExplorer","isHidden":false},{"id":"queryHistory","isHidden":false},{"id":"dataworkspace.views.main","isHidden":false},{"id":"package-main","isHidden":false},{"id":"workspaceEnvironments","isHidden":false},{"id":"pythonEnvironments","isHidden":false},{"id":"gistpad.gists","isHidden":false},{"id":"gistpad.repos","isHidden":false},{"id":"gistpad.showcase","isHidden":false},{"id":"backgroundComposerExplorer","isHidden":false}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.alignment: center
 workbench.panel.composerChatViewPane..05466a58-b65d-4ece-9208-7c797eb7ff04.hidden: '[{"id":"workbench.panel.aichat.view","isHidden":false}]'
 workbench.panel.composerChatViewPane..9f810933-0276-468b-b737-9ab943adea8c.hidden: '[{"id":"workbench.panel.aichat.view","isHidden":false}]'
 workbench.panel.composerChatViewPane.05466a58-b65d-4ece-9208-7c797eb7ff04.hidden:
-  '[{"id":"workbench.panel.aichat.view.a3c54f4b-206d-4cd3-ac40-4c130650458c","isHidden":false},{"id":"workbench.panel.aichat.view.f299887e-2bbb-4257-9111-5bf7e70b30ae","isHidden":false},{"id":"workbench.panel.aichat.view.1c877dfc-a425-4f10-9d11-5bb99d235bcc","isHidden":false},{"id":"workbench.panel.aichat.view.3d2e3538-7bc1-482f-a3b0-01fd32b4d36c","isHidden":false},{"id":"workbench.panel.aichat.view.b2c5f3f4-989a-4d87-a0a8-3332dda1b8f3","isHidden":false},{"id":"workbench.panel.aichat.view.017ae6e2-1016-4024-b094-f145e3ca4bd6","isHidden":false},{"id":"workbench.panel.aichat.view.3b1e3a1f-6132-4c61-9786-5fafde8b0974","isHidden":false},{"id":"workbench.panel.aichat.view.5064a57d-ebe2-4cb6-b5d1-eeaee0ccc87e","isHidden":false}]'
+  '[{"id":"workbench.panel.aichat.view.a3c54f4b-206d-4cd3-ac40-4c130650458c","isHidden":false},{"id":"workbench.panel.aichat.view.f299887e-2bbb-4257-9111-5bf7e70b30ae","isHidden":false},{"id":"workbench.panel.aichat.view.1c877dfc-a425-4f10-9d11-5bb99d235bcc","isHidden":false},{"id":"workbench.panel.aichat.view.3d2e3538-7bc1-482f-a3b0-01fd32b4d36c","isHidden":false},{"id":"workbench.panel.aichat.view.b2c5f3f4-989a-4d87-a0a8-3332dda1b8f3","isHidden":false},{"id":"workbench.panel.aichat.view.017ae6e2-1016-4024-b094-f145e3ca4bd6","isHidden":false},{"id":"workbench.panel.aichat.view.3b1e3a1f-6132-4c61-9786-5fafde8b0974","isHidden":false},{"id":"workbench.panel.aichat.view.5064a57d-ebe2-4cb6-b5d1-eeaee0ccc87e","isHidden":false},{"id":"workbench.panel.aichat.view.7729ee11-ad1b-450e-be20-358046bfd5d5","isHidden":false},{"id":"workbench.panel.aichat.view.69bcbdd4-5ef3-4ab8-b402-f8cfc4b6ade5","isHidden":false},{"id":"workbench.panel.aichat.view.6ac002e8-c398-4fd6-87e9-f57aa4228ee2","isHidden":false},{"id":"workbench.panel.aichat.view.e3d64f49-f8cf-4ae5-b18e-8dcccc13d105","isHidden":false},{"id":"workbench.panel.aichat.view.84a1a770-abe8-4026-a664-d6a006c5c4ec","isHidden":false},{"id":"workbench.panel.aichat.view.2bb118c7-94b2-47b2-9833-af1bd2ec9cd1","isHidden":false},{"id":"workbench.panel.aichat.view.2eb3ae0c-69b8-42c5-b65f-e04c689214ae","isHidden":false},{"id":"workbench.panel.aichat.view.767bbbb8-8637-4a13-8890-190f4af2adbe","isHidden":false},{"id":"workbench.panel.aichat.view.889c2882-4e37-4a3b-8489-f592b18f9014","isHidden":false},{"id":"workbench.panel.aichat.view.7f4ccce4-f56f-4f0e-becd-f9a7e95cc26c","isHidden":false},{"id":"workbench.panel.aichat.view.117703be-acea-4faa-98af-ef21eea3500c","isHidden":false}]'
+workbench.panel.composerChatViewPane.4a8bf6e4-c04c-4b89-b433-57b79522b281.hidden:
+  '[{"id":"workbench.panel.aichat.view.56316db1-b857-44d3-8cc8-f3595cfcffab","isHidden":false}]'
+workbench.panel.composerChatViewPane.a379d313-c2cc-4914-a980-195ed182fad5.hidden:
+  '[{"id":"workbench.panel.aichat.view.c25f2da4-e659-4a77-96f5-f8ee8a661fed","isHidden":false}]'
 workbench.panel.composerChatViewPane.hidden: '[{"id":"workbench.panel.aichat.view","isHidden":false}]'
 workbench.panel.composerViewPane2.hidden: '[{"id":"workbench.panel.composerViewPane2.view","isHidden":false}]'
 workbench.panel.lastNonMaximizedHeight: "340"
 workbench.panel.lastNonMaximizedWidth: "300"
 workbench.panel.markers.hidden: '[{"id":"workbench.panel.markers.view","isHidden":false}]'
 workbench.panel.output.hidden: '[{"id":"workbench.panel.output","isHidden":false}]'
-workbench.panel.pinnedPanels: '[{"id":"workbench.panel.markers","pinned":true,"visible":false,"order":0},{"id":"workbench.view.extension.jupyter-variables","pinned":true,"visible":false,"order":9},{"id":"workbench.panel.comments","pinned":true,"visible":false,"order":10},{"id":"workbench.views.service.panel.d1702a3f-bdfb-4206-b035-8526a9701575","pinned":true,"visible":false},{"id":"workbench.panel.output","pinned":true,"visible":false,"order":1},{"id":"workbench.panel.repl","pinned":true,"visible":false,"order":2},{"id":"workbench.panel.testResults","pinned":true,"visible":false,"order":3},{"id":"~remote.forwardedPortsContainer","pinned":true,"visible":false,"order":5},{"id":"terminal","pinned":true,"visible":false,"order":3},{"id":"workbench.view.extension.gitlensPanel","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.dbclient-search-result","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.queryResult","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.postman-console-view-container","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.dbclient-variable-config-view","pinned":true,"visible":false,"order":7},{"id":"refactorPreview","pinned":true,"visible":false}]'
+workbench.panel.pinnedPanels: '[{"id":"workbench.panel.markers","pinned":true,"visible":false,"order":0},{"id":"workbench.view.extension.jupyter-variables","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.augment-panel","pinned":true,"visible":false,"order":10},{"id":"workbench.panel.comments","pinned":true,"visible":false,"order":10},{"id":"workbench.views.service.panel.d1702a3f-bdfb-4206-b035-8526a9701575","pinned":true,"visible":false},{"id":"workbench.panel.output","pinned":true,"visible":false,"order":1},{"id":"workbench.panel.repl","pinned":true,"visible":false,"order":2},{"id":"workbench.panel.testResults","pinned":true,"visible":false,"order":3},{"id":"~remote.forwardedPortsContainer","pinned":true,"visible":false,"order":5},{"id":"terminal","pinned":true,"visible":false,"order":3},{"id":"workbench.view.extension.gitlensPanel","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.dbclient-search-result","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.queryResult","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.postman-console-view-container","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.dbclient-variable-config-view","pinned":true,"visible":false,"order":7},{"id":"refactorPreview","pinned":true,"visible":false}]'
 workbench.panel.placeholderPanels: '[{"id":"workbench.panel.markers","themeIcon":{"id":"markers-view-icon"},"name":"问题","isBuiltin":true,"views":[{}]},{"id":"workbench.view.extension.jupyter-variables","themeIcon":{"id":"notebook"},"name":"Jupyter","isBuiltin":false,"views":[{"when":"jupyter.hasNativeNotebookOrInteractiveWindowOpen"},{"when":"jupyter.hasNativeNotebookOrInteractiveWindowOpen
   &&
-  jupyter:showTagsExplorer"}]},{"id":"workbench.panel.comments","name":"注释","isBuiltin":false},{"id":"workbench.views.service.panel.d1702a3f-bdfb-4206-b035-8526a9701575","themeIcon":{"id":"ports-view-icon"},"name":"端口","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.output","themeIcon":{"id":"output-view-icon"},"name":"输出","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.repl","themeIcon":{"id":"debug-console-view-icon"},"name":"调试控制台","isBuiltin":true,"views":[{"when":"debuggersAvailable"}]},{"id":"workbench.panel.testResults","themeIcon":{"id":"test-results-icon"},"name":"测试结果","isBuiltin":true,"views":[{"when":"testing.hasAnyResults"}]},{"id":"~remote.forwardedPortsContainer","themeIcon":{"id":"ports-view-icon"},"name":"端口","isBuiltin":true,"views":[]},{"id":"terminal","themeIcon":{"id":"terminal-view-icon"},"name":"终端","isBuiltin":true,"views":[{}]},{"id":"workbench.view.extension.gitlensPanel","themeIcon":{"id":"gitlens-graph"},"name":"GitLens","isBuiltin":false,"views":[{"when":"gitlens:plus:enabled
+  jupyter:showTagsExplorer"}]},{"id":"workbench.view.extension.augment-panel","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/augment.vscode-augment-0.404.1/media/activitybar.svg","scheme":"file"},"name":"Augment
+  Next Edit","isBuiltin":false,"views":[{"when":"vscode-augment.enableNextEdit
+  &&
+  vscode-augment.nextEdit.enablePanel"}]},{"id":"workbench.panel.comments","name":"注释","isBuiltin":false},{"id":"workbench.views.service.panel.d1702a3f-bdfb-4206-b035-8526a9701575","themeIcon":{"id":"ports-view-icon"},"name":"端口","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.output","themeIcon":{"id":"output-view-icon"},"name":"输出","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.repl","themeIcon":{"id":"debug-console-view-icon"},"name":"调试控制台","isBuiltin":true,"views":[{"when":"debuggersAvailable"}]},{"id":"workbench.panel.testResults","themeIcon":{"id":"test-results-icon"},"name":"测试结果","isBuiltin":true,"views":[{"when":"testing.hasAnyResults"}]},{"id":"~remote.forwardedPortsContainer","themeIcon":{"id":"ports-view-icon"},"name":"端口","isBuiltin":true,"views":[]},{"id":"terminal","themeIcon":{"id":"terminal-view-icon"},"name":"终端","isBuiltin":true,"views":[{}]},{"id":"workbench.view.extension.gitlensPanel","themeIcon":{"id":"gitlens-graph"},"name":"GitLens","isBuiltin":false,"views":[{"when":"gitlens:plus:enabled
   && !gitlens:disabled"},{"when":"gitlens:plus:enabled &&
   !gitlens:disabled"}]},{"id":"workbench.view.extension.dbclient-search-result","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/cweijan.vscode-mysql-client2-8.2.4/resources/icon/database.svg","scheme":"file"},"name":"Full-Text
   Search","isBuiltin":false,"views":[{"when":"showFullTextSearchResult"}]},{"id":"workbench.view.extension.queryResult","name":"Query
@@ -804,13 +830,15 @@ workbench.panel.placeholderPanels: '[{"id":"workbench.panel.markers","themeIcon"
   Console","isBuiltin":false},{"id":"workbench.view.extension.dbclient-variable-config-view","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/cweijan.vscode-mysql-client2-8.2.4/resources/icon/database.svg","scheme":"file"},"name":"SQL
   Variables","isBuiltin":false,"views":[{"when":"showSQLVariableConfig"}]},{"id":"refactorPreview","themeIcon":{"id":"refactor-preview-view-icon"},"name":"重构预览","isBuiltin":true,"views":[{"when":"refactorPreview.enabled"}]}]'
 workbench.panel.repl.hidden: '[{"id":"workbench.panel.repl.view","isHidden":false}]'
-workbench.panel.size: "241"
+workbench.panel.size: "255"
 workbench.scm.views.state.hidden: '[{"id":"workbench.scm.repositories","isHidden":true},{"id":"workbench.scm","isHidden":false},{"id":"workbench.scm.history","isHidden":false},{"id":"gitlens.views.repositories","isHidden":true},{"id":"gitlens.views.commits","isHidden":false},{"id":"gitlens.views.branches","isHidden":false},{"id":"gitlens.views.remotes","isHidden":false},{"id":"gitlens.views.stashes","isHidden":false},{"id":"gitlens.views.tags","isHidden":false},{"id":"gitlens.views.worktrees","isHidden":false},{"id":"gitlens.views.contributors","isHidden":false},{"id":"gitlens.views.scm.grouped","isHidden":false}]'
 workbench.services.onFirstStartupService.hasNotResetJetBrainsMonoFont: "false"
 workbench.services.onFirstStartupService.isVeryFirstTime: "false"
-workbench.sideBar.size: "271"
+workbench.sideBar.size: "393"
 workbench.view.bugbot.hidden: '[{"id":"workbench.views.bugbot","isHidden":false}]'
 workbench.view.debug.state.hidden: '[{"id":"workbench.debug.welcome","isHidden":false},{"id":"workbench.debug.variablesView","isHidden":false},{"id":"workbench.debug.watchExpressionsView","isHidden":false},{"id":"workbench.debug.callStackView","isHidden":false},{"id":"workbench.debug.loadedScriptsView","isHidden":false},{"id":"workbench.debug.breakPointsView","isHidden":false},{"id":"jsBrowserBreakpoints","isHidden":false},{"id":"jsExcludedCallers","isHidden":false},{"id":"jsDebugNetworkTree","isHidden":false},{"id":"CppSshTargetsView","isHidden":false}]'
+workbench.view.extension.augment-chat.state.hidden: '[{"id":"augment-chat","isHidden":false}]'
+workbench.view.extension.augment-panel.state.hidden: '[{"id":"augment-next-edit","isHidden":false}]'
 workbench.view.extension.cph-judge-view-container.state.hidden: '[{"id":"cph.judgeView","isHidden":false}]'
 workbench.view.extension.dataworkspace.state.hidden: '[{"id":"dataworkspace.views.main","isHidden":false}]'
 workbench.view.extension.gistpad.state.hidden: '[{"id":"gistpad.gists","isHidden":false},{"id":"gistpad.repos","isHidden":false},{"id":"gistpad.showcase","isHidden":true}]'
