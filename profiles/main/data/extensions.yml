@@ -2,15 +2,19 @@ builtin:
   disabled:
     - undefined.cursor-themes
 disabled:
+  - id: Augment.vscode-augment
+    uuid: fc0e137d-e132-47ed-9455-c4636fa5b897
   - id: usernamehw.errorlens
     uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
 enabled:
+  - id: akamud.vscode-theme-onedark
+    uuid: 9b2c953d-6ad4-46d1-b18e-7e5992d1d8a6
   - id: akamud.vscode-theme-onelight
     uuid: ee33fd31-7bb4-4252-8368-fdd5bcd94cf8
   - id: anysphere.pyright
     uuid: d990d7f1-60b6-4234-91a7-d146a42bb230
-  - id: Augment.vscode-augment
-    uuid: fc0e137d-e132-47ed-9455-c4636fa5b897
+  - id: berublan.vscode-log-viewer
+    uuid: 063b41ed-e525-444c-b347-798851c8e5de
   - id: bradlc.vscode-tailwindcss
     uuid: 4db62a7c-7d70-419c-96d2-6c3a4dc77ea5
   - id: butov-dev.new-ui-dark-theme
@@ -23,6 +27,8 @@ enabled:
     uuid: c2ca9b43-fa38-44fc-928e-5125970b9c00
   - id: christian-kohler.path-intellisense
     uuid: a41c1549-4053-44d4-bf30-60fc809b4a86
+  - id: codezombiech.gitignore
+    uuid: 3e891cf9-53cb-49a3-8d01-8f0b1f0afb29
   - id: cweijan.dbclient-jdbc
     uuid: 1fe0d785-8db6-44ef-8113-cb0d98a88473
   - id: cweijan.vscode-mysql-client2
@@ -35,16 +41,22 @@ enabled:
     uuid: 28579c42-9973-4b79-9a1e-76431ea4bc1f
   - id: donjayamanne.python-environment-manager
     uuid: 0c9f60fd-5588-42f7-9176-e80c3ae111ec
+  - id: dracula-theme.theme-dracula
+    uuid: 4e44877c-1c8d-4f9c-ba86-1372d0fbeeb1
   - id: eamodio.gitlens
     uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
   - id: EditorConfig.EditorConfig
     uuid: f60a60a6-95ba-42d4-b41c-3d24c1b89588
+  - id: emilast.LogFileHighlighter
+    uuid: e8b488af-fccf-4adf-b60c-fc7455bea107
   - id: EricSia.pythonsnippets3
     uuid: 6a6a4cee-4022-4904-81d7-59b3a2e0302a
   - id: esbenp.prettier-vscode
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: evan-buss.font-switcher
     uuid: d675f82f-f7bd-40a7-a99a-2fa418b8803b
+  - id: everettjf.filter-line
+    uuid: 74942e8c-735b-4e25-99e7-3283268b9607
   - id: formulahendry.auto-rename-tag
     uuid: 6e440e71-8ed9-4f25-bb78-4b13096b8a03
   - id: formulahendry.code-runner
@@ -55,6 +67,8 @@ enabled:
     uuid: 261cac81-cd7b-4555-bb41-0c2d2bcd3e70
   - id: Hyzeta.vscode-theme-github-light
     uuid: b84ed643-ec7d-49cc-a514-3ce104ed777f
+  - id: IBM.output-colorizer
+    uuid: 113b22c8-8125-42ec-8c6b-80c3f5d5fa5f
   - id: jeff-hykin.better-cpp-syntax
     uuid: 73767f91-7dcb-43cb-90b3-596d073eea1f
   - id: johnpapa.winteriscoming
@@ -67,6 +81,8 @@ enabled:
     uuid: f3cbfb84-b1e1-40ff-b70f-877253461260
   - id: kisstkondoros.vscode-gutter-preview
     uuid: eedfd044-d5ac-4389-973d-3ac1fdb98ad5
+  - id: mbehr1.smart-log
+    uuid: 0566392d-61b8-4eea-8d31-f56ba33e2c63
   - id: mechatroner.rainbow-csv
     uuid: 3792588c-3d35-442d-91ea-fe6a755e8155
   - id: mgesbert.python-path
@@ -111,6 +127,8 @@ enabled:
     uuid: c8d95916-cf54-455f-b324-cbd887b7d3a8
   - id: sleistner.vscode-fileutils
     uuid: d637104e-1fd7-4063-98fc-8afe46012c9b
+  - id: tal7aouy.theme
+    uuid: 1d57ed17-b4be-4755-9a69-073a6e6065bc
   - id: ton-community.tact-vscode
     uuid: 7342d9ae-2850-4078-b167-a9f12d084f08
   - id: tonwhales.func-vscode
@@ -123,6 +141,8 @@ enabled:
     uuid: f2fd462f-f1bd-4c62-b54f-59a4e5ffc6a3
   - id: wayou.vscode-todo-highlight
     uuid: 97a08c5f-6667-4242-a5c5-045dfb6bd4b9
+  - id: whizkydee.material-palenight-theme
+    uuid: 7f147721-ec06-4043-9e37-c9ffbecbccd1
   - id: yzhang.markdown-all-in-one
     uuid: 98790d67-10fa-497c-9113-f6c7489207b2
   - id: zokugun.cron-tasks

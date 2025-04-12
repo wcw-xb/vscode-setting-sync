@@ -133,5 +133,9 @@
         "key": "shift+alt+r",
         "command": "-revealFileInOS",
         "when": "!editorFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+i",
+        "command": "composer.addfilestocomposer"
     }
 ]
