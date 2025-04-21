@@ -137,5 +137,77 @@
     {
         "key": "ctrl+shift+alt+i",
         "command": "composer.addfilestocomposer"
+    },
+    {
+        "key": "ctrl+shift+y",
+        "command": "-editor.action.inlineDiffs.acceptPartialEdit",
+        "when": "editorTextFocus && @inlineDiffs.acceptPartialEdit.isActiveEditorWithDiffs"
+    },
+    {
+        "key": "ctrl+shift+y",
+        "command": "-aichat.newfollowupaction"
+    },
+    {
+        "key": "ctrl+shift+y",
+        "command": "extension.replaceTranslateSelectedText",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+t",
+        "command": "-extension.replaceTranslateSelectedText",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+y",
+        "command": "extension.translateTerminalText",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+oem_3",
+        "command": "-extension.translateTerminalText",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+o",
+        "command": "-extension.openOutputPanel",
+        "when": "editorTextFocus || terminalFocus"
+    },
+    {
+        "key": "shift+alt+o",
+        "command": "-extension.openTerminalTranslateView",
+        "when": "editorTextFocus || terminalFocus"
+    },
+    {
+        "key": "ctrl+alt+c",
+        "command": "-extension.clearOutputPanel",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+c",
+        "command": "-extension.clearTerminalTranslateLogs",
+        "when": "editorTextFocus || terminalFocus"
+    },
+    {
+        "key": "shift+alt+e",
+        "command": "-extension.setDefaultEngine",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+l",
+        "command": "-extension.setTargetLanguage",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+l",
+        "command": "-workbench.action.quickchat.toggle",
+        "when": "chatIsEnabled"
+    },
+    {
+        "key": "ctrl+shift+alt+l",
+        "command": "turboConsoleLog.displayLogMessage"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "-turboConsoleLog.displayLogMessage"
     }
 ]

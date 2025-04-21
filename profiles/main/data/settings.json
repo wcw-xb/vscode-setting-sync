@@ -9,8 +9,6 @@
   },
   "editor.mouseWheelZoom": true,
   "code-runner.executorMap": {
-    
-    
     "javascript": "node",
     "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
     "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
@@ -73,7 +71,6 @@
   "window.openFoldersInNewWindow": "on",
   "C_Cpp.simplifyStructuredComments": false,
   "git.enableSmartCommit": true,
-  "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "material-icon-theme",
   "wakatime.apiKey": "waka_6c023e88-302a-418a-aab6-04a496f66aac",
   "workbench.navigationControl.enabled": false,
@@ -153,38 +150,107 @@
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
-        {
-            "scope": "log.error",
-            "settings": {
-                "foreground": "#FF0000",
-                "fontStyle": "bold"
-            }
-        },
-        {
-            "scope": "log.warn",
-            "settings": {
-                "foreground": "#FFFF00"
-            }
-        },
-        {
-            "scope": "log.info",
-            "settings": {
-                "foreground": "#0000FF"
-            }
-        },
-        {
-            "scope": "log.debug",
-            "settings": {
-                "foreground": "#008000"
-            }
-        },
-        {
-            "scope": "log.trace",
-            "settings": {
-                "foreground": "#808080"
-            }
+      {
+        "scope": "log.error",
+        "settings": {
+          "foreground": "#FF0000",
+          "fontStyle": "bold"
         }
+      },
+      {
+        "scope": "log.warn",
+        "settings": {
+          "foreground": "#FFFF00"
+        }
+      },
+      {
+        "scope": "log.info",
+        "settings": {
+          "foreground": "#0000FF"
+        }
+      },
+      {
+        "scope": "log.debug",
+        "settings": {
+          "foreground": "#008000"
+        }
+      },
+      {
+        "scope": "log.trace",
+        "settings": {
+          "foreground": "#808080"
+        }
+      }
     ]
-},
-"gitlens.views.contributors.files.layout": "tree",
+  },
+  "gitlens.views.contributors.files.layout": "tree",
+  "editor.minimap.showSlider": "always",
+  "terminal.integrated.fontSize": 13,
+  "i18n-ally.extract.keyMaxLength": 100,
+  "Translate-next.defaultEngine": "google",
+  "Translate-next.targetLanguage": "English",
+  "Translate-next.parentLanguage": "Chinese",
+  "dbcode.connections": [
+    {
+      "connectionId": "q1XNuNuwXYP2GcW-hpgTh",
+      "name": "暮色安然redis",
+      "driver": "redis",
+      "connectionType": "host",
+      "host": "206.238.178.136",
+      "port": 6379,
+      "ssl": false,
+      "username": "default",
+      "password": "",
+      "savePassword": "secretStorage",
+      "readOnly": false,
+      "connectionTimeout": 30
+    },
+    {
+      "connectionId": "ZdcODixjPXtROYQ0Cwxu4",
+      "name": "风锐统计旧",
+      "driver": "mysql",
+      "connectionType": "host",
+      "host": "8.131.242.239",
+      "port": 3306,
+      "ssl": false,
+      "username": "fengrui",
+      "password": "",
+      "savePassword": "secretStorage",
+      "database": "fengrui",
+      "readOnly": false,
+      "connectionTimeout": 30,
+      "driverOptions": {
+        "retrievePublickey": true
+      }
+    },
+    {
+      "connectionId": "VmaA6KME3Ck19PfchVXlK",
+      "name": "风锐统计新",
+      "driver": "mysql",
+      "connectionType": "host",
+      "host": "47.94.168.160",
+      "port": 3306,
+      "ssl": false,
+      "username": "FreeStatisticsV2",
+      "password": "",
+      "savePassword": "secretStorage",
+      "readOnly": false,
+      "connectionTimeout": 30,
+      "driverOptions": {
+        "retrievePublickey": true
+      }
+    }
+  ],
+  "dbcode.resultLocation": "below",
+  "workbench.editor.enablePreview": false,
+  "cursor.cpp.enablePartialAccepts": true,
+  "bracket-pair-colorizer-2.activeScopeCSS": [
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    "borderColor : {color}",
+    "opacity: 0.5"
+  ],
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "gitlens.graph.minimap.additionalTypes": [],
 }
