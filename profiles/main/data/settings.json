@@ -253,4 +253,5 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "gitlens.graph.minimap.additionalTypes": [],
+  "svg.preview.mode": "svg",
 }
