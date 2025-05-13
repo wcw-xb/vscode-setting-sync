@@ -103,7 +103,7 @@
   "code-runner.fileDirectoryAsCwd": true,
   "terminal.integrated.rightClickBehavior": "default",
   "code-runner.clearPreviousOutput": true,
-  "cursor.cpp.disabledLanguages": ["markdown", "plaintext"],
+  "cursor.cpp.disabledLanguages": ["markdown"],
   "python.analysis.completeFunctionParens": true,
   "workbench.editor.empty.hint": "hidden",
   "scm.inputFontFamily": "",
@@ -123,7 +123,6 @@
   "syncSettings.hostname": "wendy Windows11 pro",
   "cursor.composer.shouldAllowCustomModes": true,
   "cursor.composer.shouldChimeAfterChatFinishes": true,
-  "terminal.integrated.tabs.enabled": false,
   "explorer.fileNesting.patterns": {
     "*.ts": "${capture}.js",
     "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
@@ -142,9 +141,10 @@
   "gitlens.graph.layout": "editor",
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "files.associations": {
-    "*.log": "Log"
+    "*.log": "Log",
+    "*.spec": "python",
+    "*.css": "tailwindcss"
   },
-  "workbench.colorTheme": "New UI Dark",
   "[Log]": {
     "editor.defaultFormatter": "emilast.LogFileHighlighter"
   },
@@ -239,10 +239,81 @@
       "driverOptions": {
         "retrievePublickey": true
       }
+    },
+    {
+      "connectionId": "cYdFM_yk29JuimaVIbxuS",
+      "name": "本地数据库",
+      "driver": "mysql",
+      "color": "#00E3A9",
+      "connectionType": "host",
+      "host": "127.0.0.1",
+      "port": 3306,
+      "ssl": false,
+      "username": "root",
+      "password": "",
+      "savePassword": "secretStorage",
+      "readOnly": false,
+      "connectionTimeout": 30,
+      "driverOptions": {
+        "retrievePublickey": true
+      }
+    },
+    {
+      "connectionId": "3Gs_UufZAH0zUNyU_XsGi",
+      "name": "风锐写作服务器",
+      "driver": "mysql",
+      "connectionType": "host",
+      "host": "47.94.168.160",
+      "port": 3306,
+      "ssl": false,
+      "username": "sci_writting",
+      "password": "",
+      "savePassword": "secretStorage",
+      "database": "sci_writting",
+      "readOnly": false,
+      "connectionTimeout": 30,
+      "driverOptions": {
+        "retrievePublickey": true
+      }
+    },
+    {
+      "connectionId": "7WgZ_FjnLxY8wf8FyH0c8",
+      "name": "IF数据库",
+      "driver": "mysql",
+      "connectionType": "host",
+      "host": "47.94.168.160",
+      "port": 3306,
+      "ssl": false,
+      "username": "if_data",
+      "password": "",
+      "savePassword": "secretStorage",
+      "database": "if_data",
+      "readOnly": false,
+      "connectionTimeout": 30,
+      "driverOptions": {
+        "retrievePublickey": true
+      }
+    },
+    {
+      "connectionId": "ZxhQ-U8rqSp2e1ulG4sik",
+      "name": "地址污染",
+      "driver": "mysql",
+      "connectionType": "host",
+      "host": "206.238.178.136",
+      "port": 3306,
+      "ssl": false,
+      "username": "address_pollute",
+      "password": "",
+      "savePassword": "secretStorage",
+      "database": "address_pollute",
+      "readOnly": false,
+      "connectionTimeout": 30,
+      "driverOptions": {
+        "retrievePublickey": true
+      }
     }
   ],
   "dbcode.resultLocation": "below",
-  "workbench.editor.enablePreview": false,
   "cursor.cpp.enablePartialAccepts": true,
   "bracket-pair-colorizer-2.activeScopeCSS": [
     "borderStyle : solid",
@@ -254,4 +325,66 @@
   "editor.guides.bracketPairs": "active",
   "gitlens.graph.minimap.additionalTypes": [],
   "svg.preview.mode": "svg",
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#dd0531"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#61dafb"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    },
+    {
+      "name": "Svelte Orange",
+      "value": "#ff3d00"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    },
+    {
+      "name": "Python BackEnd",
+      "value": "#FFD43B"
+    }
+  ],
+  "update.releaseTrack": "prerelease",
+  "dbcode.history.enabled": true,
+  "gitlens.ai.model": "gitkraken",
+  "gitlens.ai.gitkraken.model": "gemini:gemini-2.0-flash",
+  "gitlens.views.scm.grouped.views": {
+    "commits": true,
+    "branches": true,
+    "remotes": true,
+    "stashes": true,
+    "tags": true,
+    "worktrees": true,
+    "contributors": true,
+    "repositories": false,
+    "searchAndCompare": false,
+    "launchpad": true
+  },
+  "workbench.editor.enablePreview": false,
+  "editor.accessibilitySupport": "off",
+  "qtForPython.qmlls.enabled": false,
+  "makefile.configureOnOpen": true
 }

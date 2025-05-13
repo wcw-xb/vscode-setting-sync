@@ -11,6 +11,8 @@ enabled:
     uuid: 9b2c953d-6ad4-46d1-b18e-7e5992d1d8a6
   - id: akamud.vscode-theme-onelight
     uuid: ee33fd31-7bb4-4252-8368-fdd5bcd94cf8
+  - id: alefragnani.Bookmarks
+    uuid: b689fcc8-d494-4dbf-a228-2c694a578afc
   - id: anysphere.pyright
     uuid: d990d7f1-60b6-4234-91a7-d146a42bb230
   - id: berublan.vscode-log-viewer
@@ -77,6 +79,8 @@ enabled:
     uuid: 73767f91-7dcb-43cb-90b3-596d073eea1f
   - id: jock.svg
     uuid: 4ae6dc82-7981-4f10-bd81-2d72aec37f39
+  - id: johnpapa.vscode-peacock
+    uuid: 5a7017bf-c571-4d77-b902-6e56b16f539a
   - id: johnpapa.winteriscoming
     uuid: fd6d3dc6-b307-4589-82a6-78e2afec3d77
   - id: JuanBlanco.solidity
@@ -121,6 +125,8 @@ enabled:
     uuid: bfeaf631-bcff-4908-93ed-fda4ef9a0c5c
   - id: ms-vscode.cpptools
     uuid: 690b692e-e8a9-493f-b802-8089d50ac1b2
+  - id: ms-vscode.makefile-tools
+    uuid: e09cf600-90a1-414e-92a0-031f1a5391c6
   - id: ms-vscode.remote-explorer
     uuid: 11858313-52cc-4e57-b3e4-d7b65281e34b
   - id: njpwerner.autodocstring
@@ -137,18 +143,30 @@ enabled:
     uuid: e05d98bf-3735-4c1e-9fae-86ef0a52e19f
   - id: qwtel.sqlite-viewer
     uuid: 94fef082-6c2d-43ac-9540-6617b51a3a12
+  - id: Redis.redis-for-vscode
+    uuid: 87d0bce0-e306-4854-ac9a-823266e68e07
+  - id: REditorSupport.r
+    uuid: 4dfff9f4-ff9b-47bb-b0d1-c54e18d8febb
   - id: ritwickdey.LiveServer
     uuid: b63c44fd-0457-4696-99e9-dbfdf70d77de
   - id: sdras.vue-vscode-snippets
     uuid: c8d95916-cf54-455f-b324-cbd887b7d3a8
+  - id: seanwu.vscode-qt-for-python
+    uuid: 3e3d1520-4354-4dd2-8efc-92df8ed8c294
   - id: sleistner.vscode-fileutils
     uuid: d637104e-1fd7-4063-98fc-8afe46012c9b
+  - id: spmeesseman.vscode-taskexplorer
+    uuid: afc7b7f6-486c-4560-94cb-6130ea88cdb8
   - id: tal7aouy.theme
     uuid: 1d57ed17-b4be-4755-9a69-073a6e6065bc
+  - id: tomoki1207.pdf
+    uuid: 6db08635-0c6a-45ba-9a4b-8c3e192c63c2
   - id: ton-community.tact-vscode
     uuid: 7342d9ae-2850-4078-b167-a9f12d084f08
   - id: tonwhales.func-vscode
     uuid: 38cbe7d1-d38b-4bd0-9d4f-0b5409d40e00
+  - id: uctakeoff.vscode-counter
+    uuid: 7789bd61-a874-4bf0-a8b4-d9e8d920af63
   - id: uloco.theme-bluloco-light
     uuid: ee960969-f319-4daf-b7a0-a4bc8982cb8a
   - id: vincaslt.highlight-matching-tag
@@ -163,8 +181,6 @@ enabled:
     uuid: 7f147721-ec06-4043-9e37-c9ffbecbccd1
   - id: wix.vscode-import-cost
     uuid: c46b0018-f317-4b6c-a785-d2039b27338f
-  - id: yxw007.vscode-translate-next
-    uuid: b078b6ba-8191-4b4e-b3a4-04f6b48fcf1e
   - id: yzhang.markdown-all-in-one
     uuid: 98790d67-10fa-497c-9113-f6c7489207b2
   - id: zokugun.cron-tasks
